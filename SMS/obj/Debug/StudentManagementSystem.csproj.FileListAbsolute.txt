@@ -1,0 +1,1799 @@
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Images.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\DANMCNPM\StudentManagementSystem\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Images.v19.2.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\StudentManagementSystem1\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Images.v19.2.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+D:\A jerry\AA poject\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Images.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csprojAssemblyReference.cache
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Images.v19.2.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v19.2.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v19.2.Core.xml
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraSpellChecker.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v19.2.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+D:\A jerry\Github\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.SuggestedBindingRedirects.cache
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.exe
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\MaterialSkin.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v21.2.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.SpellChecker.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Utils.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraBars.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\DevExpress.Office.v21.2.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.exe
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Azure.Core.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Azure.Identity.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Identity.Client.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Buffers.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Data.SqlClient.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Memory.Data.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Memory.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Numerics.Vectors.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.AccessControl.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Permissions.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Principal.Windows.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Text.Encodings.Web.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Text.Json.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.ValueTuple.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Azure.Core.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Azure.Identity.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.pdb
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Identity.Client.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Buffers.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Data.SqlClient.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Memory.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Memory.Data.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Numerics.Vectors.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.AccessControl.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Permissions.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Security.Principal.Windows.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Text.Encodings.Web.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Text.Json.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\System.ValueTuple.xml
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\DANMCNPM\SMS\NMCNPM\NMCNPM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\StudentManagementSystem.exe.config
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\StudentManagementSystem.exe
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\StudentManagementSystem.pdb
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Azure.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Azure.Identity.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.Licensing.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Data.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.SpellChecker.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Utils.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraBars.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\MaterialSkin.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Identity.Client.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Buffers.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Data.SqlClient.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Memory.Data.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Memory.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Numerics.Vectors.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.AccessControl.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Permissions.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Principal.Windows.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Text.Encodings.Web.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Text.Json.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.ValueTuple.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Office.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Azure.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Azure.Identity.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\CSharpVitamins.ShortGuid.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Data.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.SpellChecker.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Utils.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraBars.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraSpellChecker.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.pdb
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Data.SqlClient.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Identity.Client.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Buffers.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Data.SqlClient.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Memory.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Memory.Data.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Numerics.Vectors.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.AccessControl.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Permissions.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Security.Principal.Windows.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Text.Encodings.Web.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Text.Json.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\System.ValueTuple.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\DevExpress.Office.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.csproj.SuggestedBindingRedirects.cache
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.Login.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.frmMain.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.StudentInfo.resources
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.exe.licenses
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.exe
+E:\SEManagement\SMS\SMS\NMCNPM\obj\Debug\StudentManagementSystem.pdb
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.exe.config
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.exe
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.pdb
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Azure.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Azure.Identity.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.Licensing.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\CSharpVitamins.ShortGuid.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Data.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.SpellChecker.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Utils.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraBars.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraGrid.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraLayout.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraPrinting.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraSpellChecker.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\MaterialSkin.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Buffers.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Data.SqlClient.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Memory.Data.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Memory.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Numerics.Vectors.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.AccessControl.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Permissions.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Principal.Windows.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Text.Encodings.Web.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Text.Json.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.ValueTuple.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Office.v21.2.Core.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Azure.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Azure.Identity.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\CSharpVitamins.ShortGuid.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Data.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.SpellChecker.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Utils.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraBars.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraSpellChecker.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.pdb
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Buffers.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Data.SqlClient.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Memory.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Memory.Data.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Numerics.Vectors.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.AccessControl.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Permissions.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Security.Principal.Windows.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Text.Encodings.Web.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Text.Json.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\System.ValueTuple.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\DevExpress.Office.v21.2.Core.xml
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraSpellChecker.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.SuggestedBindingRedirects.cache
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.Login.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.frmMain.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.StudentInfo.resources
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.exe.licenses
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.exe
+E:\SEManagement\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.pdb
+D:\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.exe.config
+D:\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.exe
+D:\SMS\SMS\SMS\bin\Debug\StudentManagementSystem.pdb
+D:\SMS\SMS\SMS\bin\Debug\Azure.Core.dll
+D:\SMS\SMS\SMS\bin\Debug\Azure.Identity.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.Licensing.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\SMS\SMS\SMS\bin\Debug\CSharpVitamins.ShortGuid.dll
+D:\SMS\SMS\SMS\bin\Debug\MaterialSkin.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Buffers.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Data.SqlClient.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\SMS\SMS\SMS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Memory.Data.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Memory.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Numerics.Vectors.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Security.AccessControl.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Permissions.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Principal.Windows.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Text.Encodings.Web.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Text.Json.dll
+D:\SMS\SMS\SMS\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\SMS\SMS\SMS\bin\Debug\System.ValueTuple.dll
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.RichEdit.v21.2.Core.dll
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraTreeList.v21.2.dll
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Office.v21.2.Core.dll
+D:\SMS\SMS\SMS\bin\Debug\Azure.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\Azure.Identity.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\SMS\SMS\SMS\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\SMS\SMS\SMS\bin\Debug\CSharpVitamins.ShortGuid.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Data.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.SpellChecker.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraGrid.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraLayout.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraPrinting.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraSpellChecker.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\SMS\SMS\SMS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Buffers.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Data.SqlClient.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\SMS\SMS\SMS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Memory.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Memory.Data.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Numerics.Vectors.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Security.AccessControl.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Permissions.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Security.Principal.Windows.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Text.Encodings.Web.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Text.Json.xml
+D:\SMS\SMS\SMS\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\SMS\SMS\SMS\bin\Debug\System.ValueTuple.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.RichEdit.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.XtraTreeList.v21.2.xml
+D:\SMS\SMS\SMS\bin\Debug\DevExpress.Office.v21.2.Core.xml
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraGrid.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraGrid.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraGrid.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraGrid.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraLayout.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraLayout.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraLayout.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraLayout.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraPrinting.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraSpellChecker.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraSpellChecker.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraSpellChecker.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraSpellChecker.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.XtraTreeList.v21.2.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.AssemblyReference.cache
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.SuggestedBindingRedirects.cache
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.frmConnectDB.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.Login.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.frmMain.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.StudentInfoEdit.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.StudentInfo.resources
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.GenerateResource.cache
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.exe.licenses
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.exe
+D:\SMS\SMS\SMS\obj\Debug\StudentManagementSystem.pdb
