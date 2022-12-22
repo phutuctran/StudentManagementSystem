@@ -21,11 +21,19 @@ namespace StudentManagementSystem
         public static string[] listMaLoaiKT = { "DTX1", "DTX2", "DTX3", "DTX4", "DGK", "DCK"};
         public static string[] listMaMH = { "MHT", "MHV", "MHVL", "MHHH", "MHSH", "MHTH", "MHLS", "MHDL", "MHNN", "MHCD", "MHCN", "MHTD", "MHQP" };
         public static string[] listTenMH = { "Toán học", "Ngữ văn", "Vật lí", "Hóa học", "Sinh học", "Tin học", "Lịch sử", "Địa lí", "Ngoại ngữ", "GDCD", "Công nghệ", "Thể dục", "GDQP" };
+        public static int soMonHoc = 13;
     }
 
     public static class GlobalFunction
     {
-        public static Image ToImage(byte[] data)
+        public static byte[] ImageToByteArray(Image img)
+        {
+            ImageConverter converter = new ImageConverter();
+            return (byte[])converter.ConvertTo(img, typeof(byte[]));
+        }
+
+
+        public static Image ToImage(byte[] data) 
         {
             if (data == null)
             {

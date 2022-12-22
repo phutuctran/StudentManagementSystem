@@ -172,9 +172,14 @@ END
 --DROP TRIGGER TRG_UPDATE_SISO_DELETEHS
 --DROP TRIGGER TRG_UPDATE_SISO
 
-SELECT TK.USERNAME, TK.PASS
-                                FROM TAIKHOAN AS TK
-                                WHERE TK.USERNAME = 'admin'
+--SELECT TK.USERNAME, TK.PASS
+--                                FROM TAIKHOAN AS TK
+--                                WHERE TK.USERNAME = 'admin'
+
+USE THPT
+SET DATEFORMAT dmy
+		  
+
 
 INSERT INTO NIENKHOA(MANK, NAMBD, NAMKT)
 	VALUES	('2019-2022', '2019', '2022'),
@@ -848,7 +853,6 @@ INSERT INTO HOCSINH(MAHS, MALOP, MATK, HotenHS, ngaysinh, diachi, gioitinh, nien
 ('298', 'L123', 'TK0301', N'Trần Việt Nhân', '12/06/2004', N'Quận 2', N'Nam', '2019-2022', N'Đặng Quang Danh', N'Nguyễn Vy Linh San'),
 ('299', 'L123', 'TK0302', N'Trần Việt Anh', '18/12/2004', N'Quận 12', N'Nam', '2019-2022', N'Đặng Quang Thạch', N'Nguyễn Thảo Nhi'),
 ('300', 'L123', 'TK0303', N'Trần Ðình Hảo', '10/01/2004', N'Quận 5', N'Nam', '2019-2022', N'Đặng Ngọc Phương', N'Nguyễn Chiêu Minh')
-
 
 
 INSERT INTO LOAIKIEMTRA(MALOAIKT, TENLOAIKT)

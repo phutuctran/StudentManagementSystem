@@ -312,12 +312,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ChiTietDiem.cs" />
-    <Compile Include="Classes\DataExtractor.cs" />
     <Compile Include="Classes\DiemMon.cs" />
     <Compile Include="Classes\GiangDay.cs" />
     <Compile Include="Classes\GiaoVien.cs" />
     <Compile Include="Classes\HanhKiem.cs" />
-    <Compile Include="Classes\HocSinh.cs" />
     <Compile Include="Classes\Khoi.cs" />
     <Compile Include="Classes\LoaiKiemTra.cs" />
     <Compile Include="Classes\Lop.cs" />
@@ -335,7 +333,7 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="GlobalProperties.cs" />
+    <Compile Include="Classes\GlobalProperties.cs" />
     <Compile Include="CustomControls\CircularPictureBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -371,6 +369,7 @@
     <Compile Include="StudentInfo.Designer.cs">
       <DependentUpon>StudentInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Student.cs" />
     <EmbeddedResource Include="frmConnectDB.resx">
       <DependentUpon>frmConnectDB.cs</DependentUpon>
     </EmbeddedResource>

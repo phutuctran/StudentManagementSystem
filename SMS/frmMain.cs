@@ -20,7 +20,7 @@ namespace StudentManagementSystem
     {
         class DiemHocSinh
         {
-            public HocSinh HS;
+            public Student HS;
             public DiemThanhPhan DTP;
         }
 
@@ -295,7 +295,7 @@ namespace StudentManagementSystem
                         string _maHS = rdr.IsDBNull(0) ? GlobalProperties.NULLFIELD : rdr.GetString(0).Trim();
                         string _hoTen = rdr.IsDBNull(1) ? GlobalProperties.NULLFIELD : rdr.GetString(1).Trim();
                         DiemHocSinh dhs = new DiemHocSinh();
-                        dhs.HS = new HocSinh(_maHS, _hoTen);
+                        dhs.HS = new Student(_maHS);
                         listHocSinh_page1.Add(dhs);
                         var index = dataGridView_BangDiem.Rows.Add();
 
