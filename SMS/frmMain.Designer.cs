@@ -871,7 +871,7 @@ namespace StudentManagementSystem
             this.tabDiem.Controls.Add(this.panel3);
             this.tabDiem.Location = new System.Drawing.Point(4, 22);
             this.tabDiem.Name = "tabDiem";
-            this.tabDiem.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabDiem.Padding = new System.Windows.Forms.Padding(3);
             this.tabDiem.Size = new System.Drawing.Size(1336, 722);
             this.tabDiem.TabIndex = 0;
             this.tabDiem.Text = "diem";
@@ -1143,7 +1143,7 @@ namespace StudentManagementSystem
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.TB_search_page1.OnIdleState = stateProperties4;
-            this.TB_search_page1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TB_search_page1.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page1.PasswordChar = '\0';
             this.TB_search_page1.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TB_search_page1.PlaceholderText = "Enter text";
@@ -1153,7 +1153,7 @@ namespace StudentManagementSystem
             this.TB_search_page1.SelectionLength = 0;
             this.TB_search_page1.SelectionStart = 0;
             this.TB_search_page1.ShortcutsEnabled = true;
-            this.TB_search_page1.Size = new System.Drawing.Size(213, 34);
+            this.TB_search_page1.Size = new System.Drawing.Size(213, 39);
             this.TB_search_page1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page1.TabIndex = 0;
             this.TB_search_page1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1221,7 +1221,6 @@ namespace StudentManagementSystem
             this.CB_NamHoc.Size = new System.Drawing.Size(121, 21);
             this.CB_NamHoc.TabIndex = 3;
             this.CB_NamHoc.SelectedIndexChanged += new System.EventHandler(this.CB_NamHoc_SelectedIndexChanged);
-            this.CB_NamHoc.Click += new System.EventHandler(this.CB_NamHoc_Click);
             // 
             // CB_Lop
             // 
@@ -1410,7 +1409,7 @@ namespace StudentManagementSystem
             this.tabThongTin.Controls.Add(this.panel4);
             this.tabThongTin.Location = new System.Drawing.Point(4, 22);
             this.tabThongTin.Name = "tabThongTin";
-            this.tabThongTin.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabThongTin.Padding = new System.Windows.Forms.Padding(3);
             this.tabThongTin.Size = new System.Drawing.Size(1336, 722);
             this.tabThongTin.TabIndex = 1;
             this.tabThongTin.Text = "Thongtin";
@@ -1666,7 +1665,7 @@ namespace StudentManagementSystem
             stateProperties8.ForeColor = System.Drawing.Color.Empty;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.TB_Search_page2.OnIdleState = stateProperties8;
-            this.TB_Search_page2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TB_Search_page2.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Search_page2.PasswordChar = '\0';
             this.TB_Search_page2.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TB_Search_page2.PlaceholderText = "Enter text";
@@ -1676,7 +1675,7 @@ namespace StudentManagementSystem
             this.TB_Search_page2.SelectionLength = 0;
             this.TB_Search_page2.SelectionStart = 0;
             this.TB_Search_page2.ShortcutsEnabled = true;
-            this.TB_Search_page2.Size = new System.Drawing.Size(213, 34);
+            this.TB_Search_page2.Size = new System.Drawing.Size(213, 39);
             this.TB_Search_page2.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_Search_page2.TabIndex = 0;
             this.TB_Search_page2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1732,7 +1731,7 @@ namespace StudentManagementSystem
             this.tabtongketdiem.Controls.Add(this.panel5);
             this.tabtongketdiem.Location = new System.Drawing.Point(4, 22);
             this.tabtongketdiem.Name = "tabtongketdiem";
-            this.tabtongketdiem.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabtongketdiem.Padding = new System.Windows.Forms.Padding(3);
             this.tabtongketdiem.Size = new System.Drawing.Size(1336, 722);
             this.tabtongketdiem.TabIndex = 2;
             this.tabtongketdiem.Text = "tongketdiem";
@@ -2133,7 +2132,7 @@ namespace StudentManagementSystem
             stateProperties12.ForeColor = System.Drawing.Color.Empty;
             stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.TB_search_page3.OnIdleState = stateProperties12;
-            this.TB_search_page3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TB_search_page3.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page3.PasswordChar = '\0';
             this.TB_search_page3.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TB_search_page3.PlaceholderText = "Enter text";
@@ -2143,7 +2142,7 @@ namespace StudentManagementSystem
             this.TB_search_page3.SelectionLength = 0;
             this.TB_search_page3.SelectionStart = 0;
             this.TB_search_page3.ShortcutsEnabled = true;
-            this.TB_search_page3.Size = new System.Drawing.Size(213, 34);
+            this.TB_search_page3.Size = new System.Drawing.Size(213, 39);
             this.TB_search_page3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page3.TabIndex = 0;
             this.TB_search_page3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2200,7 +2199,7 @@ namespace StudentManagementSystem
             this.tabchuyenlop.Controls.Add(this.panel8);
             this.tabchuyenlop.Location = new System.Drawing.Point(4, 22);
             this.tabchuyenlop.Name = "tabchuyenlop";
-            this.tabchuyenlop.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabchuyenlop.Padding = new System.Windows.Forms.Padding(3);
             this.tabchuyenlop.Size = new System.Drawing.Size(1336, 722);
             this.tabchuyenlop.TabIndex = 3;
             this.tabchuyenlop.Text = "chuyenlop";
@@ -2641,7 +2640,7 @@ namespace StudentManagementSystem
             stateProperties16.ForeColor = System.Drawing.Color.Empty;
             stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.TB_search_page4.OnIdleState = stateProperties16;
-            this.TB_search_page4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TB_search_page4.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page4.PasswordChar = '\0';
             this.TB_search_page4.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TB_search_page4.PlaceholderText = "Enter text";
@@ -2651,7 +2650,7 @@ namespace StudentManagementSystem
             this.TB_search_page4.SelectionLength = 0;
             this.TB_search_page4.SelectionStart = 0;
             this.TB_search_page4.ShortcutsEnabled = true;
-            this.TB_search_page4.Size = new System.Drawing.Size(213, 34);
+            this.TB_search_page4.Size = new System.Drawing.Size(213, 39);
             this.TB_search_page4.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page4.TabIndex = 0;
             this.TB_search_page4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -2706,7 +2705,7 @@ namespace StudentManagementSystem
             this.themNK_LH.Controls.Add(this.panel12);
             this.themNK_LH.Location = new System.Drawing.Point(4, 22);
             this.themNK_LH.Name = "themNK_LH";
-            this.themNK_LH.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.themNK_LH.Padding = new System.Windows.Forms.Padding(3);
             this.themNK_LH.Size = new System.Drawing.Size(1336, 722);
             this.themNK_LH.TabIndex = 4;
             this.themNK_LH.Text = "themNK_LH";
@@ -3104,7 +3103,7 @@ namespace StudentManagementSystem
             this.Tabthemhs.Controls.Add(this.panel14);
             this.Tabthemhs.Location = new System.Drawing.Point(4, 22);
             this.Tabthemhs.Name = "Tabthemhs";
-            this.Tabthemhs.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Tabthemhs.Padding = new System.Windows.Forms.Padding(3);
             this.Tabthemhs.Size = new System.Drawing.Size(1336, 722);
             this.Tabthemhs.TabIndex = 5;
             this.Tabthemhs.Text = "Themhs";
@@ -3700,7 +3699,7 @@ namespace StudentManagementSystem
             this.tabPage1.Controls.Add(this.panel17);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1336, 722);
             this.tabPage1.TabIndex = 6;
             this.tabPage1.Text = "tabPage1";
@@ -3734,7 +3733,7 @@ namespace StudentManagementSystem
             this.tab_caidat_tab8.Controls.Add(this.panel16);
             this.tab_caidat_tab8.Location = new System.Drawing.Point(4, 22);
             this.tab_caidat_tab8.Name = "tab_caidat_tab8";
-            this.tab_caidat_tab8.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tab_caidat_tab8.Padding = new System.Windows.Forms.Padding(3);
             this.tab_caidat_tab8.Size = new System.Drawing.Size(1336, 722);
             this.tab_caidat_tab8.TabIndex = 7;
             this.tab_caidat_tab8.Text = "cai dat";
@@ -3914,7 +3913,7 @@ namespace StudentManagementSystem
             this.mtCu_p8.ForeColor = System.Drawing.Color.Gray;
             this.mtCu_p8.Icon = ((System.Drawing.Image)(resources.GetObject("mtCu_p8.Icon")));
             this.mtCu_p8.Location = new System.Drawing.Point(67, 122);
-            this.mtCu_p8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mtCu_p8.Margin = new System.Windows.Forms.Padding(4);
             this.mtCu_p8.Name = "mtCu_p8";
             this.mtCu_p8.Size = new System.Drawing.Size(250, 45);
             this.mtCu_p8.TabIndex = 9;
@@ -3928,7 +3927,7 @@ namespace StudentManagementSystem
             this.mkmoi_p8.ForeColor = System.Drawing.Color.Gray;
             this.mkmoi_p8.Icon = ((System.Drawing.Image)(resources.GetObject("mkmoi_p8.Icon")));
             this.mkmoi_p8.Location = new System.Drawing.Point(67, 222);
-            this.mkmoi_p8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mkmoi_p8.Margin = new System.Windows.Forms.Padding(4);
             this.mkmoi_p8.Name = "mkmoi_p8";
             this.mkmoi_p8.Size = new System.Drawing.Size(250, 45);
             this.mkmoi_p8.TabIndex = 8;
@@ -3942,7 +3941,7 @@ namespace StudentManagementSystem
             this.mtk_p8.ForeColor = System.Drawing.Color.Gray;
             this.mtk_p8.Icon = ((System.Drawing.Image)(resources.GetObject("mtk_p8.Icon")));
             this.mtk_p8.Location = new System.Drawing.Point(67, 330);
-            this.mtk_p8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mtk_p8.Margin = new System.Windows.Forms.Padding(4);
             this.mtk_p8.Name = "mtk_p8";
             this.mtk_p8.Size = new System.Drawing.Size(250, 45);
             this.mtk_p8.TabIndex = 7;
@@ -4077,7 +4076,7 @@ namespace StudentManagementSystem
             stateProperties20.ForeColor = System.Drawing.Color.Empty;
             stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.bunifuTextBox1.OnIdleState = stateProperties20;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.bunifuTextBox1.PlaceholderText = "Enter text";
@@ -4087,7 +4086,7 @@ namespace StudentManagementSystem
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(213, 34);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(213, 39);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1.TabIndex = 29;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;

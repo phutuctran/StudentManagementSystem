@@ -311,6 +311,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Admin_Funcs.cs" />
     <Compile Include="Classes\ChiTietDiem.cs" />
     <Compile Include="Classes\DiemMon.cs" />
     <Compile Include="Classes\GiangDay.cs" />
