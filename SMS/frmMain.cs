@@ -24,15 +24,10 @@ namespace StudentManagementSystem
             public DiemThanhPhan DTP;
         }
 
-        //-----------------tabPag1----------------------------
-        string curNamHoc_page1 = "";
-        string curMaLop_page1 = "";
-        string curHK_page1 = "";
-        int curCB_NamHoc_page1 = -1, cur_CBKhoi_page1 = -1, cur_CBLop_page1 = -1, curCB_HK_page1 = -1, cur_CB_Mon_page1 = -1;
-        List<Lop> listLop_page1 = new List<Lop>();
-        List<DiemHocSinh> listHocSinh_page1 = new List<DiemHocSinh>();
+        Admin_Funcs Admin = new Admin_Funcs();
 
-        Dictionary<string, int> listNamHoc_page1 = new Dictionary<string, int>();
+
+
         public frmMain()
         {
             InitializeComponent();
@@ -140,7 +135,7 @@ namespace StudentManagementSystem
         {
             tabMain.SelectedIndex = 7;
         }
-        //----------------------Page1----------------------
+
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
             if (panel_Menu.Width > 75)
@@ -156,18 +151,19 @@ namespace StudentManagementSystem
             }
         }
 
+        //----------------------Page1----------------------
         void GetandShowMaNamHoc()
         {
             CB_NamHoc.SelectedIndex = -1;
             CB_NamHoc.Items.Clear();
             CB_Lop.SelectedIndex = -1;
             CB_Lop.Items.Clear();
-            listHocSinh_page1.Clear();
-            GetNamHoc(out listNamHoc_page1);
+            Admin.Func_Page1 = new Admin_Func_Page1();
+            var listNH = Admin.GetNamHoc();
 
-            foreach (KeyValuePair<string, int> kvp in listNamHoc_page1)
+            foreach (string p in listNH)
             {
-                CB_NamHoc.Items.Add(kvp.Key);
+                CB_NamHoc.Items.Add(p);
             }
         }
 
@@ -198,51 +194,55 @@ namespace StudentManagementSystem
 
         private void CB_NamHoc_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (curCB_NamHoc_page1 != -1)
+            if (!string.IsNullOrEmpty(Admin.Func_Page1.CurrentNamHoc))
             {
                 if (!CheckDataGridView())
                 {
-                    CB_NamHoc.SelectedIndex = curCB_NamHoc_page1;
+                    CB_NamHoc.SelectedIndex = Admin.Func_Page1.IndexOfCurrentNamHocInList;
                     return;
                 }
             }
-
-            curCB_NamHoc_page1 = CB_NamHoc.SelectedIndex;
-
+            if (CB_NamHoc.SelectedIndex == -1)
+            {
+                Admin.Func_Page1.CurrentNamHoc = GlobalProperties.NULLFIELD;
+                return;
+            }
+            Admin.Func_Page1.CurrentNamHoc = CB_NamHoc.SelectedItem.ToString();
             CB_Lop.SelectedIndex = -1;
             CB_Lop.Items.Clear();
+            //Admin.Func_Page1.CurrentMaLop = GlobalProperties.NULLFIELD;
             if (CB_Khoi.SelectedIndex != -1)
             {
-                listLop_page1.Clear();
-                GetMaLop(CB_Khoi.SelectedItem.ToString(), CB_NamHoc.SelectedItem.ToString(), out listLop_page1);
-                foreach (Lop p in listLop_page1)
+                Admin.Func_Page1.GetListLop(CB_Khoi.SelectedItem.ToString(), CB_NamHoc.SelectedItem.ToString());
+                foreach (Lop p in Admin.Func_Page1.ListLop)
                     CB_Lop.Items.Add(p.TenLop);
             }
-            //curHK_page1 = CB_NamHoc.SelectedItem.ToString();
-        }
-
-        private void CB_NamHoc_Click(object sender, EventArgs e)
-        {
         }
 
         private void CB_Khoi_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cur_CBKhoi_page1 != -1)
+            if (!string.IsNullOrEmpty(Admin.Func_Page1.CurrentKhoi))
             {
                 if (!CheckDataGridView())
                 {
-                    CB_Khoi.SelectedIndex = cur_CBKhoi_page1;
+                    CB_Khoi.SelectedIndex = Admin.Func_Page1.IndexOfCurrentKhoiInList;
                     return;
                 }
             }
+            if (CB_Khoi.SelectedIndex == -1)
+            {
+                Admin.Func_Page1.CurrentKhoi = GlobalProperties.NULLFIELD;
+                return;
+            }
+            Admin.Func_Page1.CurrentKhoi = CB_Khoi.SelectedItem.ToString();
 
-            cur_CBKhoi_page1 = CB_Khoi.SelectedIndex;
             CB_Lop.SelectedIndex = -1;
             CB_Lop.Items.Clear();
+            //Admin.Func_Page1.CurrentMaLop = GlobalProperties.NULLFIELD;
             if (CB_NamHoc.SelectedIndex != -1)
             {
-                GetMaLop(CB_Khoi.SelectedItem.ToString(), CB_NamHoc.SelectedItem.ToString(), out listLop_page1);
-                foreach (Lop p in listLop_page1)
+                Admin.Func_Page1.GetListLop(CB_Khoi.SelectedItem.ToString(), CB_NamHoc.SelectedItem.ToString());
+                foreach (Lop p in Admin.Func_Page1.ListLop)
                     CB_Lop.Items.Add(p.TenLop);
             }
         }
@@ -257,25 +257,24 @@ namespace StudentManagementSystem
 
         private void CB_Lop_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cur_CBLop_page1 != -1)
+            if (!string.IsNullOrEmpty(Admin.Func_Page1.CurrentMaLop))
             {
                 if (!CheckDataGridView())
                 {
-                    CB_Lop.SelectedIndex = cur_CBLop_page1;
+                    CB_Lop.SelectedIndex = Admin.Func_Page1.IndexOfCurrentlopInList;
                     return;
                 }
             }
-
-            cur_CBLop_page1 = CB_Lop.SelectedIndex;
             if (CB_Lop.SelectedIndex == -1)
             {
+                Admin.Func_Page1.CurrentMaLop = GlobalProperties.NULLFIELD;
                 return;
             }
-            CB_HocKi.SelectedIndex = -1;
-            curCB_HK_page1 = -1;
-            CB_MonHoc.SelectedIndex = -1;
-            curCB_NamHoc_page1 = -1;
+            Admin.Func_Page1.CurrentMaLop = CB_Lop.SelectedItem.ToString();
 
+            CB_HocKi.SelectedIndex = -1;
+            CB_MonHoc.SelectedIndex = -1;
+            ///Toiws ddaay nhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             int stt = 0;
             listHocSinh_page1.Clear();
             dataGridView_BangDiem.Rows.Clear();
@@ -910,7 +909,6 @@ namespace StudentManagementSystem
             cur_CB_Mon_page1 = -1;
             listLop_page1.Clear();
             listHocSinh_page1.Clear();
-            listNamHoc_page1.Clear();
 
             CB_NamHoc.Items.Clear();
             CB_NamHoc.Text = "";
@@ -982,6 +980,8 @@ namespace StudentManagementSystem
             CB_NamHoc_page2.Items.Add("*");
 
             GetNamHoc(out listNamHoc_page2);
+
+
             foreach (KeyValuePair<string, int> kvp in listNamHoc_page2)
             {
                 CB_NamHoc_page2.Items.Add(kvp.Key);
@@ -2591,61 +2591,8 @@ namespace StudentManagementSystem
             //MessageBox.Show(keyMaDiemMon);
             return key;
         }
-        void GetNamHoc(out Dictionary<string, int> listNH)
-        {
-            listNH = new Dictionary<string, int>();
-            //Get 3 năm học trong niên khóa
-            string query = $"SELECT NAMBD, NAMKT FROM NIENKHOA";
-            SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
-
-            using (SqlDataReader rdr = cmd.ExecuteReader())
-            {
-                if (rdr.HasRows)
-                {
-                    string bd = "", kt = "";
-                    while (rdr.Read())
-                    {
-                        bd = rdr.IsDBNull(0) ? GlobalProperties.NULLFIELD : rdr.GetString(0).Trim();
-                        kt = rdr.IsDBNull(1) ? GlobalProperties.NULLFIELD : rdr.GetString(1).Trim();
-                        int namBD = 0, namKT = 0;
-                        Int32.TryParse(bd, out namBD);
-                        Int32.TryParse(kt, out namKT);
-                        if (namBD == 0 || namKT == 0)
-                        {
-                            continue;
-                        }
-                        listNH[namBD.ToString() + "-" + (namBD + 1).ToString()] = 1;
-                        listNH[(namBD + 1).ToString() + "-" + (namBD + 2).ToString()] = 1;
-                        listNH[(namBD + 2).ToString() + "-" + (namBD + 3).ToString()] = 1;
-                    }
-
-                }
-            }
-        }
-
-        void GetMaLop(string maKhoi, string maNamHoc, out List<Lop> listLop)
-        {
-            listLop = new List<Lop>();
-            //Get mã niên khóa:
-            string query = $"SELECT MALOP, MAGVCN, TENLOP, SISO FROM LOP WHERE MAKHOI = '{maKhoi}' AND NAMHOC = '{maNamHoc}'";
-            SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
-
-            using (SqlDataReader rdr = cmd.ExecuteReader())
-            {
-                if (rdr.HasRows)
-                {
-                    while (rdr.Read())
-                    {
-                        string _maLop = rdr.IsDBNull(0) ? GlobalProperties.NULLFIELD : rdr.GetString(0).Trim();
-                        string _maGVCN = rdr.IsDBNull(1) ? GlobalProperties.NULLFIELD : rdr.GetString(1).Trim();
-                        string _tenLop = rdr.IsDBNull(2) ? GlobalProperties.NULLFIELD : rdr.GetString(2).Trim();
-                        string _siSo = rdr.IsDBNull(3) ? GlobalProperties.NULLFIELD : rdr.GetInt32(3).ToString();
-
-                        listLop.Add(new Lop(_maLop, maKhoi, _maGVCN, _tenLop, _siSo));
-                    }
-                }
-            }
-        }
+        
+        
         void TaoTableDiemMon2HK(string maNamHoc, string maHS)
         {
             string query;
