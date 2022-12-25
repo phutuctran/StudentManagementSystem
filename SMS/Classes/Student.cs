@@ -2,6 +2,7 @@
 using DevExpress.Utils.Design;
 using DevExpress.Utils.DirectXPaint.Svg;
 using DevExpress.Utils.Win.Hook;
+using DevExpress.Xpo.DB.Helpers;
 using StudentManagementSystem.DatabaseCore;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ using System.Windows.Forms;
 
 namespace StudentManagementSystem
 {
-    internal class Student
+    public class Student
     {
         private string maHS = "";
         private string hoTen = "";
@@ -37,9 +38,9 @@ namespace StudentManagementSystem
         private Image anhHS = null;
         private List<(string HK, string namHoc)> ttBangDiem;
         private List<DiemThanhPhan> dsDiem;
-        private string sdt;
-        private string email;
-        private string maTK;
+        private string sdt = "";
+        private string email = "";
+        private string maTK = "";
 
         public string MaTK
         {
@@ -163,11 +164,16 @@ namespace StudentManagementSystem
             set { maHS = value; }
         }
 
-        public Student(string maHS = "")
+        public Student(string maHS = "", bool autoGet = true)
         {
             MaHS = maHS;
             ttBangDiem = new List<(string HK, string namHoc)>();
-            if (!string.IsNullOrEmpty(maHS))
+            dsDiem = new List<DiemThanhPhan>();
+            for (int i = 0; i < 13; i++)
+            {
+                dsDiem.Add(new DiemThanhPhan(GlobalProperties.listMaMH[i], GlobalProperties.listTenMH[i]));
+            }
+            if (!string.IsNullOrEmpty(maHS) && autoGet)
             {
                 GetDataStudent();
             }
@@ -413,7 +419,7 @@ namespace StudentManagementSystem
                                         dsDiem[f].DDGCK = new DTP(diemtp, maDiemMon);
                                         break;
                                 }
-                                dsDiem[f].DDGTRB = new DTP(diemtrb, maDiemMon);
+                                //dsDiem[f].DDGTRB = new DTP(diemtrb, maDiemMon);
 
                             }
                         }
@@ -605,11 +611,15 @@ namespace StudentManagementSystem
             return true;
         }
 
-        public bool SaveDiemStudent(double[,] BangDiem, string _hK, string _namHoc)
+        public bool SaveDiemStudent(double[,] BangDiem, string _hK, string _namHoc, int idxMon = -1)
         {
             //Cập nhật các cột điểm, chưa có điểm TRB
             for (int i = 0; i < GlobalProperties.soMonHoc; i++)
             {
+                if (idxMon >= 0 && idxMon != i)
+                {
+                    continue;   
+                }
                 for (int j = 0; j < 6; j++)
                 {
 
@@ -627,6 +637,7 @@ namespace StudentManagementSystem
                                 return false;
                             }
                         }
+                        //MessageBox.Show(diemthuc.ToString());
                     }
                     else
                     {
@@ -634,6 +645,7 @@ namespace StudentManagementSystem
                         {
                             if (!UpdateDiem(maDiem, maLoaiKT, diemthuc))
                             {
+                                //MessageBox.Show("here!");
                                 return false;
                             }
                         }
@@ -643,6 +655,7 @@ namespace StudentManagementSystem
 
                             if (!InsertChiTietDiem(dsDiem[i].MaDiemMon, maLoaiKT, diemthuc))
                             {
+                                //MessageBox.Show("Here insert!");
                                 return false;
                             }
                         }
@@ -655,9 +668,14 @@ namespace StudentManagementSystem
 
             for (int i = 0; i < GlobalProperties.soMonHoc; i++)
             {
+                if (idxMon >= 0 && idxMon != i)
+                {
+                    continue;
+                }
                 double diemthuc = BangDiem[i, 6];
                 string maDiem = GetMaDiem(i, 6);
-                if (!UpdateDiemTrB(maDiem, -1))
+                //MessageBox.Show(diemthuc.ToString() + " " + maDiem);
+                if (!UpdateDiemTrB(maDiem, diemthuc))
                 {
                     return false;
                 }
@@ -773,20 +791,15 @@ namespace StudentManagementSystem
 
         private bool InsertChiTietDiem(string maDiemMon, string maLoaiKT, double diemThuc)
         {
-            string sqlTaoDiem = @"INSERT INTO CHITIETDIEM(MADIEMMON, MALOAIKT, DIEM)
-	                            VALUES(@madiemmon, @maloaikt, @diem)";
+            string sqlTaoDiem = $"INSERT INTO CHITIETDIEM(MADIEMMON, MALOAIKT, DIEM) VALUES('{maDiemMon}', '{maLoaiKT}', {diemThuc})";
             try
             {
                 SqlCommand cmd = new SqlCommand(sqlTaoDiem, GlobalProperties.conn);
-
-                cmd.Parameters.Add("@madiemmon", SqlDbType.Char).Value = maDiemMon.ToString();
-                cmd.Parameters.Add("@maloaikt", SqlDbType.Char).Value = maLoaiKT.ToString();
-                cmd.Parameters.Add("@diem", SqlDbType.Float).Value = diemThuc;
-
                 int rowCount = cmd.ExecuteNonQuery();
             }
             catch (Exception w)
             {
+                MessageBox.Show(sqlTaoDiem);
                 DialogResult dialogResult = MessageBox.Show("Có lỗi trong quá trình lưu. Hiển thị lỗi?", "Lỗi", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
                 if (dialogResult == DialogResult.Yes)
                 {
@@ -830,31 +843,28 @@ namespace StudentManagementSystem
         }
         private bool UpdateDiemTrB(string maDiem, double diemThuc)
         {
-            string sqlUpdateDiem = @"UPDATE DIEMMON
-                                    SET TRUNGBINH = @diem
-                                    WHERE MADIEMMON = @madiem";
+            string tmp = diemThuc.ToString().Replace(',', '.');
+            if (diemThuc == -1)
+            {
+                tmp = "null";
+            }    
+            string query = $"UPDATE DIEMMON SET TRUNGBINH = {tmp} WHERE MADIEMMON = '{maDiem}'";
+            //MessageBox.Show(query);
             try
             {
-                SqlCommand cmd = new SqlCommand(sqlUpdateDiem, GlobalProperties.conn);
-
-                cmd.Parameters.Add("@madiem", SqlDbType.Char).Value = maDiem.ToString();
-                if (diemThuc != -1)
-                {
-                    cmd.Parameters.Add("@diem", SqlDbType.Float).Value = diemThuc;
-                }
-                else
-                {
-                    cmd.Parameters.Add("@diem", SqlDbType.Float).Value = DBNull.Value;
-                }
-
+                SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
                 int rowCount = cmd.ExecuteNonQuery();
+                if (rowCount == 0)
+                {
+                    MessageBox.Show($"Không thể thêm điểm trung bình ", "Thông báo");
+                }
             }
-            catch (Exception w)
+            catch (Exception ee)
             {
-                DialogResult dialogResult = MessageBox.Show("Có lỗi trong quá trình lưu. Hiển thị lỗi?", "Lỗi", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+                DialogResult dialogResult = MessageBox.Show("Lỗi trong quá trình thêm. Hiển thị lỗi?", "Thông báo", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
-                    MessageBox.Show(w.ToString());
+                    MessageBox.Show("Error: " + ee);
                 }
                 return false;
             }

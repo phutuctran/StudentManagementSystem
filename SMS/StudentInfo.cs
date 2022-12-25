@@ -119,6 +119,7 @@ namespace StudentManagementSystem
                 MessageBox.Show("Không thể lấy thông tin bảng điểm hoặc chưa có điểm!!!", "Thông báo!");
                 return;
             }
+            LV_BangDiem.Items.Clear();
             int stt = 0;
             for (int i = 0; i < student.DSDiem.Count; i++)
             {

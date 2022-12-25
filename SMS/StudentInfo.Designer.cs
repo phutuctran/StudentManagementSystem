@@ -149,7 +149,7 @@ namespace StudentManagementSystem
             this.LB_NoiSinh.AutoSize = true;
             this.LB_NoiSinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_NoiSinh.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_NoiSinh.Location = new System.Drawing.Point(546, 164);
+            this.LB_NoiSinh.Location = new System.Drawing.Point(549, 165);
             this.LB_NoiSinh.Name = "LB_NoiSinh";
             this.LB_NoiSinh.Size = new System.Drawing.Size(78, 24);
             this.LB_NoiSinh.TabIndex = 41;
@@ -168,7 +168,7 @@ namespace StudentManagementSystem
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Azure;
+            this.panel2.BackColor = System.Drawing.Color.Honeydew;
             this.panel2.Controls.Add(this.PB_Avatar);
             this.panel2.Controls.Add(this.LB_HoTenHS);
             this.panel2.Controls.Add(this.LB_MaHS);
@@ -203,7 +203,7 @@ namespace StudentManagementSystem
             this.LB_HoTenHS.BackColor = System.Drawing.Color.Transparent;
             this.LB_HoTenHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LB_HoTenHS.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_HoTenHS.Location = new System.Drawing.Point(87, 301);
+            this.LB_HoTenHS.Location = new System.Drawing.Point(70, 300);
             this.LB_HoTenHS.Name = "LB_HoTenHS";
             this.LB_HoTenHS.Size = new System.Drawing.Size(235, 25);
             this.LB_HoTenHS.TabIndex = 4;
@@ -216,7 +216,7 @@ namespace StudentManagementSystem
             this.LB_MaHS.AutoSize = true;
             this.LB_MaHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_MaHS.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_MaHS.Location = new System.Drawing.Point(87, 349);
+            this.LB_MaHS.Location = new System.Drawing.Point(83, 343);
             this.LB_MaHS.Name = "LB_MaHS";
             this.LB_MaHS.Size = new System.Drawing.Size(203, 24);
             this.LB_MaHS.TabIndex = 6;
@@ -229,7 +229,7 @@ namespace StudentManagementSystem
             this.LB_Lop.AutoSize = true;
             this.LB_Lop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_Lop.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_Lop.Location = new System.Drawing.Point(146, 389);
+            this.LB_Lop.Location = new System.Drawing.Point(132, 386);
             this.LB_Lop.Name = "LB_Lop";
             this.LB_Lop.Size = new System.Drawing.Size(95, 24);
             this.LB_Lop.TabIndex = 5;
@@ -385,7 +385,7 @@ namespace StudentManagementSystem
             this.LB_GhiChu.AutoSize = true;
             this.LB_GhiChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_GhiChu.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_GhiChu.Location = new System.Drawing.Point(546, 444);
+            this.LB_GhiChu.Location = new System.Drawing.Point(553, 444);
             this.LB_GhiChu.Name = "LB_GhiChu";
             this.LB_GhiChu.Size = new System.Drawing.Size(44, 24);
             this.LB_GhiChu.TabIndex = 25;
@@ -396,7 +396,7 @@ namespace StudentManagementSystem
             this.LB_NgheNghiepMe.AutoSize = true;
             this.LB_NgheNghiepMe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_NgheNghiepMe.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_NgheNghiepMe.Location = new System.Drawing.Point(569, 405);
+            this.LB_NgheNghiepMe.Location = new System.Drawing.Point(549, 405);
             this.LB_NgheNghiepMe.Name = "LB_NgheNghiepMe";
             this.LB_NgheNghiepMe.Size = new System.Drawing.Size(191, 24);
             this.LB_NgheNghiepMe.TabIndex = 24;
@@ -407,7 +407,7 @@ namespace StudentManagementSystem
             this.LB_TenMe.AutoSize = true;
             this.LB_TenMe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_TenMe.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_TenMe.Location = new System.Drawing.Point(546, 365);
+            this.LB_TenMe.Location = new System.Drawing.Point(549, 365);
             this.LB_TenMe.Name = "LB_TenMe";
             this.LB_TenMe.Size = new System.Drawing.Size(79, 24);
             this.LB_TenMe.TabIndex = 23;
@@ -429,7 +429,7 @@ namespace StudentManagementSystem
             this.LB_NgheNghiepCha.AutoSize = true;
             this.LB_NgheNghiepCha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_NgheNghiepCha.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_NgheNghiepCha.Location = new System.Drawing.Point(569, 325);
+            this.LB_NgheNghiepCha.Location = new System.Drawing.Point(549, 325);
             this.LB_NgheNghiepCha.Name = "LB_NgheNghiepCha";
             this.LB_NgheNghiepCha.Size = new System.Drawing.Size(201, 24);
             this.LB_NgheNghiepCha.TabIndex = 21;
@@ -451,7 +451,7 @@ namespace StudentManagementSystem
             this.LB_TenCha.AutoSize = true;
             this.LB_TenCha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_TenCha.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_TenCha.Location = new System.Drawing.Point(546, 285);
+            this.LB_TenCha.Location = new System.Drawing.Point(549, 285);
             this.LB_TenCha.Name = "LB_TenCha";
             this.LB_TenCha.Size = new System.Drawing.Size(182, 24);
             this.LB_TenCha.TabIndex = 19;
@@ -462,7 +462,7 @@ namespace StudentManagementSystem
             this.LB_DanToc.AutoSize = true;
             this.LB_DanToc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_DanToc.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_DanToc.Location = new System.Drawing.Point(546, 205);
+            this.LB_DanToc.Location = new System.Drawing.Point(549, 205);
             this.LB_DanToc.Name = "LB_DanToc";
             this.LB_DanToc.Size = new System.Drawing.Size(48, 24);
             this.LB_DanToc.TabIndex = 17;
@@ -495,7 +495,7 @@ namespace StudentManagementSystem
             this.LB_DiaChi.AutoSize = true;
             this.LB_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_DiaChi.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_DiaChi.Location = new System.Drawing.Point(546, 245);
+            this.LB_DiaChi.Location = new System.Drawing.Point(549, 245);
             this.LB_DiaChi.Name = "LB_DiaChi";
             this.LB_DiaChi.Size = new System.Drawing.Size(198, 24);
             this.LB_DiaChi.TabIndex = 11;
@@ -517,7 +517,7 @@ namespace StudentManagementSystem
             this.LB_NgaySinh.AutoSize = true;
             this.LB_NgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_NgaySinh.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_NgaySinh.Location = new System.Drawing.Point(546, 85);
+            this.LB_NgaySinh.Location = new System.Drawing.Point(549, 85);
             this.LB_NgaySinh.Name = "LB_NgaySinh";
             this.LB_NgaySinh.Size = new System.Drawing.Size(100, 24);
             this.LB_NgaySinh.TabIndex = 9;
@@ -528,7 +528,7 @@ namespace StudentManagementSystem
             this.LB_NienKhoa.AutoSize = true;
             this.LB_NienKhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_NienKhoa.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_NienKhoa.Location = new System.Drawing.Point(546, 125);
+            this.LB_NienKhoa.Location = new System.Drawing.Point(549, 125);
             this.LB_NienKhoa.Name = "LB_NienKhoa";
             this.LB_NienKhoa.Size = new System.Drawing.Size(96, 24);
             this.LB_NienKhoa.TabIndex = 12;
@@ -536,7 +536,7 @@ namespace StudentManagementSystem
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.White;
+            this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
             this.tabPage2.Controls.Add(this.CB_ttHK_NH);
             this.tabPage2.Controls.Add(this.label26);
             this.tabPage2.Controls.Add(this.LV_BangDiem);

@@ -17,8 +17,17 @@ namespace StudentManagementSystem.Classes
         private string maGVCN;
         private string tenLop;
         private string siSo;
+        private string tenGVCN;
 
-        public Lop() { }
+        public Lop() 
+        {
+            maLop = "";
+            maKhoi = "";
+            maGVCN = "";
+            tenLop = "";
+            siSo = "";
+            tenGVCN = "";
+        }
 
         public Lop(string maLop = "", string maKhoi = "", string maGVCN = "", string tenLop = "", string siSo = "")
         {
@@ -29,6 +38,7 @@ namespace StudentManagementSystem.Classes
             this.siSo = siSo;
         }
 
+        public string TenGVCN { get => tenGVCN; set => tenGVCN = value; }
         public string MaLop { get => maLop; set => maLop = value; }
         public string MaKhoi { get => maKhoi; set => maKhoi = value; }
         public string MaGVCN { get => maGVCN; set => maGVCN = value; }

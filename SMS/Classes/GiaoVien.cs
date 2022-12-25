@@ -10,7 +10,7 @@ using StudentManagementSystem.DatabaseCore;
 
 namespace StudentManagementSystem.Classes
 {
-    class GiaoVien
+    public class GiaoVien
     {
         private string maGV;
         private string maMH;

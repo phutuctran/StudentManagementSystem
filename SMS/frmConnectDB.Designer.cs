@@ -34,20 +34,20 @@ namespace StudentManagementSystem
             this.BT_Close = new MaterialSkin.Controls.MaterialRaisedButton();
             this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.BT_Connect = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BT_xacThuc = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.LB_trangThaiXacThuc = new System.Windows.Forms.Label();
-            this.BT_Close1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.TB_DBName = new Bunifu.Framework.UI.BunifuTextbox();
             this.TB_severName = new Bunifu.Framework.UI.BunifuTextbox();
+            this.BT_Connect = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.BT_Close1 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.LB_trangThaiXacThuc = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.BT_xacThuc = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.TB_pass = new Bunifu.Framework.UI.BunifuTextbox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.LB_trangThaiDB = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.LB_trangThaiKetNoi = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.LB_trangThaiDB = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -56,11 +56,11 @@ namespace StudentManagementSystem
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DimGray;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 20);
+            this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "Tên Server:";
             // 
@@ -84,11 +84,11 @@ namespace StudentManagementSystem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
             this.label5.Location = new System.Drawing.Point(3, 80);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 20);
+            this.label5.Size = new System.Drawing.Size(96, 20);
             this.label5.TabIndex = 11;
             this.label5.Text = "Tên CSDL:";
             // 
@@ -109,6 +109,32 @@ namespace StudentManagementSystem
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(268, 163);
             this.tableLayoutPanel1.TabIndex = 10;
+            // 
+            // TB_DBName
+            // 
+            this.TB_DBName.BackColor = System.Drawing.SystemColors.Control;
+            this.TB_DBName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_DBName.BackgroundImage")));
+            this.TB_DBName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TB_DBName.ForeColor = System.Drawing.Color.Gray;
+            this.TB_DBName.Icon = ((System.Drawing.Image)(resources.GetObject("TB_DBName.Icon")));
+            this.TB_DBName.Location = new System.Drawing.Point(3, 103);
+            this.TB_DBName.Name = "TB_DBName";
+            this.TB_DBName.Size = new System.Drawing.Size(250, 45);
+            this.TB_DBName.TabIndex = 6;
+            this.TB_DBName.text = "";
+            // 
+            // TB_severName
+            // 
+            this.TB_severName.BackColor = System.Drawing.SystemColors.Control;
+            this.TB_severName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_severName.BackgroundImage")));
+            this.TB_severName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TB_severName.ForeColor = System.Drawing.Color.Gray;
+            this.TB_severName.Icon = ((System.Drawing.Image)(resources.GetObject("TB_severName.Icon")));
+            this.TB_severName.Location = new System.Drawing.Point(3, 23);
+            this.TB_severName.Name = "TB_severName";
+            this.TB_severName.Size = new System.Drawing.Size(250, 45);
+            this.TB_severName.TabIndex = 5;
+            this.TB_severName.text = "";
             // 
             // BT_Connect
             // 
@@ -141,16 +167,44 @@ namespace StudentManagementSystem
             this.panel1.Size = new System.Drawing.Size(355, 363);
             this.panel1.TabIndex = 14;
             // 
-            // label1
+            // BT_Close1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(44, 111);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 20);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Mật khẩu xác thực:";
+            this.BT_Close1.AutoSize = true;
+            this.BT_Close1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BT_Close1.Depth = 0;
+            this.BT_Close1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BT_Close1.Icon = null;
+            this.BT_Close1.Location = new System.Drawing.Point(147, 242);
+            this.BT_Close1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.BT_Close1.Name = "BT_Close1";
+            this.BT_Close1.Primary = true;
+            this.BT_Close1.Size = new System.Drawing.Size(59, 36);
+            this.BT_Close1.TabIndex = 17;
+            this.BT_Close1.Text = "Đóng";
+            this.BT_Close1.UseVisualStyleBackColor = true;
+            this.BT_Close1.Click += new System.EventHandler(this.BT_Close1_Click);
+            // 
+            // LB_trangThaiXacThuc
+            // 
+            this.LB_trangThaiXacThuc.AutoSize = true;
+            this.LB_trangThaiXacThuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_trangThaiXacThuc.ForeColor = System.Drawing.Color.Firebrick;
+            this.LB_trangThaiXacThuc.Location = new System.Drawing.Point(44, 202);
+            this.LB_trangThaiXacThuc.Name = "LB_trangThaiXacThuc";
+            this.LB_trangThaiXacThuc.Size = new System.Drawing.Size(164, 20);
+            this.LB_trangThaiXacThuc.TabIndex = 16;
+            this.LB_trangThaiXacThuc.Text = "Hãy nhập mật khẩu";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(65, 50);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(247, 24);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "KẾT NỐI CƠ SỞ DỮ LIỆU";
             // 
             // BT_xacThuc
             // 
@@ -169,70 +223,16 @@ namespace StudentManagementSystem
             this.BT_xacThuc.UseVisualStyleBackColor = true;
             this.BT_xacThuc.Click += new System.EventHandler(this.BT_xacThuc_Click);
             // 
-            // label2
+            // label1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(65, 50);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 24);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "KẾT NỐI CƠ SỞ DỮ LIỆU";
-            // 
-            // LB_trangThaiXacThuc
-            // 
-            this.LB_trangThaiXacThuc.AutoSize = true;
-            this.LB_trangThaiXacThuc.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_trangThaiXacThuc.ForeColor = System.Drawing.Color.Firebrick;
-            this.LB_trangThaiXacThuc.Location = new System.Drawing.Point(44, 202);
-            this.LB_trangThaiXacThuc.Name = "LB_trangThaiXacThuc";
-            this.LB_trangThaiXacThuc.Size = new System.Drawing.Size(144, 20);
-            this.LB_trangThaiXacThuc.TabIndex = 16;
-            this.LB_trangThaiXacThuc.Text = "Hãy nhập mật khẩu";
-            // 
-            // BT_Close1
-            // 
-            this.BT_Close1.AutoSize = true;
-            this.BT_Close1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BT_Close1.Depth = 0;
-            this.BT_Close1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BT_Close1.Icon = null;
-            this.BT_Close1.Location = new System.Drawing.Point(147, 242);
-            this.BT_Close1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.BT_Close1.Name = "BT_Close1";
-            this.BT_Close1.Primary = true;
-            this.BT_Close1.Size = new System.Drawing.Size(59, 36);
-            this.BT_Close1.TabIndex = 17;
-            this.BT_Close1.Text = "Đóng";
-            this.BT_Close1.UseVisualStyleBackColor = true;
-            this.BT_Close1.Click += new System.EventHandler(this.BT_Close1_Click);
-            // 
-            // TB_DBName
-            // 
-            this.TB_DBName.BackColor = System.Drawing.SystemColors.Control;
-            this.TB_DBName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_DBName.BackgroundImage")));
-            this.TB_DBName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TB_DBName.ForeColor = System.Drawing.Color.Gray;
-            this.TB_DBName.Icon = ((System.Drawing.Image)(resources.GetObject("TB_DBName.Icon")));
-            this.TB_DBName.Location = new System.Drawing.Point(3, 103);
-            this.TB_DBName.Name = "TB_DBName";
-            this.TB_DBName.Size = new System.Drawing.Size(250, 45);
-            this.TB_DBName.TabIndex = 6;
-            this.TB_DBName.text = "";
-            // 
-            // TB_severName
-            // 
-            this.TB_severName.BackColor = System.Drawing.SystemColors.Control;
-            this.TB_severName.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_severName.BackgroundImage")));
-            this.TB_severName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TB_severName.ForeColor = System.Drawing.Color.Gray;
-            this.TB_severName.Icon = ((System.Drawing.Image)(resources.GetObject("TB_severName.Icon")));
-            this.TB_severName.Location = new System.Drawing.Point(3, 23);
-            this.TB_severName.Name = "TB_severName";
-            this.TB_severName.Size = new System.Drawing.Size(250, 45);
-            this.TB_severName.TabIndex = 5;
-            this.TB_severName.text = "";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(44, 111);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 20);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Mật khẩu xác thực:";
             // 
             // TB_pass
             // 
@@ -249,6 +249,7 @@ namespace StudentManagementSystem
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Honeydew;
             this.panel2.Controls.Add(this.LB_trangThaiKetNoi);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.LB_trangThaiDB);
@@ -261,39 +262,39 @@ namespace StudentManagementSystem
             this.panel2.Size = new System.Drawing.Size(355, 363);
             this.panel2.TabIndex = 15;
             // 
-            // LB_trangThaiDB
+            // LB_trangThaiKetNoi
             // 
-            this.LB_trangThaiDB.AutoSize = true;
-            this.LB_trangThaiDB.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_trangThaiDB.ForeColor = System.Drawing.Color.Firebrick;
-            this.LB_trangThaiDB.Location = new System.Drawing.Point(33, 224);
-            this.LB_trangThaiDB.Name = "LB_trangThaiDB";
-            this.LB_trangThaiDB.Size = new System.Drawing.Size(77, 20);
-            this.LB_trangThaiDB.TabIndex = 12;
-            this.LB_trangThaiDB.Text = "Thông tin";
-            this.LB_trangThaiDB.Visible = false;
+            this.LB_trangThaiKetNoi.AutoSize = true;
+            this.LB_trangThaiKetNoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_trangThaiKetNoi.ForeColor = System.Drawing.Color.DimGray;
+            this.LB_trangThaiKetNoi.Location = new System.Drawing.Point(29, 313);
+            this.LB_trangThaiKetNoi.Name = "LB_trangThaiKetNoi";
+            this.LB_trangThaiKetNoi.Size = new System.Drawing.Size(201, 20);
+            this.LB_trangThaiKetNoi.TabIndex = 17;
+            this.LB_trangThaiKetNoi.Text = "Trạng thái: Chưa kết nối";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DimGray;
             this.label6.Location = new System.Drawing.Point(65, 30);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(210, 24);
+            this.label6.Size = new System.Drawing.Size(247, 24);
             this.label6.TabIndex = 16;
             this.label6.Text = "KẾT NỐI CƠ SỞ DỮ LIỆU";
             // 
-            // LB_trangThaiKetNoi
+            // LB_trangThaiDB
             // 
-            this.LB_trangThaiKetNoi.AutoSize = true;
-            this.LB_trangThaiKetNoi.Font = new System.Drawing.Font("Roboto", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_trangThaiKetNoi.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_trangThaiKetNoi.Location = new System.Drawing.Point(29, 313);
-            this.LB_trangThaiKetNoi.Name = "LB_trangThaiKetNoi";
-            this.LB_trangThaiKetNoi.Size = new System.Drawing.Size(177, 20);
-            this.LB_trangThaiKetNoi.TabIndex = 17;
-            this.LB_trangThaiKetNoi.Text = "Trạng thái: Chưa kết nối";
+            this.LB_trangThaiDB.AutoSize = true;
+            this.LB_trangThaiDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_trangThaiDB.ForeColor = System.Drawing.Color.Firebrick;
+            this.LB_trangThaiDB.Location = new System.Drawing.Point(33, 224);
+            this.LB_trangThaiDB.Name = "LB_trangThaiDB";
+            this.LB_trangThaiDB.Size = new System.Drawing.Size(84, 20);
+            this.LB_trangThaiDB.TabIndex = 12;
+            this.LB_trangThaiDB.Text = "Thông tin";
+            this.LB_trangThaiDB.Visible = false;
             // 
             // frmConnectDB
             // 

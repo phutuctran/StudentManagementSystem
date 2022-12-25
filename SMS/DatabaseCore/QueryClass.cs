@@ -96,10 +96,12 @@ namespace StudentManagementSystem.DatabaseCore
             set { ddgtrb = value; }
         }
 
-        public DiemThanhPhan(string _mamh, string _tenmh)
+        public DiemThanhPhan(string _mamh = "", string _tenmh = "")
         {
             MaMH = _mamh;
             tenMH = _tenmh;
+            haveTableDiemMon = false;
+            maDiemMon = "";
             ddgtx1 = new DTP(-1, "");
             ddgtx2 = new DTP(-1, "");
             ddgtx3 = new DTP(-1, "");

@@ -321,6 +321,7 @@
     <Compile Include="Classes\LoaiKiemTra.cs" />
     <Compile Include="Classes\Lop.cs" />
     <Compile Include="Classes\MonHoc.cs" />
+    <Compile Include="Classes\NienKhoa.cs" />
     <Compile Include="Classes\TaiKhoan.cs" />
     <Compile Include="frmConnectDB.cs">
       <SubType>Form</SubType>
@@ -371,6 +372,7 @@
       <DependentUpon>StudentInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Student.cs" />
+    <Compile Include="test.cs" />
     <EmbeddedResource Include="frmConnectDB.resx">
       <DependentUpon>frmConnectDB.cs</DependentUpon>
     </EmbeddedResource>
@@ -462,6 +464,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\newlogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.5.0.1\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.5.0.1\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
