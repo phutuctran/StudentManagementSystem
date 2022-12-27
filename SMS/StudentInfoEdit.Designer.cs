@@ -413,7 +413,7 @@ namespace StudentManagementSystem
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Azure;
+            this.panel2.BackColor = System.Drawing.Color.Honeydew;
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Controls.Add(this.PB_Avatar);
             this.panel2.Controls.Add(this.CB_Lop);

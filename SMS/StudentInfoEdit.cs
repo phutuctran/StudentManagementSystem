@@ -260,10 +260,11 @@ namespace StudentManagementSystem
             TB_NoiSinh.Text = student.NoiSinh;
             TB_Sodt.Text = student.SDT;
             TB_Email.Text = student.Email;
+            
             if (student.AnhHS != null)
             {
                 Image img = PB_Avatar.Image;
-                PB_Avatar.Image = student.AnhHS;
+                PB_Avatar.Image = new Bitmap(student.AnhHS);
                 if (img != null)
                 {
                     img.Dispose();
