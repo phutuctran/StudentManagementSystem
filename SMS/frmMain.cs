@@ -279,8 +279,8 @@ namespace StudentManagementSystem
                 var index = dataGridView_BangDiem.Rows.Add();
 
                 dataGridView_BangDiem.Rows[index].Cells[0].Value = (++stt).ToString();//Số thứ tự
-                dataGridView_BangDiem.Rows[index].Cells[1].Value = p.HS.MaHS;
-                dataGridView_BangDiem.Rows[index].Cells[2].Value = p.HS.HoTen;
+                dataGridView_BangDiem.Rows[index].Cells[1].Value = p.MaHS;
+                dataGridView_BangDiem.Rows[index].Cells[2].Value = p.HoTen;
             }
 
             //Get thong tin lop hoc
@@ -356,16 +356,17 @@ namespace StudentManagementSystem
             {
                 return;
             }
+            int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
             for (int i = 0; i < Admin.Func_Page1.ListHocSinh.Count; i++)
             {
-                DiemHocSinh p = Admin.Func_Page1.ListHocSinh[i];
-                dataGridView_BangDiem.Rows[i].Cells[3].Value = p.DTP.DDGTX1.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGTX1.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[4].Value = p.DTP.DDGTX2.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGTX2.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[5].Value = p.DTP.DDGTX3.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGTX3.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[6].Value = p.DTP.DDGTX4.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGTX4.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[7].Value = p.DTP.DDGGK.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGGK.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[8].Value = p.DTP.DDGCK.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGCK.diem.ToString();
-                dataGridView_BangDiem.Rows[i].Cells[9].Value = p.DTP.DDGTRB.diem == -1 ? GlobalProperties.NULLFIELD : p.DTP.DDGTRB.diem.ToString();
+                Student p = Admin.Func_Page1.ListHocSinh[i];
+                dataGridView_BangDiem.Rows[i].Cells[3].Value = p.DSDiem[idxMon].DDGTX1.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX1.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[4].Value = p.DSDiem[idxMon].DDGTX2.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX2.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[5].Value = p.DSDiem[idxMon].DDGTX3.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX3.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[6].Value = p.DSDiem[idxMon].DDGTX4.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX4.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[7].Value = p.DSDiem[idxMon].DDGGK.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGGK.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[8].Value = p.DSDiem[idxMon].DDGCK.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGCK.diem.ToString();
+                dataGridView_BangDiem.Rows[i].Cells[9].Value = p.DSDiem[idxMon].DDGTRB.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTRB.diem.ToString();
             }
         }
 
@@ -451,7 +452,7 @@ namespace StudentManagementSystem
                     string _diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
                     bangDiemNew[idxMon, j - 3] = GlobalFunction.CheckDiem(_diem.Trim());
                 }
-                Admin.Func_Page1.ListHocSinh[i].HS.SaveDiemStudent(bangDiemNew, Admin.Func_Page1.CurrentHocKi, Admin.Func_Page1.CurrentNamHoc, idxMon);
+                Admin.Func_Page1.ListHocSinh[i].SaveDiemStudent(bangDiemNew, Admin.Func_Page1.CurrentHocKi, Admin.Func_Page1.CurrentNamHoc, idxMon);
             }
 
             GetDiemHocSinh();

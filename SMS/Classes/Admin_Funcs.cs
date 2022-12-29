@@ -27,17 +27,6 @@ namespace StudentManagementSystem.Classes
             hanhKiem = "";
         }
     }
-    public class DiemHocSinh
-    {
-        public Student HS;
-        public DiemThanhPhan DTP;
-
-        public DiemHocSinh()
-        {
-            HS = new Student();
-            DTP = new DiemThanhPhan();
-        }
-    }
     public class Diemtrb
     {
         public double diem;
@@ -714,7 +703,7 @@ namespace StudentManagementSystem.Classes
         private List<string> listNH;
         private List<Lop> listLop;
         private string curKhoi;
-        private List<DiemHocSinh> listHocSinh;
+        private List<Student> listHocSinh;
         private string curMon;
 
         public string CurrentMonHoc
@@ -722,7 +711,7 @@ namespace StudentManagementSystem.Classes
             get { return curMon; }
             set { curMon = value; }
         }
-        public List<DiemHocSinh> ListHocSinh
+        public List<Student> ListHocSinh
         {
             get { return listHocSinh; }
             set { listHocSinh = value; }
@@ -765,7 +754,7 @@ namespace StudentManagementSystem.Classes
             curHK = "";
             listNH = new List<string>();
             listLop = new List<Lop>();
-            listHocSinh = new List<DiemHocSinh>();
+            listHocSinh = new List<Student>();
             curMon = "";
             curKhoi = "";
         }
@@ -823,12 +812,8 @@ namespace StudentManagementSystem.Classes
 
         public void GetListHocSinh()
         {
-            ListHocSinh.Clear();
-            var list = this.GetInfoHocSinh(_maLop: curMaLop);
-            foreach (var p in list)
-            {
-                listHocSinh.Add(new DiemHocSinh() { HS = p });
-            }
+            listHocSinh.Clear();
+            listHocSinh = this.GetInfoHocSinh(_maLop: curMaLop);
 
         }
         public (string tenLop, int siSo, string tenGV) GetThongTinLop()
@@ -844,8 +829,8 @@ namespace StudentManagementSystem.Classes
             SqlCommand cmd;
             for (int i = 0; i < listHocSinh.Count; i++)
             {
-                listHocSinh[i].DTP = new DiemThanhPhan(_maMon, curMon);
-                query = $"SELECT DM.MADIEMMON, DM.MAMONHOC, DM.TRUNGBINH FROM DIEMMON AS DM WHERE DM.MAHOCSINH = '{ListHocSinh[i].HS.MaHS}' AND DM.MAHK = '{curHK}' AND DM.NAMHOC = '{curNamHoc}' AND DM.MAMONHOC = '{_maMon}'";
+                
+                query = $"SELECT DM.MADIEMMON, DM.MAMONHOC, DM.TRUNGBINH FROM DIEMMON AS DM WHERE DM.MAHOCSINH = '{ListHocSinh[i].MaHS}' AND DM.MAHK = '{curHK}' AND DM.NAMHOC = '{curNamHoc}' AND DM.MAMONHOC = '{_maMon}'";
                 cmd = new SqlCommand(query, GlobalProperties.conn);
                 using (SqlDataReader rdr = cmd.ExecuteReader())
                 {
@@ -856,12 +841,9 @@ namespace StudentManagementSystem.Classes
                             string maDM = rdr.IsDBNull(0) ? GlobalProperties.NULLFIELD : rdr.GetString(0).Trim();
                             string maMH = rdr.IsDBNull(1) ? GlobalProperties.NULLFIELD : rdr.GetString(1).Trim();
                             double diemtp = rdr.IsDBNull(2) ? -1 : rdr.GetDouble(2);
-                            listHocSinh[i].DTP.MaDiemMon = maDM;
-                            listHocSinh[i].DTP.MaMH = maMH;
-                            listHocSinh[i].DTP.DDGTRB = new DTP(diemtp, maDM);
-                            listHocSinh[i].DTP.HaveTableDiemMon = true;
-                            ListHocSinh[i].HS.DSDiem[idxMon].MaDiemMon = maDM;
-                            ListHocSinh[i].HS.DSDiem[idxMon].DDGTRB = new DTP(diemtp, maDM);
+                            listHocSinh[i].DSDiem[idxMon].MaDiemMon = maDM;
+                            listHocSinh[i].DSDiem[idxMon].MaMH = maMH;
+                            listHocSinh[i].DSDiem[idxMon].DDGTRB = new DTP(diemtp, maDM);
                             break;
                         }
                     }
@@ -869,7 +851,7 @@ namespace StudentManagementSystem.Classes
 
                 query = @"SELECT CTD.DIEM, CTD.MALOAIKT
                             FROM CHITIETDIEM AS CTD" +
-                $" WHERE CTD.MADIEMMON = '{listHocSinh[i].DTP.MaDiemMon}'";
+                $" WHERE CTD.MADIEMMON = '{listHocSinh[i].DSDiem[idxMon].MaDiemMon}'";
                 cmd = new SqlCommand(query, GlobalProperties.conn);
                 using (SqlDataReader rdr = cmd.ExecuteReader())
                 {
@@ -882,38 +864,25 @@ namespace StudentManagementSystem.Classes
                             loaiKT = loaiKT.Trim();
                             if (diemtp != -1)
                             {
-                                listHocSinh[i].DTP.MaMH = _maMon;
                                 switch (loaiKT)
                                 {
                                     case "DTX1":
-
-                                        listHocSinh[i].DTP.DDGTX1 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGTX1 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGTX1 = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break;
                                     case "DTX2":
-
-                                        listHocSinh[i].DTP.DDGTX2 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGTX2 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGTX2 = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break; ;
                                     case "DTX3":
-
-                                        listHocSinh[i].DTP.DDGTX3 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGTX3 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGTX3 = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break;
                                     case "DTX4":
-
-                                        listHocSinh[i].DTP.DDGTX4 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGTX4 = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGTX4 = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break;
                                     case "DGK":
-
-                                        listHocSinh[i].DTP.DDGGK = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGGK = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGGK = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break;
                                     case "DCK":
-
-                                        listHocSinh[i].DTP.DDGCK = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
-                                        ListHocSinh[i].HS.DSDiem[idxMon].DDGCK = new DTP(diemtp, listHocSinh[i].DTP.MaDiemMon);
+                                        ListHocSinh[i].DSDiem[idxMon].DDGCK = new DTP(diemtp, listHocSinh[i].DSDiem[idxMon].MaDiemMon);
                                         break;
                                 }
                             }
