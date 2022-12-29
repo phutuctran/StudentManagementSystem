@@ -1553,6 +1553,7 @@ namespace StudentManagementSystem.Classes
             listNamHoc = new List<string>();
             listGV = new List<GiaoVien>();
             listLop = new List<Lop>();
+            listNienKhoa = new List<NienKhoa>();
             curKhoi = "";
             curNamHoc = "";
         }

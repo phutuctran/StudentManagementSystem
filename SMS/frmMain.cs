@@ -1173,6 +1173,7 @@ namespace StudentManagementSystem
             datetimepicker_nienkhoa_p5.CustomFormat = "yyyy";
             datetimepicker_nienkhoa_p5.ShowUpDown = true;
             GetandShowMaNamHocpage5();
+            Admin.Func_Page5.GetListNienKhoa();
         }
 
         void GetandShowMaNamHocpage5()

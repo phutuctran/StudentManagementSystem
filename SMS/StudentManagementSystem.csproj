@@ -314,6 +314,7 @@
     <Compile Include="Classes\Admin_Funcs.cs" />
     <Compile Include="Classes\ChiTietDiem.cs" />
     <Compile Include="Classes\DiemMon.cs" />
+    <Compile Include="Classes\Extensions.cs" />
     <Compile Include="Classes\GiangDay.cs" />
     <Compile Include="Classes\GiaoVien.cs" />
     <Compile Include="Classes\HanhKiem.cs" />
@@ -372,7 +373,6 @@
       <DependentUpon>StudentInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Student.cs" />
-    <Compile Include="test.cs" />
     <EmbeddedResource Include="frmConnectDB.resx">
       <DependentUpon>frmConnectDB.cs</DependentUpon>
     </EmbeddedResource>

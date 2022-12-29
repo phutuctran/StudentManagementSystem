@@ -19,6 +19,7 @@ using CSharpVitamins;
 using System.IO;
 using System.Drawing.Imaging;
 using StudentManagementSystem.Properties;
+using StudentManagementSystem.Classes;
 
 namespace StudentManagementSystem
 {
@@ -110,11 +111,16 @@ namespace StudentManagementSystem
                         continue;
                     }
                     double diemthuc = GlobalFunction.CheckDiem(diem.Trim());
-                    if (diemthuc == -1)
+                    if (diemthuc == -1 && i != 11)
                     {
                         MessageBox.Show($"Điểm nhập không hợp lệ ở môn {GlobalProperties.listTenMH[i]}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
+                    if (i == 11)
+                    {
+                        //diem = convertToUnSign()
+                    }
+                        
                 }
             }
 
