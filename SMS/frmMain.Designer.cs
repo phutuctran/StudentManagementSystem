@@ -736,7 +736,7 @@ namespace StudentManagementSystem
             this.btn_CaiDat.AutoSize = true;
             this.btn_CaiDat.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_CaiDat.Depth = 0;
-            this.btn_CaiDat.Font = new System.Drawing.Font("TeamViewer15", 8.25F);
+            this.btn_CaiDat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btn_CaiDat.Icon = null;
             this.btn_CaiDat.Location = new System.Drawing.Point(54, 426);
             this.btn_CaiDat.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -929,6 +929,7 @@ namespace StudentManagementSystem
             this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_BangDiem.Size = new System.Drawing.Size(996, 629);
             this.dataGridView_BangDiem.TabIndex = 0;
+            this.dataGridView_BangDiem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_BangDiem_CellClick);
             // 
             // stt
             // 
@@ -1177,7 +1178,7 @@ namespace StudentManagementSystem
             this.TB_search_page1.SelectionLength = 0;
             this.TB_search_page1.SelectionStart = 0;
             this.TB_search_page1.ShortcutsEnabled = true;
-            this.TB_search_page1.Size = new System.Drawing.Size(226, 36);
+            this.TB_search_page1.Size = new System.Drawing.Size(226, 39);
             this.TB_search_page1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page1.TabIndex = 0;
             this.TB_search_page1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;

@@ -31,7 +31,6 @@ namespace StudentManagementSystem
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            
             mtCu_p8._TextBox.PasswordChar = '\u25CF';
             mkmoi_p8._TextBox.PasswordChar = '\u25CF';
             mtk_p8._TextBox.PasswordChar = '\u25CF';
@@ -380,9 +379,10 @@ namespace StudentManagementSystem
                 dataGridView_BangDiem.Rows[i].Cells[8].Value = p.DSDiem[idxMon].DDGCK.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGCK.diem.ToString();
                 dataGridView_BangDiem.Rows[i].Cells[9].Value = p.DSDiem[idxMon].DDGTRB.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTRB.diem.ToString();
             }
+            TinhDTB_page1();
         }
 
-        private void btn_tinhDTB_pag1_Click(object sender, EventArgs e)
+        private void TinhDTB_page1()
         {
             int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
             int tongHeSo = 0;
@@ -464,6 +464,10 @@ namespace StudentManagementSystem
             }
         }
 
+        private void dataGridView_BangDiem_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TinhDTB_page1();
+        }
         private void btn_HoanTac_page1_Click(object sender, EventArgs e)
         {
             ShowBangDiem();
@@ -1736,5 +1740,7 @@ namespace StudentManagementSystem
                 }
             }
         }
+
+
     }
 }
