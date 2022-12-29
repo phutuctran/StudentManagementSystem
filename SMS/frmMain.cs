@@ -31,6 +31,7 @@ namespace StudentManagementSystem
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            
             mtCu_p8._TextBox.PasswordChar = '\u25CF';
             mkmoi_p8._TextBox.PasswordChar = '\u25CF';
             mtk_p8._TextBox.PasswordChar = '\u25CF';
@@ -42,14 +43,14 @@ namespace StudentManagementSystem
             GetandShowMaNamHocpage3();
             GetandShowMaNamHocpage4();
             LoadPage5();
-
+           
             string check = File.ReadAllText("./StudentEdit");
             if (check == "1")
                 bunifuCheckBox1.Checked = true;
             else
                 bunifuCheckBox1.Checked = false;
         }
-
+        
         //Event menu
         private void bunifuIconButton5_Click(object sender, EventArgs e)
         {

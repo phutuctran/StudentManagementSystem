@@ -38,6 +38,10 @@ namespace StudentManagementSystem
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -897,7 +901,15 @@ namespace StudentManagementSystem
             this.dataGridView_BangDiem.AllowUserToAddRows = false;
             this.dataGridView_BangDiem.AllowUserToDeleteRows = false;
             this.dataGridView_BangDiem.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView_BangDiem.ColumnHeadersHeight = 26;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.DarkGreen;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_BangDiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView_BangDiem.ColumnHeadersHeight = 30;
             this.dataGridView_BangDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView_BangDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.stt,
@@ -910,10 +922,29 @@ namespace StudentManagementSystem
             this.dggk,
             this.dgck,
             this.trbm});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_BangDiem.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_BangDiem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_BangDiem.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_BangDiem.Name = "dataGridView_BangDiem";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_BangDiem.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_BangDiem.RowHeadersWidth = 51;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView_BangDiem.Size = new System.Drawing.Size(996, 629);
             this.dataGridView_BangDiem.TabIndex = 0;
             // 
@@ -1164,7 +1195,7 @@ namespace StudentManagementSystem
             this.TB_search_page1.SelectionLength = 0;
             this.TB_search_page1.SelectionStart = 0;
             this.TB_search_page1.ShortcutsEnabled = true;
-            this.TB_search_page1.Size = new System.Drawing.Size(226, 28);
+            this.TB_search_page1.Size = new System.Drawing.Size(226, 39);
             this.TB_search_page1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page1.TabIndex = 0;
             this.TB_search_page1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1412,7 +1443,7 @@ namespace StudentManagementSystem
             this.tabThongTin.Location = new System.Drawing.Point(4, 22);
             this.tabThongTin.Name = "tabThongTin";
             this.tabThongTin.Padding = new System.Windows.Forms.Padding(3);
-            this.tabThongTin.Size = new System.Drawing.Size(1277, 710);
+            this.tabThongTin.Size = new System.Drawing.Size(1279, 710);
             this.tabThongTin.TabIndex = 1;
             this.tabThongTin.Text = "Thongtin";
             this.tabThongTin.UseVisualStyleBackColor = true;
@@ -1442,7 +1473,7 @@ namespace StudentManagementSystem
             this.dataGridView_ThongTinHocSinh.Name = "dataGridView_ThongTinHocSinh";
             this.dataGridView_ThongTinHocSinh.RowHeadersWidth = 51;
             this.dataGridView_ThongTinHocSinh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_ThongTinHocSinh.Size = new System.Drawing.Size(1271, 629);
+            this.dataGridView_ThongTinHocSinh.Size = new System.Drawing.Size(1273, 629);
             this.dataGridView_ThongTinHocSinh.TabIndex = 3;
             this.dataGridView_ThongTinHocSinh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_ThongTinHocSinh_CellClick);
             // 
@@ -1549,7 +1580,7 @@ namespace StudentManagementSystem
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1271, 75);
+            this.panel4.Size = new System.Drawing.Size(1273, 75);
             this.panel4.TabIndex = 2;
             // 
             // btn_reset_page2
@@ -1574,7 +1605,7 @@ namespace StudentManagementSystem
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(1051, 8);
+            this.label6.Location = new System.Drawing.Point(1053, 8);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(75, 20);
             this.label6.TabIndex = 12;
@@ -1642,7 +1673,7 @@ namespace StudentManagementSystem
             this.TB_Search_page2.IconRight = null;
             this.TB_Search_page2.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_Search_page2.Lines = new string[0];
-            this.TB_Search_page2.Location = new System.Drawing.Point(1055, 27);
+            this.TB_Search_page2.Location = new System.Drawing.Point(1057, 27);
             this.TB_Search_page2.MaxLength = 32767;
             this.TB_Search_page2.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_Search_page2.Modified = false;
@@ -1735,7 +1766,7 @@ namespace StudentManagementSystem
             this.tabtongketdiem.Location = new System.Drawing.Point(4, 22);
             this.tabtongketdiem.Name = "tabtongketdiem";
             this.tabtongketdiem.Padding = new System.Windows.Forms.Padding(3);
-            this.tabtongketdiem.Size = new System.Drawing.Size(1277, 710);
+            this.tabtongketdiem.Size = new System.Drawing.Size(1279, 710);
             this.tabtongketdiem.TabIndex = 2;
             this.tabtongketdiem.Text = "tongketdiem";
             this.tabtongketdiem.UseVisualStyleBackColor = true;
@@ -1746,7 +1777,7 @@ namespace StudentManagementSystem
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(3, 78);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(985, 629);
+            this.panel7.Size = new System.Drawing.Size(987, 629);
             this.panel7.TabIndex = 5;
             // 
             // dataGridView_Tongket
@@ -1772,7 +1803,7 @@ namespace StudentManagementSystem
             this.dataGridView_Tongket.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_Tongket.Name = "dataGridView_Tongket";
             this.dataGridView_Tongket.RowHeadersWidth = 51;
-            this.dataGridView_Tongket.Size = new System.Drawing.Size(985, 629);
+            this.dataGridView_Tongket.Size = new System.Drawing.Size(987, 629);
             this.dataGridView_Tongket.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
@@ -1895,7 +1926,7 @@ namespace StudentManagementSystem
             this.panel6.Controls.Add(this.lb_tengvcn_p3);
             this.panel6.Controls.Add(this.label24);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel6.Location = new System.Drawing.Point(988, 78);
+            this.panel6.Location = new System.Drawing.Point(990, 78);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(286, 629);
             this.panel6.TabIndex = 4;
@@ -2017,7 +2048,7 @@ namespace StudentManagementSystem
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(3, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1271, 75);
+            this.panel5.Size = new System.Drawing.Size(1273, 75);
             this.panel5.TabIndex = 2;
             // 
             // btn_Reset_p3
@@ -2042,7 +2073,7 @@ namespace StudentManagementSystem
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.DimGray;
-            this.label9.Location = new System.Drawing.Point(1051, 8);
+            this.label9.Location = new System.Drawing.Point(1053, 8);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(75, 20);
             this.label9.TabIndex = 12;
@@ -2110,7 +2141,7 @@ namespace StudentManagementSystem
             this.TB_search_page3.IconRight = null;
             this.TB_search_page3.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_search_page3.Lines = new string[0];
-            this.TB_search_page3.Location = new System.Drawing.Point(1055, 27);
+            this.TB_search_page3.Location = new System.Drawing.Point(1057, 27);
             this.TB_search_page3.MaxLength = 32767;
             this.TB_search_page3.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_search_page3.Modified = false;
@@ -2204,7 +2235,7 @@ namespace StudentManagementSystem
             this.tabchuyenlop.Location = new System.Drawing.Point(4, 22);
             this.tabchuyenlop.Name = "tabchuyenlop";
             this.tabchuyenlop.Padding = new System.Windows.Forms.Padding(3);
-            this.tabchuyenlop.Size = new System.Drawing.Size(1277, 710);
+            this.tabchuyenlop.Size = new System.Drawing.Size(1279, 710);
             this.tabchuyenlop.TabIndex = 3;
             this.tabchuyenlop.Text = "chuyenlop";
             // 
@@ -2214,7 +2245,7 @@ namespace StudentManagementSystem
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(578, 78);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(117, 629);
+            this.panel11.Size = new System.Drawing.Size(119, 629);
             this.panel11.TabIndex = 6;
             // 
             // pictureBox3
@@ -2224,7 +2255,7 @@ namespace StudentManagementSystem
             this.pictureBox3.Image = global::StudentManagementSystem.Properties.Resources.newlogo;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(117, 629);
+            this.pictureBox3.Size = new System.Drawing.Size(119, 629);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -2233,7 +2264,7 @@ namespace StudentManagementSystem
             // 
             this.panel10.Controls.Add(this.dataGridView_page4_lopmoi);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(695, 78);
+            this.panel10.Location = new System.Drawing.Point(697, 78);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(579, 629);
             this.panel10.TabIndex = 5;
@@ -2391,7 +2422,7 @@ namespace StudentManagementSystem
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel8.Location = new System.Drawing.Point(3, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1271, 75);
+            this.panel8.Size = new System.Drawing.Size(1273, 75);
             this.panel8.TabIndex = 3;
             // 
             // btn_reset_p4
@@ -2401,7 +2432,7 @@ namespace StudentManagementSystem
             this.btn_reset_p4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_reset_p4.Depth = 0;
             this.btn_reset_p4.Icon = null;
-            this.btn_reset_p4.Location = new System.Drawing.Point(1013, 3);
+            this.btn_reset_p4.Location = new System.Drawing.Point(1015, 3);
             this.btn_reset_p4.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_reset_p4.Name = "btn_reset_p4";
             this.btn_reset_p4.Primary = true;
@@ -2417,7 +2448,7 @@ namespace StudentManagementSystem
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.DimGray;
-            this.label30.Location = new System.Drawing.Point(1043, 48);
+            this.label30.Location = new System.Drawing.Point(1045, 48);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(43, 20);
             this.label30.TabIndex = 20;
@@ -2430,7 +2461,7 @@ namespace StudentManagementSystem
             this.CB_LoaiChuyen.Items.AddRange(new object[] {
             "Chuyển lớp",
             "Lên lớp"});
-            this.CB_LoaiChuyen.Location = new System.Drawing.Point(1088, 48);
+            this.CB_LoaiChuyen.Location = new System.Drawing.Point(1090, 48);
             this.CB_LoaiChuyen.Name = "CB_LoaiChuyen";
             this.CB_LoaiChuyen.Size = new System.Drawing.Size(104, 21);
             this.CB_LoaiChuyen.TabIndex = 19;
@@ -2441,7 +2472,7 @@ namespace StudentManagementSystem
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.DimGray;
-            this.label26.Location = new System.Drawing.Point(702, 5);
+            this.label26.Location = new System.Drawing.Point(704, 5);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(104, 20);
             this.label26.TabIndex = 14;
@@ -2454,7 +2485,7 @@ namespace StudentManagementSystem
             this.btn_ChuyenLop.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_ChuyenLop.Depth = 0;
             this.btn_ChuyenLop.Icon = null;
-            this.btn_ChuyenLop.Location = new System.Drawing.Point(1091, 3);
+            this.btn_ChuyenLop.Location = new System.Drawing.Point(1093, 3);
             this.btn_ChuyenLop.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_ChuyenLop.Name = "btn_ChuyenLop";
             this.btn_ChuyenLop.Primary = true;
@@ -2470,7 +2501,7 @@ namespace StudentManagementSystem
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.DimGray;
-            this.label27.Location = new System.Drawing.Point(932, 27);
+            this.label27.Location = new System.Drawing.Point(934, 27);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(40, 20);
             this.label27.TabIndex = 18;
@@ -2493,7 +2524,7 @@ namespace StudentManagementSystem
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.DimGray;
-            this.label28.Location = new System.Drawing.Point(731, 27);
+            this.label28.Location = new System.Drawing.Point(733, 27);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(76, 20);
             this.label28.TabIndex = 17;
@@ -2505,7 +2536,7 @@ namespace StudentManagementSystem
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.DimGray;
-            this.label29.Location = new System.Drawing.Point(854, 27);
+            this.label29.Location = new System.Drawing.Point(856, 27);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(44, 20);
             this.label29.TabIndex = 16;
@@ -2519,7 +2550,7 @@ namespace StudentManagementSystem
             "K10",
             "K11",
             "K12"});
-            this.CB_KhoiMoi_p4.Location = new System.Drawing.Point(858, 50);
+            this.CB_KhoiMoi_p4.Location = new System.Drawing.Point(860, 50);
             this.CB_KhoiMoi_p4.Name = "CB_KhoiMoi_p4";
             this.CB_KhoiMoi_p4.Size = new System.Drawing.Size(72, 21);
             this.CB_KhoiMoi_p4.TabIndex = 14;
@@ -2529,7 +2560,7 @@ namespace StudentManagementSystem
             // 
             this.CB_NamHocMoi_p4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CB_NamHocMoi_p4.FormattingEnabled = true;
-            this.CB_NamHocMoi_p4.Location = new System.Drawing.Point(731, 50);
+            this.CB_NamHocMoi_p4.Location = new System.Drawing.Point(733, 50);
             this.CB_NamHocMoi_p4.Name = "CB_NamHocMoi_p4";
             this.CB_NamHocMoi_p4.Size = new System.Drawing.Size(121, 21);
             this.CB_NamHocMoi_p4.TabIndex = 15;
@@ -2543,7 +2574,7 @@ namespace StudentManagementSystem
             "K10",
             "K11",
             "k12"});
-            this.CB_LopMoi_p4.Location = new System.Drawing.Point(936, 50);
+            this.CB_LopMoi_p4.Location = new System.Drawing.Point(938, 50);
             this.CB_LopMoi_p4.Name = "CB_LopMoi_p4";
             this.CB_LopMoi_p4.Size = new System.Drawing.Size(72, 21);
             this.CB_LopMoi_p4.TabIndex = 13;
@@ -2713,7 +2744,7 @@ namespace StudentManagementSystem
             this.themNK_LH.Location = new System.Drawing.Point(4, 22);
             this.themNK_LH.Name = "themNK_LH";
             this.themNK_LH.Padding = new System.Windows.Forms.Padding(3);
-            this.themNK_LH.Size = new System.Drawing.Size(1277, 710);
+            this.themNK_LH.Size = new System.Drawing.Size(1279, 710);
             this.themNK_LH.TabIndex = 4;
             this.themNK_LH.Text = "themNK_LH";
             this.themNK_LH.UseVisualStyleBackColor = true;
@@ -2725,7 +2756,7 @@ namespace StudentManagementSystem
             this.pictureBox4.Image = global::StudentManagementSystem.Properties.Resources.newlogo;
             this.pictureBox4.Location = new System.Drawing.Point(403, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(447, 704);
+            this.pictureBox4.Size = new System.Drawing.Size(449, 704);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -2747,7 +2778,7 @@ namespace StudentManagementSystem
             this.panel13.Controls.Add(this.dataGridView_Lop_p5);
             this.panel13.Controls.Add(this.label32);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel13.Location = new System.Drawing.Point(850, 3);
+            this.panel13.Location = new System.Drawing.Point(852, 3);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(424, 704);
             this.panel13.TabIndex = 1;
@@ -3114,7 +3145,7 @@ namespace StudentManagementSystem
             this.Tabthemhs.Location = new System.Drawing.Point(4, 22);
             this.Tabthemhs.Name = "Tabthemhs";
             this.Tabthemhs.Padding = new System.Windows.Forms.Padding(3);
-            this.Tabthemhs.Size = new System.Drawing.Size(1277, 710);
+            this.Tabthemhs.Size = new System.Drawing.Size(1279, 710);
             this.Tabthemhs.TabIndex = 5;
             this.Tabthemhs.Text = "Themhs";
             this.Tabthemhs.UseVisualStyleBackColor = true;
@@ -3125,7 +3156,7 @@ namespace StudentManagementSystem
             this.panel15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel15.Location = new System.Drawing.Point(3, 3);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(897, 704);
+            this.panel15.Size = new System.Drawing.Size(899, 704);
             this.panel15.TabIndex = 1;
             // 
             // dataGridView_HSThem_p6
@@ -3148,7 +3179,7 @@ namespace StudentManagementSystem
             this.dataGridView_HSThem_p6.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_HSThem_p6.Name = "dataGridView_HSThem_p6";
             this.dataGridView_HSThem_p6.RowHeadersWidth = 51;
-            this.dataGridView_HSThem_p6.Size = new System.Drawing.Size(897, 704);
+            this.dataGridView_HSThem_p6.Size = new System.Drawing.Size(899, 704);
             this.dataGridView_HSThem_p6.TabIndex = 0;
             this.dataGridView_HSThem_p6.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -3236,7 +3267,7 @@ namespace StudentManagementSystem
             this.panel14.Controls.Add(this.CB_NamHoc_p6);
             this.panel14.Controls.Add(this.label43);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(900, 3);
+            this.panel14.Location = new System.Drawing.Point(902, 3);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(374, 704);
             this.panel14.TabIndex = 0;
@@ -3711,7 +3742,7 @@ namespace StudentManagementSystem
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1277, 710);
+            this.tabPage1.Size = new System.Drawing.Size(1279, 710);
             this.tabPage1.TabIndex = 6;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -3723,7 +3754,7 @@ namespace StudentManagementSystem
             this.panel17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel17.Location = new System.Drawing.Point(3, 3);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(1271, 704);
+            this.panel17.Size = new System.Drawing.Size(1273, 704);
             this.panel17.TabIndex = 0;
             // 
             // label22
@@ -3745,7 +3776,7 @@ namespace StudentManagementSystem
             this.tab_caidat_tab8.Location = new System.Drawing.Point(4, 22);
             this.tab_caidat_tab8.Name = "tab_caidat_tab8";
             this.tab_caidat_tab8.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_caidat_tab8.Size = new System.Drawing.Size(1277, 710);
+            this.tab_caidat_tab8.Size = new System.Drawing.Size(1279, 710);
             this.tab_caidat_tab8.TabIndex = 7;
             this.tab_caidat_tab8.Text = "cai dat";
             this.tab_caidat_tab8.UseVisualStyleBackColor = true;
@@ -3759,7 +3790,7 @@ namespace StudentManagementSystem
             this.panel19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel19.Location = new System.Drawing.Point(648, 457);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(626, 250);
+            this.panel19.Size = new System.Drawing.Size(628, 250);
             this.panel19.TabIndex = 37;
             // 
             // bunifuCheckBox1
@@ -3853,7 +3884,7 @@ namespace StudentManagementSystem
             this.panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel18.Location = new System.Drawing.Point(648, 3);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(626, 454);
+            this.panel18.Size = new System.Drawing.Size(628, 454);
             this.panel18.TabIndex = 1;
             // 
             // btn_thaymtAdmin
