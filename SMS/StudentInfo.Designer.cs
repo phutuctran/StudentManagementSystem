@@ -137,10 +137,10 @@ namespace StudentManagementSystem
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.LB_NgaySinh);
             this.tabPage1.Controls.Add(this.LB_NienKhoa);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1017, 526);
+            this.tabPage1.Size = new System.Drawing.Size(1017, 523);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Thông tin";
             // 
@@ -151,7 +151,7 @@ namespace StudentManagementSystem
             this.LB_NoiSinh.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NoiSinh.Location = new System.Drawing.Point(549, 165);
             this.LB_NoiSinh.Name = "LB_NoiSinh";
-            this.LB_NoiSinh.Size = new System.Drawing.Size(78, 24);
+            this.LB_NoiSinh.Size = new System.Drawing.Size(100, 29);
             this.LB_NoiSinh.TabIndex = 41;
             this.LB_NoiSinh.Text = "ThaiLan";
             // 
@@ -162,7 +162,7 @@ namespace StudentManagementSystem
             this.label30.ForeColor = System.Drawing.Color.DimGray;
             this.label30.Location = new System.Drawing.Point(416, 165);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(93, 24);
+            this.label30.Size = new System.Drawing.Size(116, 29);
             this.label30.TabIndex = 40;
             this.label30.Text = "Nơi sinh:";
             // 
@@ -176,7 +176,7 @@ namespace StudentManagementSystem
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(392, 520);
+            this.panel2.Size = new System.Drawing.Size(392, 517);
             this.panel2.TabIndex = 39;
             // 
             // PB_Avatar
@@ -203,9 +203,9 @@ namespace StudentManagementSystem
             this.LB_HoTenHS.BackColor = System.Drawing.Color.Transparent;
             this.LB_HoTenHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LB_HoTenHS.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_HoTenHS.Location = new System.Drawing.Point(70, 300);
+            this.LB_HoTenHS.Location = new System.Drawing.Point(70, 298);
             this.LB_HoTenHS.Name = "LB_HoTenHS";
-            this.LB_HoTenHS.Size = new System.Drawing.Size(235, 25);
+            this.LB_HoTenHS.Size = new System.Drawing.Size(290, 31);
             this.LB_HoTenHS.TabIndex = 4;
             this.LB_HoTenHS.Text = "Trần Trương Phú Túc";
             this.LB_HoTenHS.Paint += new System.Windows.Forms.PaintEventHandler(this.LB_HoTenHS_Paint);
@@ -216,9 +216,9 @@ namespace StudentManagementSystem
             this.LB_MaHS.AutoSize = true;
             this.LB_MaHS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_MaHS.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_MaHS.Location = new System.Drawing.Point(83, 343);
+            this.LB_MaHS.Location = new System.Drawing.Point(83, 341);
             this.LB_MaHS.Name = "LB_MaHS";
-            this.LB_MaHS.Size = new System.Drawing.Size(203, 24);
+            this.LB_MaHS.Size = new System.Drawing.Size(257, 29);
             this.LB_MaHS.TabIndex = 6;
             this.LB_MaHS.Text = "Mã học sinh: 20520345";
             this.LB_MaHS.Paint += new System.Windows.Forms.PaintEventHandler(this.LB_MaHS_Paint);
@@ -229,9 +229,9 @@ namespace StudentManagementSystem
             this.LB_Lop.AutoSize = true;
             this.LB_Lop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.LB_Lop.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_Lop.Location = new System.Drawing.Point(132, 386);
+            this.LB_Lop.Location = new System.Drawing.Point(132, 384);
             this.LB_Lop.Name = "LB_Lop";
-            this.LB_Lop.Size = new System.Drawing.Size(95, 24);
+            this.LB_Lop.Size = new System.Drawing.Size(120, 29);
             this.LB_Lop.TabIndex = 5;
             this.LB_Lop.Text = "Lớp: 12A1";
             this.LB_Lop.Paint += new System.Windows.Forms.PaintEventHandler(this.LB_Lop_Paint);
@@ -243,7 +243,7 @@ namespace StudentManagementSystem
             this.label18.ForeColor = System.Drawing.Color.DimGray;
             this.label18.Location = new System.Drawing.Point(416, 444);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(89, 24);
+            this.label18.Size = new System.Drawing.Size(108, 29);
             this.label18.TabIndex = 38;
             this.label18.Text = "Ghi chú:";
             // 
@@ -254,7 +254,7 @@ namespace StudentManagementSystem
             this.label17.ForeColor = System.Drawing.Color.DimGray;
             this.label17.Location = new System.Drawing.Point(416, 405);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(138, 24);
+            this.label17.Size = new System.Drawing.Size(170, 29);
             this.label17.TabIndex = 37;
             this.label17.Text = "Nghề nghiệp:";
             // 
@@ -265,7 +265,7 @@ namespace StudentManagementSystem
             this.label16.ForeColor = System.Drawing.Color.DimGray;
             this.label16.Location = new System.Drawing.Point(773, 365);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(110, 24);
+            this.label16.Size = new System.Drawing.Size(136, 29);
             this.label16.TabIndex = 36;
             this.label16.Text = "Năm sinh: ";
             // 
@@ -276,7 +276,7 @@ namespace StudentManagementSystem
             this.label15.ForeColor = System.Drawing.Color.DimGray;
             this.label15.Location = new System.Drawing.Point(416, 365);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(88, 24);
+            this.label15.Size = new System.Drawing.Size(109, 29);
             this.label15.TabIndex = 35;
             this.label15.Text = "Tên mẹ:";
             // 
@@ -287,7 +287,7 @@ namespace StudentManagementSystem
             this.label14.ForeColor = System.Drawing.Color.DimGray;
             this.label14.Location = new System.Drawing.Point(416, 325);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(138, 24);
+            this.label14.Size = new System.Drawing.Size(170, 29);
             this.label14.TabIndex = 34;
             this.label14.Text = "Nghề nghiệp:";
             // 
@@ -298,7 +298,7 @@ namespace StudentManagementSystem
             this.label13.ForeColor = System.Drawing.Color.DimGray;
             this.label13.Location = new System.Drawing.Point(770, 285);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(104, 24);
+            this.label13.Size = new System.Drawing.Size(129, 29);
             this.label13.TabIndex = 33;
             this.label13.Text = "Năm sinh:";
             // 
@@ -309,7 +309,7 @@ namespace StudentManagementSystem
             this.label12.ForeColor = System.Drawing.Color.DimGray;
             this.label12.Location = new System.Drawing.Point(416, 285);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(93, 24);
+            this.label12.Size = new System.Drawing.Size(114, 29);
             this.label12.TabIndex = 32;
             this.label12.Text = "Tên cha:";
             // 
@@ -320,7 +320,7 @@ namespace StudentManagementSystem
             this.label11.ForeColor = System.Drawing.Color.DimGray;
             this.label11.Location = new System.Drawing.Point(770, 205);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 24);
+            this.label11.Size = new System.Drawing.Size(124, 29);
             this.label11.TabIndex = 31;
             this.label11.Text = "Tôn giáo:";
             // 
@@ -331,7 +331,7 @@ namespace StudentManagementSystem
             this.label10.ForeColor = System.Drawing.Color.DimGray;
             this.label10.Location = new System.Drawing.Point(416, 125);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 24);
+            this.label10.Size = new System.Drawing.Size(138, 29);
             this.label10.TabIndex = 30;
             this.label10.Text = "Niên khóa:";
             // 
@@ -342,7 +342,7 @@ namespace StudentManagementSystem
             this.label9.ForeColor = System.Drawing.Color.DimGray;
             this.label9.Location = new System.Drawing.Point(416, 205);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 24);
+            this.label9.Size = new System.Drawing.Size(108, 29);
             this.label9.TabIndex = 29;
             this.label9.Text = "Dân tộc:";
             // 
@@ -354,7 +354,7 @@ namespace StudentManagementSystem
             this.label8.ForeColor = System.Drawing.Color.DimGray;
             this.label8.Location = new System.Drawing.Point(416, 245);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 24);
+            this.label8.Size = new System.Drawing.Size(100, 29);
             this.label8.TabIndex = 28;
             this.label8.Text = "Địa chỉ:";
             // 
@@ -365,7 +365,7 @@ namespace StudentManagementSystem
             this.label7.ForeColor = System.Drawing.Color.DimGray;
             this.label7.Location = new System.Drawing.Point(770, 85);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 24);
+            this.label7.Size = new System.Drawing.Size(117, 29);
             this.label7.TabIndex = 27;
             this.label7.Text = "Giới tính:";
             // 
@@ -376,7 +376,7 @@ namespace StudentManagementSystem
             this.label3.ForeColor = System.Drawing.Color.DimGray;
             this.label3.Location = new System.Drawing.Point(416, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 24);
+            this.label3.Size = new System.Drawing.Size(142, 29);
             this.label3.TabIndex = 26;
             this.label3.Text = "Ngày sinh: ";
             // 
@@ -387,7 +387,7 @@ namespace StudentManagementSystem
             this.LB_GhiChu.ForeColor = System.Drawing.Color.DimGray;
             this.LB_GhiChu.Location = new System.Drawing.Point(553, 444);
             this.LB_GhiChu.Name = "LB_GhiChu";
-            this.LB_GhiChu.Size = new System.Drawing.Size(44, 24);
+            this.LB_GhiChu.Size = new System.Drawing.Size(57, 29);
             this.LB_GhiChu.TabIndex = 25;
             this.LB_GhiChu.Text = "hiihi";
             // 
@@ -398,7 +398,7 @@ namespace StudentManagementSystem
             this.LB_NgheNghiepMe.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NgheNghiepMe.Location = new System.Drawing.Point(549, 405);
             this.LB_NgheNghiepMe.Name = "LB_NgheNghiepMe";
-            this.LB_NgheNghiepMe.Size = new System.Drawing.Size(191, 24);
+            this.LB_NgheNghiepMe.Size = new System.Drawing.Size(235, 29);
             this.LB_NgheNghiepMe.TabIndex = 24;
             this.LB_NgheNghiepMe.Text = "Công nhân viên chức";
             // 
@@ -409,7 +409,7 @@ namespace StudentManagementSystem
             this.LB_TenMe.ForeColor = System.Drawing.Color.DimGray;
             this.LB_TenMe.Location = new System.Drawing.Point(549, 365);
             this.LB_TenMe.Name = "LB_TenMe";
-            this.LB_TenMe.Size = new System.Drawing.Size(79, 24);
+            this.LB_TenMe.Size = new System.Drawing.Size(99, 29);
             this.LB_TenMe.TabIndex = 23;
             this.LB_TenMe.Text = "Nam Vo";
             // 
@@ -420,7 +420,7 @@ namespace StudentManagementSystem
             this.LB_NamSinhMe.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NamSinhMe.Location = new System.Drawing.Point(890, 365);
             this.LB_NamSinhMe.Name = "LB_NamSinhMe";
-            this.LB_NamSinhMe.Size = new System.Drawing.Size(50, 24);
+            this.LB_NamSinhMe.Size = new System.Drawing.Size(65, 29);
             this.LB_NamSinhMe.TabIndex = 22;
             this.LB_NamSinhMe.Text = "1972";
             // 
@@ -431,7 +431,7 @@ namespace StudentManagementSystem
             this.LB_NgheNghiepCha.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NgheNghiepCha.Location = new System.Drawing.Point(549, 325);
             this.LB_NgheNghiepCha.Name = "LB_NgheNghiepCha";
-            this.LB_NgheNghiepCha.Size = new System.Drawing.Size(201, 24);
+            this.LB_NgheNghiepCha.Size = new System.Drawing.Size(249, 29);
             this.LB_NgheNghiepCha.TabIndex = 21;
             this.LB_NgheNghiepCha.Text = "Công Nhân Viên Chức";
             // 
@@ -442,7 +442,7 @@ namespace StudentManagementSystem
             this.LB_NamSinhCha.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NamSinhCha.Location = new System.Drawing.Point(890, 285);
             this.LB_NamSinhCha.Name = "LB_NamSinhCha";
-            this.LB_NamSinhCha.Size = new System.Drawing.Size(50, 24);
+            this.LB_NamSinhCha.Size = new System.Drawing.Size(65, 29);
             this.LB_NamSinhCha.TabIndex = 20;
             this.LB_NamSinhCha.Text = "1974";
             // 
@@ -453,7 +453,7 @@ namespace StudentManagementSystem
             this.LB_TenCha.ForeColor = System.Drawing.Color.DimGray;
             this.LB_TenCha.Location = new System.Drawing.Point(549, 285);
             this.LB_TenCha.Name = "LB_TenCha";
-            this.LB_TenCha.Size = new System.Drawing.Size(182, 24);
+            this.LB_TenCha.Size = new System.Drawing.Size(226, 29);
             this.LB_TenCha.TabIndex = 19;
             this.LB_TenCha.Text = "Trần Văn Thành Em";
             // 
@@ -464,7 +464,7 @@ namespace StudentManagementSystem
             this.LB_DanToc.ForeColor = System.Drawing.Color.DimGray;
             this.LB_DanToc.Location = new System.Drawing.Point(549, 205);
             this.LB_DanToc.Name = "LB_DanToc";
-            this.LB_DanToc.Size = new System.Drawing.Size(48, 24);
+            this.LB_DanToc.Size = new System.Drawing.Size(61, 29);
             this.LB_DanToc.TabIndex = 17;
             this.LB_DanToc.Text = "Kinh";
             // 
@@ -475,7 +475,7 @@ namespace StudentManagementSystem
             this.LB_GioiTinh.ForeColor = System.Drawing.Color.DimGray;
             this.LB_GioiTinh.Location = new System.Drawing.Point(885, 85);
             this.LB_GioiTinh.Name = "LB_GioiTinh";
-            this.LB_GioiTinh.Size = new System.Drawing.Size(50, 24);
+            this.LB_GioiTinh.Size = new System.Drawing.Size(64, 29);
             this.LB_GioiTinh.TabIndex = 9;
             this.LB_GioiTinh.Text = "Nam";
             // 
@@ -486,7 +486,7 @@ namespace StudentManagementSystem
             this.LB_TonGiao.ForeColor = System.Drawing.Color.DimGray;
             this.LB_TonGiao.Location = new System.Drawing.Point(890, 205);
             this.LB_TonGiao.Name = "LB_TonGiao";
-            this.LB_TonGiao.Size = new System.Drawing.Size(66, 24);
+            this.LB_TonGiao.Size = new System.Drawing.Size(83, 29);
             this.LB_TonGiao.TabIndex = 15;
             this.LB_TonGiao.Text = "Không";
             // 
@@ -497,7 +497,7 @@ namespace StudentManagementSystem
             this.LB_DiaChi.ForeColor = System.Drawing.Color.DimGray;
             this.LB_DiaChi.Location = new System.Drawing.Point(549, 245);
             this.LB_DiaChi.Name = "LB_DiaChi";
-            this.LB_DiaChi.Size = new System.Drawing.Size(198, 24);
+            this.LB_DiaChi.Size = new System.Drawing.Size(246, 29);
             this.LB_DiaChi.TabIndex = 11;
             this.LB_DiaChi.Text = "Thủ Đức, Hồ Chí Minh";
             // 
@@ -508,7 +508,7 @@ namespace StudentManagementSystem
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(415, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 29);
+            this.label1.Size = new System.Drawing.Size(281, 36);
             this.label1.TabIndex = 7;
             this.label1.Text = "Thông tin cá nhân:";
             // 
@@ -519,7 +519,7 @@ namespace StudentManagementSystem
             this.LB_NgaySinh.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NgaySinh.Location = new System.Drawing.Point(549, 85);
             this.LB_NgaySinh.Name = "LB_NgaySinh";
-            this.LB_NgaySinh.Size = new System.Drawing.Size(100, 24);
+            this.LB_NgaySinh.Size = new System.Drawing.Size(131, 29);
             this.LB_NgaySinh.TabIndex = 9;
             this.LB_NgaySinh.Text = "11/05/2002";
             // 
@@ -530,7 +530,7 @@ namespace StudentManagementSystem
             this.LB_NienKhoa.ForeColor = System.Drawing.Color.DimGray;
             this.LB_NienKhoa.Location = new System.Drawing.Point(549, 125);
             this.LB_NienKhoa.Name = "LB_NienKhoa";
-            this.LB_NienKhoa.Size = new System.Drawing.Size(96, 24);
+            this.LB_NienKhoa.Size = new System.Drawing.Size(125, 29);
             this.LB_NienKhoa.TabIndex = 12;
             this.LB_NienKhoa.Text = "2017-2020";
             // 
@@ -541,10 +541,10 @@ namespace StudentManagementSystem
             this.tabPage2.Controls.Add(this.label26);
             this.tabPage2.Controls.Add(this.LV_BangDiem);
             this.tabPage2.Controls.Add(this.btn_xem);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1017, 526);
+            this.tabPage2.Size = new System.Drawing.Size(1017, 523);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Học Tập";
             // 
@@ -576,7 +576,7 @@ namespace StudentManagementSystem
             this.label26.ForeColor = System.Drawing.Color.DimGray;
             this.label26.Location = new System.Drawing.Point(5, 20);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(107, 24);
+            this.label26.Size = new System.Drawing.Size(135, 29);
             this.label26.TabIndex = 10;
             this.label26.Text = "Bảng điểm:";
             // 
@@ -605,7 +605,7 @@ namespace StudentManagementSystem
             this.LV_BangDiem.MouseState = MaterialSkin.MouseState.OUT;
             this.LV_BangDiem.Name = "LV_BangDiem";
             this.LV_BangDiem.OwnerDraw = true;
-            this.LV_BangDiem.Size = new System.Drawing.Size(751, 520);
+            this.LV_BangDiem.Size = new System.Drawing.Size(751, 517);
             this.LV_BangDiem.TabIndex = 16;
             this.LV_BangDiem.UseCompatibleStateImageBehavior = false;
             this.LV_BangDiem.View = System.Windows.Forms.View.Details;
@@ -664,7 +664,7 @@ namespace StudentManagementSystem
             this.btn_xem.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_xem.Name = "btn_xem";
             this.btn_xem.Primary = true;
-            this.btn_xem.Size = new System.Drawing.Size(86, 36);
+            this.btn_xem.Size = new System.Drawing.Size(103, 36);
             this.btn_xem.TabIndex = 14;
             this.btn_xem.Text = "Xem điểm";
             this.btn_xem.UseVisualStyleBackColor = true;
@@ -672,10 +672,10 @@ namespace StudentManagementSystem
             // 
             // print
             // 
-            this.print.Location = new System.Drawing.Point(4, 22);
+            this.print.Location = new System.Drawing.Point(4, 25);
             this.print.Name = "print";
             this.print.Padding = new System.Windows.Forms.Padding(3);
-            this.print.Size = new System.Drawing.Size(1017, 526);
+            this.print.Size = new System.Drawing.Size(1017, 523);
             this.print.TabIndex = 4;
             this.print.Text = "IN BẢNG ĐIỂM";
             this.print.UseVisualStyleBackColor = true;
