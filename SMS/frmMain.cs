@@ -361,6 +361,17 @@ namespace StudentManagementSystem
             for (int i = 0; i < Admin.Func_Page1.ListHocSinh.Count; i++)
             {
                 Student p = Admin.Func_Page1.ListHocSinh[i];
+                if (idxMon == 11)
+                {
+                    dataGridView_BangDiem.Rows[i].Cells[3].Value = p.DSDiem[idxMon].DDGTX1.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX1.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[4].Value = p.DSDiem[idxMon].DDGTX2.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX2.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[5].Value = p.DSDiem[idxMon].DDGTX3.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX3.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[6].Value = p.DSDiem[idxMon].DDGTX4.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX4.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[7].Value = p.DSDiem[idxMon].DDGGK.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGGK.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[8].Value = p.DSDiem[idxMon].DDGCK.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGCK.diem < 5 ? "CĐ" : "Đ";
+                    dataGridView_BangDiem.Rows[i].Cells[9].Value = p.DSDiem[idxMon].DDGTRB.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTRB.diem < 5 ? "CĐ" : "Đ";
+                    continue;
+                }
                 dataGridView_BangDiem.Rows[i].Cells[3].Value = p.DSDiem[idxMon].DDGTX1.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX1.diem.ToString();
                 dataGridView_BangDiem.Rows[i].Cells[4].Value = p.DSDiem[idxMon].DDGTX2.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX2.diem.ToString();
                 dataGridView_BangDiem.Rows[i].Cells[5].Value = p.DSDiem[idxMon].DDGTX3.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTX3.diem.ToString();
@@ -373,43 +384,84 @@ namespace StudentManagementSystem
 
         private void btn_tinhDTB_pag1_Click(object sender, EventArgs e)
         {
+            int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
+            int tongHeSo = 0;
+            double tongDiem = 0;
+            int tongCotDiem = 0;
             int[] heSo = { 1, 1, 1, 1, 2, 3 };
-            for (int i = 0; i < Admin.Func_Page1.ListHocSinh.Count; i++)
+            int count = Admin.Func_Page1.ListHocSinh.Count;
+            if (idxMon != 11)
             {
-                int tongHeSo = 0;
-                double tongDiem = 0;
-                int tongCotDiem = 0;
+                
+                for (int i = 0; i < count; i++)
+                {
+                    tongHeSo = 0;
+                    tongDiem = 0;
+                    tongCotDiem = 0;
+                    for (int j = 3; j <= 8; j++)
+                    {
+                        string diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
+                        //MessageBox.Show(diem);
+                        if (string.IsNullOrEmpty(diem.Trim()))
+                        {
+                            continue;
+                        }
+                        double diemthuc = GlobalFunction.CheckDiem(diem.Trim());
+                        if (diemthuc == -1)
+                        {
+                            MessageBox.Show($"Điểm nhập không hợp lệ ở STT {i + 1}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        }
+                        tongCotDiem = (j >= 3 && j <= 6) ? 1 : tongCotDiem;
+                        tongCotDiem += (j > 6) ? heSo[j - 3] : 0;
+                        tongDiem += diemthuc * heSo[j - 3];
+                        tongHeSo += heSo[j - 3];
+                    }
+
+                    if (tongCotDiem == 6)
+                    {
+                        double tmp = Math.Round(tongDiem / tongHeSo, 1);
+                        dataGridView_BangDiem.Rows[i].Cells[9].Value = tmp.ToString();
+                    }
+                    else
+                    {
+                        dataGridView_BangDiem.Rows[i].Cells[9].Value = "";
+                    }
+                }
+                return;
+            }
+            for (int i = 0; i < count; i++)
+            {
+                tongCotDiem = 0;
                 for (int j = 3; j <= 8; j++)
                 {
-                    string diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
-                    //MessageBox.Show(diem);
+
+                    string diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString().convertToUnSign().ToUpper();
                     if (string.IsNullOrEmpty(diem.Trim()))
                     {
                         continue;
                     }
-                    double diemthuc = GlobalFunction.CheckDiem(diem.Trim());
-                    if (diemthuc == -1)
+                    if (Array.IndexOf(GlobalProperties.listDat, diem) != -1)
                     {
-                        MessageBox.Show($"Điểm nhập không hợp lệ ở STT {i + 1}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        tongCotDiem = (j >= 3 && j <= 6) ? 1 : tongCotDiem;
+                        tongCotDiem += (j > 6) ? heSo[j - 3] : 0;
+                        continue;
+                    }
+                    if (Array.IndexOf(GlobalProperties.listChuaDat, diem) != -1)
+                    {
+                        dataGridView_BangDiem.Rows[i].Cells[9].Value = "CĐ";
                         break;
                     }
-                    tongCotDiem = (j >= 3 && j <= 6) ? 1 : tongCotDiem;
-                    tongCotDiem += (j > 6) ? heSo[j - 3] : 0;
-                    tongDiem += diemthuc * heSo[j - 3];
-                    tongHeSo += heSo[j - 3];
                 }
-
                 if (tongCotDiem == 6)
                 {
-                    double tmp = Math.Round(tongDiem / tongHeSo, 1);
-                    dataGridView_BangDiem.Rows[i].Cells[9].Value = tmp.ToString();
+                    dataGridView_BangDiem.Rows[i].Cells[9].Value = "Đ";
                 }
                 else
                 {
-                    dataGridView_BangDiem.Rows[i].Cells[9].Value = "";
+                    dataGridView_BangDiem.Rows[i].Cells[9].Value = "CĐ";
                 }
             }
-
         }
 
         private void btn_HoanTac_page1_Click(object sender, EventArgs e)
@@ -419,6 +471,7 @@ namespace StudentManagementSystem
 
         private void materialRaisedButton2_Click(object sender, EventArgs e) // Lưu điểm hs
         {
+            int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
             if (CB_MonHoc.SelectedIndex < 0)
             {
                 MessageBox.Show("Chưa chọn môn học!", "Thông báo");
@@ -435,24 +488,49 @@ namespace StudentManagementSystem
                         continue;
                     }
                     double diemthuc = GlobalFunction.CheckDiem(diem.Trim());
-                    if (diemthuc == -1)
+                    if (diemthuc == -1 && idxMon != 11)
                     {
-                        MessageBox.Show($"Điểm nhập không hợp lệ ở {i}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"Điểm nhập không hợp lệ ở học sinh {i + 1}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
+                    diem = diem.convertToUnSign().ToUpper();
+                    if (idxMon == 11 && Array.IndexOf(GlobalProperties.listDat, diem) == -1 && Array.IndexOf(GlobalProperties.listChuaDat, diem) == -1)
+                    {
+                        MessageBox.Show($"Điểm nhập không hợp lệ ở học sinh {i + 1}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }    
                 }
             }
             //btn_tinhDTB_pag1.PerformClick();
             for (int i = 0; i < Admin.Func_Page1.ListHocSinh.Count; i++)
             {
                 double[,] bangDiemNew = new double[13, 7];
-                int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
-                //MessageBox.Show(idxMon.ToString());
-                for (int j = 3; j <= 9; j++)
+
+                if (idxMon == 11)
                 {
-                    string _diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
-                    bangDiemNew[idxMon, j - 3] = GlobalFunction.CheckDiem(_diem.Trim());
+                    for (int j = 3; j <= 9; j++)
+                    {
+                        string _diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString().convertToUnSign().ToUpper();
+                        if (Array.IndexOf(GlobalProperties.listDat, _diem) != -1)
+                        {
+                            _diem = "10";
+                        }
+                        if (Array.IndexOf(GlobalProperties.listChuaDat, _diem) != -1)
+                        {
+                            _diem = "0";
+                        }
+                        bangDiemNew[idxMon, j - 3] = GlobalFunction.CheckDiem(_diem.Trim());
+                    }
                 }
+                else
+                {
+                    for (int j = 3; j <= 9; j++)
+                    {
+                        string _diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
+                        bangDiemNew[idxMon, j - 3] = GlobalFunction.CheckDiem(_diem.Trim());
+                    }
+                }    
+
                 Admin.Func_Page1.ListHocSinh[i].SaveDiemStudent(bangDiemNew, Admin.Func_Page1.CurrentHocKi, Admin.Func_Page1.CurrentNamHoc, idxMon);
             }
 

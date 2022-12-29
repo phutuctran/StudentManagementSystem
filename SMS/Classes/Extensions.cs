@@ -16,7 +16,7 @@ namespace StudentManagementSystem.Classes
             else
                 return string.Concat(value.Select((c, i) => i == index ? newchar : c));
         }
-        public static string convertToUnSign(string s)
+        public static string convertToUnSign(this string s)
         {
             Regex regex = new Regex("\\p{IsCombiningDiacriticalMarks}+");
             string temp = s.Normalize(NormalizationForm.FormD);
