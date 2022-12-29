@@ -133,6 +133,16 @@ namespace StudentManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exit__1_ {
+            get {
+                object obj = ResourceManager.GetObject("exit__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit2_nonbackground {
             get {
                 object obj = ResourceManager.GetObject("exit2_nonbackground", resourceCulture);
@@ -196,6 +206,16 @@ namespace StudentManagementSystem.Properties {
         internal static System.Drawing.Bitmap menu3 {
             get {
                 object obj = ResourceManager.GetObject("menu3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu4 {
+            get {
+                object obj = ResourceManager.GetObject("menu4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

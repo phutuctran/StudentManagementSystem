@@ -441,7 +441,7 @@ namespace StudentManagementSystem
                     }
                 }
             }
-            btn_tinhDTB_pag1.PerformClick();
+            //btn_tinhDTB_pag1.PerformClick();
             for (int i = 0; i < Admin.Func_Page1.ListHocSinh.Count; i++)
             {
                 double[,] bangDiemNew = new double[13, 7];
@@ -1391,6 +1391,7 @@ namespace StudentManagementSystem
 
         private void CB_NamHoc_p6_Click(object sender, EventArgs e)
         {
+            
             if (CB_NienKhoa_p6.SelectedIndex < 0)
             {
                 MessageBox.Show("Chọn niên khóa trước", "Thông báo");

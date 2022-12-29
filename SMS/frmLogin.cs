@@ -23,7 +23,7 @@ namespace StudentManagementSystem
                 LB_connectDB_Click(LB_connectDB, EventArgs.Empty);
             }
         }
-
+        
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -244,6 +244,11 @@ namespace StudentManagementSystem
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

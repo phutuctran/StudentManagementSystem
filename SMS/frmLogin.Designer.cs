@@ -35,22 +35,22 @@ namespace StudentManagementSystem
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.LB_LoginStatus = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.TB_password = new Bunifu.Framework.UI.BunifuTextbox();
-            this.TB_username = new Bunifu.Framework.UI.BunifuTextbox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.BT_Login = new MaterialSkin.Controls.MaterialRaisedButton();
             this.LB_connectDB = new System.Windows.Forms.Label();
             this.LB_trangThaiKetNoi = new System.Windows.Forms.Label();
+            this.TB_password = new Bunifu.Framework.UI.BunifuTextbox();
+            this.TB_username = new Bunifu.Framework.UI.BunifuTextbox();
             this.BT_Exit = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BT_Exit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -62,40 +62,31 @@ namespace StudentManagementSystem
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(269, 450);
+            this.panel1.Size = new System.Drawing.Size(260, 450);
             this.panel1.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(42, 271);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label2.Location = new System.Drawing.Point(12, 281);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 24);
+            this.label2.Size = new System.Drawing.Size(245, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "QUẢN LÍ HỌC SINH";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(88, 238);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.Location = new System.Drawing.Point(61, 232);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 24);
+            this.label1.Size = new System.Drawing.Size(140, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "HỆ THỐNG";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudentManagementSystem.Properties.Resources.newlogo;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 130);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -108,11 +99,12 @@ namespace StudentManagementSystem
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label6, 0, 6);
             this.tableLayoutPanel1.Controls.Add(this.BT_Login, 0, 5);
+            this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(330, 103);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 19F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 61F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -125,7 +117,7 @@ namespace StudentManagementSystem
             // 
             this.LB_LoginStatus.AutoSize = true;
             this.LB_LoginStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_LoginStatus.ForeColor = System.Drawing.Color.Firebrick;
+            this.LB_LoginStatus.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.LB_LoginStatus.Location = new System.Drawing.Point(3, 155);
             this.LB_LoginStatus.Name = "LB_LoginStatus";
             this.LB_LoginStatus.Size = new System.Drawing.Size(90, 20);
@@ -137,48 +129,18 @@ namespace StudentManagementSystem
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(134, 20);
+            this.label4.Size = new System.Drawing.Size(134, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "Tên đăng nhập:";
-            // 
-            // TB_password
-            // 
-            this.TB_password.BackColor = System.Drawing.SystemColors.Control;
-            this.TB_password.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_password.BackgroundImage")));
-            this.TB_password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TB_password.ForeColor = System.Drawing.Color.Gray;
-            this.TB_password.Icon = ((System.Drawing.Image)(resources.GetObject("TB_password.Icon")));
-            this.TB_password.Location = new System.Drawing.Point(4, 104);
-            this.TB_password.Margin = new System.Windows.Forms.Padding(4);
-            this.TB_password.Name = "TB_password";
-            this.TB_password.Size = new System.Drawing.Size(250, 45);
-            this.TB_password.TabIndex = 6;
-            this.TB_password.text = "";
-            this.TB_password.OnTextChange += new System.EventHandler(this.TB_password_OnTextChange);
-            // 
-            // TB_username
-            // 
-            this.TB_username.BackColor = System.Drawing.SystemColors.Control;
-            this.TB_username.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_username.BackgroundImage")));
-            this.TB_username.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TB_username.ForeColor = System.Drawing.Color.Gray;
-            this.TB_username.Icon = ((System.Drawing.Image)(resources.GetObject("TB_username.Icon")));
-            this.TB_username.Location = new System.Drawing.Point(4, 24);
-            this.TB_username.Margin = new System.Windows.Forms.Padding(4);
-            this.TB_username.Name = "TB_username";
-            this.TB_username.Size = new System.Drawing.Size(250, 45);
-            this.TB_username.TabIndex = 5;
-            this.TB_username.text = "";
-            this.TB_username.OnTextChange += new System.EventHandler(this.TB_username_OnTextChange);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DimGray;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 80);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(88, 20);
@@ -189,7 +151,7 @@ namespace StudentManagementSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DimGray;
+            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label6.Location = new System.Drawing.Point(3, 225);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(141, 20);
@@ -219,7 +181,7 @@ namespace StudentManagementSystem
             this.LB_connectDB.AutoSize = true;
             this.LB_connectDB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_connectDB.ForeColor = System.Drawing.Color.DimGray;
+            this.LB_connectDB.ForeColor = System.Drawing.Color.White;
             this.LB_connectDB.Location = new System.Drawing.Point(525, 417);
             this.LB_connectDB.Name = "LB_connectDB";
             this.LB_connectDB.Size = new System.Drawing.Size(117, 20);
@@ -231,16 +193,46 @@ namespace StudentManagementSystem
             // 
             this.LB_trangThaiKetNoi.AutoSize = true;
             this.LB_trangThaiKetNoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LB_trangThaiKetNoi.ForeColor = System.Drawing.Color.DimGray;
-            this.LB_trangThaiKetNoi.Location = new System.Drawing.Point(286, 417);
+            this.LB_trangThaiKetNoi.ForeColor = System.Drawing.Color.White;
+            this.LB_trangThaiKetNoi.Location = new System.Drawing.Point(266, 417);
             this.LB_trangThaiKetNoi.Name = "LB_trangThaiKetNoi";
             this.LB_trangThaiKetNoi.Size = new System.Drawing.Size(253, 20);
             this.LB_trangThaiKetNoi.TabIndex = 11;
             this.LB_trangThaiKetNoi.Text = "Trạng thái: Chưa kết nối CSDL";
             // 
+            // TB_password
+            // 
+            this.TB_password.BackColor = System.Drawing.SystemColors.Control;
+            this.TB_password.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_password.BackgroundImage")));
+            this.TB_password.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TB_password.ForeColor = System.Drawing.Color.Gray;
+            this.TB_password.Icon = ((System.Drawing.Image)(resources.GetObject("TB_password.Icon")));
+            this.TB_password.Location = new System.Drawing.Point(4, 104);
+            this.TB_password.Margin = new System.Windows.Forms.Padding(4);
+            this.TB_password.Name = "TB_password";
+            this.TB_password.Size = new System.Drawing.Size(250, 45);
+            this.TB_password.TabIndex = 6;
+            this.TB_password.text = "";
+            this.TB_password.OnTextChange += new System.EventHandler(this.TB_password_OnTextChange);
+            // 
+            // TB_username
+            // 
+            this.TB_username.BackColor = System.Drawing.SystemColors.Control;
+            this.TB_username.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_username.BackgroundImage")));
+            this.TB_username.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TB_username.ForeColor = System.Drawing.Color.Gray;
+            this.TB_username.Icon = ((System.Drawing.Image)(resources.GetObject("TB_username.Icon")));
+            this.TB_username.Location = new System.Drawing.Point(4, 23);
+            this.TB_username.Margin = new System.Windows.Forms.Padding(4);
+            this.TB_username.Name = "TB_username";
+            this.TB_username.Size = new System.Drawing.Size(250, 45);
+            this.TB_username.TabIndex = 5;
+            this.TB_username.text = "";
+            this.TB_username.OnTextChange += new System.EventHandler(this.TB_username_OnTextChange);
+            // 
             // BT_Exit
             // 
-            this.BT_Exit.Image = global::StudentManagementSystem.Properties.Resources.exit2_nonbackground;
+            this.BT_Exit.Image = global::StudentManagementSystem.Properties.Resources.exit__1_;
             this.BT_Exit.Location = new System.Drawing.Point(615, 12);
             this.BT_Exit.Name = "BT_Exit";
             this.BT_Exit.Size = new System.Drawing.Size(23, 24);
@@ -249,10 +241,21 @@ namespace StudentManagementSystem
             this.BT_Exit.TabStop = false;
             this.BT_Exit.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudentManagementSystem.Properties.Resources.newlogo;
+            this.pictureBox1.Location = new System.Drawing.Point(66, 73);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(129, 130);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(650, 450);
             this.Controls.Add(this.LB_trangThaiKetNoi);
             this.Controls.Add(this.LB_connectDB);
@@ -261,14 +264,15 @@ namespace StudentManagementSystem
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Login_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BT_Exit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
