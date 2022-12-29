@@ -57,7 +57,6 @@ namespace StudentManagementSystem
             this.label30 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.PB_Avatar = new StudentManagementSystem.CustomControls.CircularPictureBox();
             this.CB_Lop = new System.Windows.Forms.ComboBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -79,10 +78,8 @@ namespace StudentManagementSystem
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
             this.btn_Savepage2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btn_hoantacpag2 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btn_TinhDTB = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dataGridView_Diem = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.monhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,6 +93,8 @@ namespace StudentManagementSystem
             this.label26 = new System.Windows.Forms.Label();
             this.btn_xem = new MaterialSkin.Controls.MaterialRaisedButton();
             this.print = new System.Windows.Forms.TabPage();
+            this.PB_Avatar = new StudentManagementSystem.CustomControls.CircularPictureBox();
+            this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
             this.panel1.SuspendLayout();
             this.ThongTinHS.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -106,9 +105,9 @@ namespace StudentManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.datepicker_hs.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datepicker_hs.Properties)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -463,21 +462,6 @@ namespace StudentManagementSystem
             this.bunifuImageButton1.ZoomSpeed = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
-            // PB_Avatar
-            // 
-            this.PB_Avatar.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Round;
-            this.PB_Avatar.BorderColor = System.Drawing.Color.CadetBlue;
-            this.PB_Avatar.BorderColor2 = System.Drawing.Color.Thistle;
-            this.PB_Avatar.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
-            this.PB_Avatar.BorderSize = 5;
-            this.PB_Avatar.GradientAngle = 50F;
-            this.PB_Avatar.Location = new System.Drawing.Point(59, 43);
-            this.PB_Avatar.Name = "PB_Avatar";
-            this.PB_Avatar.Size = new System.Drawing.Size(218, 218);
-            this.PB_Avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PB_Avatar.TabIndex = 63;
-            this.PB_Avatar.TabStop = false;
-            // 
             // CB_Lop
             // 
             this.CB_Lop.Enabled = false;
@@ -699,7 +683,6 @@ namespace StudentManagementSystem
             this.tabPage2.Controls.Add(this.CB_ttHK_NH);
             this.tabPage2.Controls.Add(this.btn_Savepage2);
             this.tabPage2.Controls.Add(this.btn_hoantacpag2);
-            this.tabPage2.Controls.Add(this.btn_TinhDTB);
             this.tabPage2.Controls.Add(this.dataGridView_Diem);
             this.tabPage2.Controls.Add(this.label26);
             this.tabPage2.Controls.Add(this.btn_xem);
@@ -709,25 +692,6 @@ namespace StudentManagementSystem
             this.tabPage2.Size = new System.Drawing.Size(1017, 526);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Học Tập";
-            // 
-            // CB_ttHK_NH
-            // 
-            this.CB_ttHK_NH.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.CB_ttHK_NH.BorderColor = System.Drawing.Color.CadetBlue;
-            this.CB_ttHK_NH.BorderSize = 1;
-            this.CB_ttHK_NH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.CB_ttHK_NH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.CB_ttHK_NH.ForeColor = System.Drawing.Color.DimGray;
-            this.CB_ttHK_NH.IconColor = System.Drawing.Color.PowderBlue;
-            this.CB_ttHK_NH.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.CB_ttHK_NH.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_ttHK_NH.Location = new System.Drawing.Point(9, 65);
-            this.CB_ttHK_NH.MinimumSize = new System.Drawing.Size(200, 30);
-            this.CB_ttHK_NH.Name = "CB_ttHK_NH";
-            this.CB_ttHK_NH.Padding = new System.Windows.Forms.Padding(1);
-            this.CB_ttHK_NH.Size = new System.Drawing.Size(200, 30);
-            this.CB_ttHK_NH.TabIndex = 20;
-            this.CB_ttHK_NH.Texts = "";
             // 
             // btn_Savepage2
             // 
@@ -761,22 +725,6 @@ namespace StudentManagementSystem
             this.btn_hoantacpag2.UseVisualStyleBackColor = true;
             this.btn_hoantacpag2.Click += new System.EventHandler(this.btn_hoantacpag2_Click);
             // 
-            // btn_TinhDTB
-            // 
-            this.btn_TinhDTB.AutoSize = true;
-            this.btn_TinhDTB.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_TinhDTB.Depth = 0;
-            this.btn_TinhDTB.Icon = null;
-            this.btn_TinhDTB.Location = new System.Drawing.Point(111, 119);
-            this.btn_TinhDTB.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_TinhDTB.Name = "btn_TinhDTB";
-            this.btn_TinhDTB.Primary = true;
-            this.btn_TinhDTB.Size = new System.Drawing.Size(82, 36);
-            this.btn_TinhDTB.TabIndex = 16;
-            this.btn_TinhDTB.Text = "Tính ĐTB";
-            this.btn_TinhDTB.UseVisualStyleBackColor = true;
-            this.btn_TinhDTB.Click += new System.EventHandler(this.btn_TinhDTB_Click);
-            // 
             // dataGridView_Diem
             // 
             this.dataGridView_Diem.AllowUserToAddRows = false;
@@ -796,6 +744,7 @@ namespace StudentManagementSystem
             this.dataGridView_Diem.Name = "dataGridView_Diem";
             this.dataGridView_Diem.Size = new System.Drawing.Size(759, 512);
             this.dataGridView_Diem.TabIndex = 15;
+            this.dataGridView_Diem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Diem_CellClick);
             // 
             // STT
             // 
@@ -890,6 +839,40 @@ namespace StudentManagementSystem
             this.print.Text = "IN BẢNG ĐIỂM";
             this.print.UseVisualStyleBackColor = true;
             // 
+            // PB_Avatar
+            // 
+            this.PB_Avatar.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Round;
+            this.PB_Avatar.BorderColor = System.Drawing.Color.CadetBlue;
+            this.PB_Avatar.BorderColor2 = System.Drawing.Color.Thistle;
+            this.PB_Avatar.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
+            this.PB_Avatar.BorderSize = 5;
+            this.PB_Avatar.GradientAngle = 50F;
+            this.PB_Avatar.Location = new System.Drawing.Point(59, 43);
+            this.PB_Avatar.Name = "PB_Avatar";
+            this.PB_Avatar.Size = new System.Drawing.Size(218, 218);
+            this.PB_Avatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Avatar.TabIndex = 63;
+            this.PB_Avatar.TabStop = false;
+            // 
+            // CB_ttHK_NH
+            // 
+            this.CB_ttHK_NH.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CB_ttHK_NH.BorderColor = System.Drawing.Color.CadetBlue;
+            this.CB_ttHK_NH.BorderSize = 1;
+            this.CB_ttHK_NH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.CB_ttHK_NH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CB_ttHK_NH.ForeColor = System.Drawing.Color.DimGray;
+            this.CB_ttHK_NH.IconColor = System.Drawing.Color.PowderBlue;
+            this.CB_ttHK_NH.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.CB_ttHK_NH.ListTextColor = System.Drawing.Color.DimGray;
+            this.CB_ttHK_NH.Location = new System.Drawing.Point(9, 65);
+            this.CB_ttHK_NH.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CB_ttHK_NH.Name = "CB_ttHK_NH";
+            this.CB_ttHK_NH.Padding = new System.Windows.Forms.Padding(1);
+            this.CB_ttHK_NH.Size = new System.Drawing.Size(200, 30);
+            this.CB_ttHK_NH.TabIndex = 20;
+            this.CB_ttHK_NH.Texts = "";
+            // 
             // StudentInfoEdit
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -911,10 +894,10 @@ namespace StudentManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.datepicker_hs.Properties)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -973,7 +956,6 @@ namespace StudentManagementSystem
         private System.Windows.Forms.DataGridView dataGridView_Diem;
         private MaterialSkin.Controls.MaterialRaisedButton btn_Savepage2;
         private MaterialSkin.Controls.MaterialRaisedButton btn_hoantacpag2;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_TinhDTB;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.DataGridViewTextBoxColumn monhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgtx1;
