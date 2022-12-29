@@ -40,8 +40,6 @@ namespace StudentManagementSystem
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -903,7 +901,7 @@ namespace StudentManagementSystem
             this.dataGridView_BangDiem.BackgroundColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Honeydew;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.DarkGreen;
@@ -922,29 +920,13 @@ namespace StudentManagementSystem
             this.dggk,
             this.dgck,
             this.trbm});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_BangDiem.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_BangDiem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_BangDiem.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_BangDiem.Name = "dataGridView_BangDiem";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_BangDiem.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_BangDiem.RowHeadersWidth = 51;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView_BangDiem.Size = new System.Drawing.Size(996, 629);
             this.dataGridView_BangDiem.TabIndex = 0;
             // 
@@ -1067,11 +1049,11 @@ namespace StudentManagementSystem
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(818, 9);
+            this.label7.Location = new System.Drawing.Point(840, 6);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 24);
+            this.label7.Size = new System.Drawing.Size(75, 20);
             this.label7.TabIndex = 12;
             this.label7.Text = "Tìm kiếm:";
             // 
@@ -1159,7 +1141,7 @@ namespace StudentManagementSystem
             this.TB_search_page1.IconRight = null;
             this.TB_search_page1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TB_search_page1.Lines = new string[0];
-            this.TB_search_page1.Location = new System.Drawing.Point(767, 36);
+            this.TB_search_page1.Location = new System.Drawing.Point(767, 28);
             this.TB_search_page1.MaxLength = 32767;
             this.TB_search_page1.MinimumSize = new System.Drawing.Size(1, 1);
             this.TB_search_page1.Modified = false;
@@ -1195,7 +1177,7 @@ namespace StudentManagementSystem
             this.TB_search_page1.SelectionLength = 0;
             this.TB_search_page1.SelectionStart = 0;
             this.TB_search_page1.ShortcutsEnabled = true;
-            this.TB_search_page1.Size = new System.Drawing.Size(226, 39);
+            this.TB_search_page1.Size = new System.Drawing.Size(226, 36);
             this.TB_search_page1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TB_search_page1.TabIndex = 0;
             this.TB_search_page1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1578,6 +1560,7 @@ namespace StudentManagementSystem
             this.panel4.Controls.Add(this.CB_NamHoc_page2);
             this.panel4.Controls.Add(this.CB_Lop_page2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1273, 75);
@@ -1589,7 +1572,7 @@ namespace StudentManagementSystem
             this.btn_reset_page2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_reset_page2.Depth = 0;
             this.btn_reset_page2.Icon = null;
-            this.btn_reset_page2.Location = new System.Drawing.Point(286, 18);
+            this.btn_reset_page2.Location = new System.Drawing.Point(483, 31);
             this.btn_reset_page2.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_reset_page2.Name = "btn_reset_page2";
             this.btn_reset_page2.Primary = true;
@@ -1614,33 +1597,33 @@ namespace StudentManagementSystem
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.DimGray;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(204, 4);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(40, 20);
+            this.label11.Size = new System.Drawing.Size(47, 24);
             this.label11.TabIndex = 8;
             this.label11.Text = "Lớp:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.DimGray;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(3, 4);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(76, 20);
+            this.label12.Size = new System.Drawing.Size(92, 24);
             this.label12.TabIndex = 7;
             this.label12.Text = "Năm học:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.DimGray;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(126, 4);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(44, 20);
+            this.label14.Size = new System.Drawing.Size(53, 24);
             this.label14.TabIndex = 6;
             this.label14.Text = "Khối:";
             // 
@@ -1731,7 +1714,7 @@ namespace StudentManagementSystem
             "K12"});
             this.CB_Khoi_page2.Location = new System.Drawing.Point(130, 27);
             this.CB_Khoi_page2.Name = "CB_Khoi_page2";
-            this.CB_Khoi_page2.Size = new System.Drawing.Size(72, 21);
+            this.CB_Khoi_page2.Size = new System.Drawing.Size(72, 32);
             this.CB_Khoi_page2.TabIndex = 3;
             this.CB_Khoi_page2.SelectedIndexChanged += new System.EventHandler(this.CB_Khoi_page2_SelectedIndexChanged);
             // 
@@ -1740,9 +1723,9 @@ namespace StudentManagementSystem
             this.CB_NamHoc_page2.FormattingEnabled = true;
             this.CB_NamHoc_page2.Items.AddRange(new object[] {
             "*"});
-            this.CB_NamHoc_page2.Location = new System.Drawing.Point(3, 27);
+            this.CB_NamHoc_page2.Location = new System.Drawing.Point(3, 31);
             this.CB_NamHoc_page2.Name = "CB_NamHoc_page2";
-            this.CB_NamHoc_page2.Size = new System.Drawing.Size(121, 21);
+            this.CB_NamHoc_page2.Size = new System.Drawing.Size(121, 32);
             this.CB_NamHoc_page2.TabIndex = 3;
             this.CB_NamHoc_page2.SelectedIndexChanged += new System.EventHandler(this.CB_NamHoc_page2_SelectedIndexChanged);
             // 
@@ -1753,7 +1736,7 @@ namespace StudentManagementSystem
             "*"});
             this.CB_Lop_page2.Location = new System.Drawing.Point(208, 27);
             this.CB_Lop_page2.Name = "CB_Lop_page2";
-            this.CB_Lop_page2.Size = new System.Drawing.Size(72, 21);
+            this.CB_Lop_page2.Size = new System.Drawing.Size(72, 32);
             this.CB_Lop_page2.TabIndex = 2;
             this.CB_Lop_page2.SelectedIndexChanged += new System.EventHandler(this.CB_Lop_page2_SelectedIndexChanged);
             this.CB_Lop_page2.Click += new System.EventHandler(this.CB_Lop_page2_Click);

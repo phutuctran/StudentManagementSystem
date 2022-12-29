@@ -590,11 +590,11 @@
   </metadata>
   <data name="TB_search_page1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAnCAYAAAASNZTQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACvSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
+        iVBORw0KGgoAAAANSUhEUgAAAOIAAAAkCAYAAACUoeZ+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dOxDcMwAANB7T+VDI2RMTJADAFqsoD9xR3A
         hv0PIGKt9Zlz/szs2e32ToZj7AN43m7vZChEeIsQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQI
-        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFC
-        gBAh4C/E67q++zCzZ7fbOxkC7xrjBqn0hzwzySBlAAAAAElFTkSuQmCC
+        ECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAX8hXtf1
+        3YeZPbvd3skQeNcYN7LwFZT8euzRAAAAAElFTkSuQmCC
 </value>
   </data>
   <metadata name="stt_page2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
