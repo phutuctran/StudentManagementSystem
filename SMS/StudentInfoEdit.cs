@@ -30,6 +30,8 @@ namespace StudentManagementSystem
         double diemTrBHK;
         Student student;
         bool editDiem;
+        private bool haveDatainGird;
+
         public StudentInfoEdit(string _MaHS, bool EditDiem = true) //_MaHS phải luôn tồn tại
         {
             InitializeComponent();
@@ -40,6 +42,7 @@ namespace StudentManagementSystem
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             editDiem = EditDiem;
             student = new Student(maHS);
+            haveDatainGird = false;
             GetDataStudent();
             ShowDataPage1();
             if (EditDiem == false)
@@ -85,6 +88,7 @@ namespace StudentManagementSystem
             if (idx < 0)
             {
                 MessageBox.Show("Hãy chọn thông tin cần xem", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                haveDatainGird = false;
                 return;
             }
             namHoc = student.TTBangDiem[idx].namHoc;
@@ -115,6 +119,11 @@ namespace StudentManagementSystem
 
         private void btn_Savepage2_Click(object sender, EventArgs e)
         {
+            if (!haveDatainGird)
+            {
+                MessageBox.Show("Chưa có thông tin!", "Thông báo!");
+                return;
+            }
             for (int i = 0; i < GlobalProperties.soMonHoc; i++)
             {
                 for (int j = 2; j <= 8; j++)
@@ -300,6 +309,7 @@ namespace StudentManagementSystem
                 return;
             }
             ShowBangDiemPage2();
+            haveDatainGird = true;
 
         }//done
 
