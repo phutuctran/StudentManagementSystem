@@ -166,7 +166,8 @@ namespace StudentManagementSystem
             this.BT_Login.Depth = 0;
             this.BT_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BT_Login.Icon = null;
-            this.BT_Login.Location = new System.Drawing.Point(3, 178);
+            this.BT_Login.Location = new System.Drawing.Point(73, 178);
+            this.BT_Login.Margin = new System.Windows.Forms.Padding(73, 3, 3, 3);
             this.BT_Login.MouseState = MaterialSkin.MouseState.HOVER;
             this.BT_Login.Name = "BT_Login";
             this.BT_Login.Primary = true;
@@ -232,7 +233,7 @@ namespace StudentManagementSystem
             // 
             // BT_Exit
             // 
-            this.BT_Exit.Image = global::StudentManagementSystem.Properties.Resources.exit__1_;
+            this.BT_Exit.Image = global::StudentManagementSystem.Properties.Resources.log_out;
             this.BT_Exit.Location = new System.Drawing.Point(615, 12);
             this.BT_Exit.Name = "BT_Exit";
             this.BT_Exit.Size = new System.Drawing.Size(23, 24);

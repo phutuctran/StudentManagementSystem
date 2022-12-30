@@ -31,6 +31,14 @@ namespace StudentManagementSystem
             student = new Student(maHS);
             GetDataStudent();
         }
+        private void StudentInfo_Load(object sender, EventArgs e)
+        {
+            btn_in.AutoSize = false;
+            btn_in.Size = new Size(86, 36);
+            tabPage2.BackColor = Color.Honeydew;
+
+        }
+
 
         void GetDataStudent()
         {
@@ -81,19 +89,25 @@ namespace StudentManagementSystem
             }
         }
 
+        private void PB_Avatar_Paint(object sender, PaintEventArgs e)
+        {
+            PB_Avatar.Location = new Point((panel2.Width - PB_Avatar.Width) / 2, 50);
+        }
+
         private void LB_HoTenHS_Paint(object sender, PaintEventArgs e)
         {
-            LB_HoTenHS.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_HoTenHS.Width / 2, 265);
+            LB_HoTenHS.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_HoTenHS.Width / 2, 320);
         }
 
         private void LB_MaHS_Paint(object sender, PaintEventArgs e)
         {
-            LB_MaHS.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_MaHS.Width / 2, 305);
+            LB_MaHS.Text = LB_MaHS.Text.Trim();
+            LB_MaHS.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_MaHS.Width / 2, 380);
         }
 
         private void LB_Lop_Paint(object sender, PaintEventArgs e)
         {
-            LB_Lop.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_Lop.Width / 2, 345);
+            LB_Lop.Location = new Point(PB_Avatar.Location.X + PB_Avatar.Width / 2 - LB_Lop.Width / 2, 440);
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -151,5 +165,7 @@ namespace StudentManagementSystem
                 LV_BangDiem.Items.Add(listViewItem);
             }
         }
+
+
     }
 }

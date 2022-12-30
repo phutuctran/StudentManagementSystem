@@ -29,37 +29,37 @@ namespace StudentManagementSystem
         /// </summary>
         private void InitializeComponent()
         {
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges16 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties33 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties34 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties35 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties36 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties37 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties38 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties39 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties40 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.panel_Menu = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.bunifuIconButton8 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
@@ -83,16 +83,6 @@ namespace StudentManagementSystem
             this.tabDiem = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView_BangDiem = new System.Windows.Forms.DataGridView();
-            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mahs = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenhs = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgtx1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgtx2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgtx3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgtx4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dggk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgck = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.trbm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tbn_reset = new MaterialSkin.Controls.MaterialRaisedButton();
             this.label7 = new System.Windows.Forms.Label();
@@ -323,6 +313,16 @@ namespace StudentManagementSystem
             this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mahs = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenhs = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgtx1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgtx2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgtx3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgtx4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dggk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgck = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.trbm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel_Menu.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabMain.SuspendLayout();
@@ -435,11 +435,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton8.ColorContrastOnClick = 30;
             this.bunifuIconButton8.ColorContrastOnHover = 30;
             this.bunifuIconButton8.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.bunifuIconButton8.CustomizableEdges = borderEdges1;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.bunifuIconButton8.CustomizableEdges = borderEdges9;
             this.bunifuIconButton8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton8.Image = global::StudentManagementSystem.Properties.Resources.settings;
             this.bunifuIconButton8.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -484,11 +484,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton2.ColorContrastOnClick = 30;
             this.bunifuIconButton2.ColorContrastOnHover = 30;
             this.bunifuIconButton2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.bunifuIconButton2.CustomizableEdges = borderEdges2;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.bunifuIconButton2.CustomizableEdges = borderEdges10;
             this.bunifuIconButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton2.Image = global::StudentManagementSystem.Properties.Resources.personal;
             this.bunifuIconButton2.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -535,11 +535,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton3.ColorContrastOnClick = 30;
             this.bunifuIconButton3.ColorContrastOnHover = 30;
             this.bunifuIconButton3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.bunifuIconButton3.CustomizableEdges = borderEdges3;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.bunifuIconButton3.CustomizableEdges = borderEdges11;
             this.bunifuIconButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton3.Image = global::StudentManagementSystem.Properties.Resources.summary;
             this.bunifuIconButton3.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -567,11 +567,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton4.ColorContrastOnClick = 30;
             this.bunifuIconButton4.ColorContrastOnHover = 30;
             this.bunifuIconButton4.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.bunifuIconButton4.CustomizableEdges = borderEdges4;
+            borderEdges12.BottomLeft = true;
+            borderEdges12.BottomRight = true;
+            borderEdges12.TopLeft = true;
+            borderEdges12.TopRight = true;
+            this.bunifuIconButton4.CustomizableEdges = borderEdges12;
             this.bunifuIconButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton4.Image = global::StudentManagementSystem.Properties.Resources.exchange;
             this.bunifuIconButton4.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -599,11 +599,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton5.ColorContrastOnClick = 30;
             this.bunifuIconButton5.ColorContrastOnHover = 30;
             this.bunifuIconButton5.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.bunifuIconButton5.CustomizableEdges = borderEdges5;
+            borderEdges13.BottomLeft = true;
+            borderEdges13.BottomRight = true;
+            borderEdges13.TopLeft = true;
+            borderEdges13.TopRight = true;
+            this.bunifuIconButton5.CustomizableEdges = borderEdges13;
             this.bunifuIconButton5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton5.Image = global::StudentManagementSystem.Properties.Resources.addstu;
             this.bunifuIconButton5.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -648,11 +648,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton6.ColorContrastOnClick = 30;
             this.bunifuIconButton6.ColorContrastOnHover = 30;
             this.bunifuIconButton6.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.bunifuIconButton6.CustomizableEdges = borderEdges6;
+            borderEdges14.BottomLeft = true;
+            borderEdges14.BottomRight = true;
+            borderEdges14.TopLeft = true;
+            borderEdges14.TopRight = true;
+            this.bunifuIconButton6.CustomizableEdges = borderEdges14;
             this.bunifuIconButton6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton6.Image = global::StudentManagementSystem.Properties.Resources.addNHLop;
             this.bunifuIconButton6.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -697,11 +697,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton7.ColorContrastOnClick = 30;
             this.bunifuIconButton7.ColorContrastOnHover = 30;
             this.bunifuIconButton7.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.bunifuIconButton7.CustomizableEdges = borderEdges7;
+            borderEdges15.BottomLeft = true;
+            borderEdges15.BottomRight = true;
+            borderEdges15.TopLeft = true;
+            borderEdges15.TopRight = true;
+            this.bunifuIconButton7.CustomizableEdges = borderEdges15;
             this.bunifuIconButton7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton7.Image = global::StudentManagementSystem.Properties.Resources.add_teacher;
             this.bunifuIconButton7.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -781,11 +781,11 @@ namespace StudentManagementSystem
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges8;
+            borderEdges16.BottomLeft = true;
+            borderEdges16.BottomRight = true;
+            borderEdges16.TopLeft = true;
+            borderEdges16.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges16;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = global::StudentManagementSystem.Properties.Resources.transcript;
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -899,14 +899,14 @@ namespace StudentManagementSystem
             this.dataGridView_BangDiem.AllowUserToAddRows = false;
             this.dataGridView_BangDiem.AllowUserToDeleteRows = false;
             this.dataGridView_BangDiem.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.DarkGreen;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_BangDiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.DarkGreen;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_BangDiem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView_BangDiem.ColumnHeadersHeight = 30;
             this.dataGridView_BangDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView_BangDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -923,87 +923,14 @@ namespace StudentManagementSystem
             this.dataGridView_BangDiem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView_BangDiem.Location = new System.Drawing.Point(0, 0);
             this.dataGridView_BangDiem.Name = "dataGridView_BangDiem";
+            this.dataGridView_BangDiem.RowHeadersVisible = false;
             this.dataGridView_BangDiem.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.dataGridView_BangDiem.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView_BangDiem.Size = new System.Drawing.Size(996, 629);
             this.dataGridView_BangDiem.TabIndex = 0;
             this.dataGridView_BangDiem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_BangDiem_CellClick);
-            // 
-            // stt
-            // 
-            this.stt.HeaderText = "Số TT";
-            this.stt.MinimumWidth = 6;
-            this.stt.Name = "stt";
-            this.stt.ReadOnly = true;
-            this.stt.Width = 60;
-            // 
-            // mahs
-            // 
-            this.mahs.HeaderText = "Mã HS";
-            this.mahs.MinimumWidth = 6;
-            this.mahs.Name = "mahs";
-            this.mahs.ReadOnly = true;
-            this.mahs.Width = 90;
-            // 
-            // tenhs
-            // 
-            this.tenhs.HeaderText = "Tên học sinh";
-            this.tenhs.MinimumWidth = 6;
-            this.tenhs.Name = "tenhs";
-            this.tenhs.ReadOnly = true;
-            this.tenhs.Width = 160;
-            // 
-            // dgtx1
-            // 
-            this.dgtx1.HeaderText = "ĐĐGTX1";
-            this.dgtx1.MinimumWidth = 6;
-            this.dgtx1.Name = "dgtx1";
-            this.dgtx1.Width = 90;
-            // 
-            // dgtx2
-            // 
-            this.dgtx2.HeaderText = "ĐĐGTX2";
-            this.dgtx2.MinimumWidth = 6;
-            this.dgtx2.Name = "dgtx2";
-            this.dgtx2.Width = 90;
-            // 
-            // dgtx3
-            // 
-            this.dgtx3.HeaderText = "ĐĐGTX3";
-            this.dgtx3.MinimumWidth = 6;
-            this.dgtx3.Name = "dgtx3";
-            this.dgtx3.Width = 90;
-            // 
-            // dgtx4
-            // 
-            this.dgtx4.HeaderText = "ĐĐGTX4";
-            this.dgtx4.MinimumWidth = 6;
-            this.dgtx4.Name = "dgtx4";
-            this.dgtx4.Width = 90;
-            // 
-            // dggk
-            // 
-            this.dggk.HeaderText = "ĐĐGTgk";
-            this.dggk.MinimumWidth = 6;
-            this.dggk.Name = "dggk";
-            this.dggk.Width = 90;
-            // 
-            // dgck
-            // 
-            this.dgck.HeaderText = "ĐĐGck";
-            this.dgck.MinimumWidth = 6;
-            this.dgck.Name = "dgck";
-            this.dgck.Width = 90;
-            // 
-            // trbm
-            // 
-            this.trbm.HeaderText = "ĐTBmhk";
-            this.trbm.MinimumWidth = 6;
-            this.trbm.Name = "trbm";
-            this.trbm.ReadOnly = true;
-            this.trbm.Width = 90;
             // 
             // panel2
             // 
@@ -1148,26 +1075,26 @@ namespace StudentManagementSystem
             this.TB_search_page1.Modified = false;
             this.TB_search_page1.Multiline = false;
             this.TB_search_page1.Name = "TB_search_page1";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page1.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_search_page1.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page1.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page1.OnIdleState = stateProperties4;
+            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties21.FillColor = System.Drawing.Color.Empty;
+            stateProperties21.ForeColor = System.Drawing.Color.Empty;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page1.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_search_page1.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties23.FillColor = System.Drawing.Color.Empty;
+            stateProperties23.ForeColor = System.Drawing.Color.Empty;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page1.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.Empty;
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page1.OnIdleState = stateProperties24;
             this.TB_search_page1.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page1.PasswordChar = '\0';
             this.TB_search_page1.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -1663,26 +1590,26 @@ namespace StudentManagementSystem
             this.TB_Search_page2.Modified = false;
             this.TB_Search_page2.Multiline = false;
             this.TB_Search_page2.Name = "TB_Search_page2";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Search_page2.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_Search_page2.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Search_page2.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Empty;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_Search_page2.OnIdleState = stateProperties8;
+            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties25.FillColor = System.Drawing.Color.Empty;
+            stateProperties25.ForeColor = System.Drawing.Color.Empty;
+            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Search_page2.OnActiveState = stateProperties25;
+            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_Search_page2.OnDisabledState = stateProperties26;
+            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties27.FillColor = System.Drawing.Color.Empty;
+            stateProperties27.ForeColor = System.Drawing.Color.Empty;
+            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Search_page2.OnHoverState = stateProperties27;
+            stateProperties28.BorderColor = System.Drawing.Color.Silver;
+            stateProperties28.FillColor = System.Drawing.Color.White;
+            stateProperties28.ForeColor = System.Drawing.Color.Empty;
+            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_Search_page2.OnIdleState = stateProperties28;
             this.TB_Search_page2.Padding = new System.Windows.Forms.Padding(3);
             this.TB_Search_page2.PasswordChar = '\0';
             this.TB_Search_page2.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -2131,26 +2058,26 @@ namespace StudentManagementSystem
             this.TB_search_page3.Modified = false;
             this.TB_search_page3.Multiline = false;
             this.TB_search_page3.Name = "TB_search_page3";
-            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page3.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_search_page3.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page3.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page3.OnIdleState = stateProperties12;
+            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties29.FillColor = System.Drawing.Color.Empty;
+            stateProperties29.ForeColor = System.Drawing.Color.Empty;
+            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page3.OnActiveState = stateProperties29;
+            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_search_page3.OnDisabledState = stateProperties30;
+            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties31.FillColor = System.Drawing.Color.Empty;
+            stateProperties31.ForeColor = System.Drawing.Color.Empty;
+            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page3.OnHoverState = stateProperties31;
+            stateProperties32.BorderColor = System.Drawing.Color.Silver;
+            stateProperties32.FillColor = System.Drawing.Color.White;
+            stateProperties32.ForeColor = System.Drawing.Color.Empty;
+            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page3.OnIdleState = stateProperties32;
             this.TB_search_page3.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page3.PasswordChar = '\0';
             this.TB_search_page3.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -2642,26 +2569,26 @@ namespace StudentManagementSystem
             this.TB_search_page4.Modified = false;
             this.TB_search_page4.Multiline = false;
             this.TB_search_page4.Name = "TB_search_page4";
-            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page4.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TB_search_page4.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page4.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.TB_search_page4.OnIdleState = stateProperties16;
+            stateProperties33.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties33.FillColor = System.Drawing.Color.Empty;
+            stateProperties33.ForeColor = System.Drawing.Color.Empty;
+            stateProperties33.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page4.OnActiveState = stateProperties33;
+            stateProperties34.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties34.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TB_search_page4.OnDisabledState = stateProperties34;
+            stateProperties35.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties35.FillColor = System.Drawing.Color.Empty;
+            stateProperties35.ForeColor = System.Drawing.Color.Empty;
+            stateProperties35.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page4.OnHoverState = stateProperties35;
+            stateProperties36.BorderColor = System.Drawing.Color.Silver;
+            stateProperties36.FillColor = System.Drawing.Color.White;
+            stateProperties36.ForeColor = System.Drawing.Color.Empty;
+            stateProperties36.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.TB_search_page4.OnIdleState = stateProperties36;
             this.TB_search_page4.Padding = new System.Windows.Forms.Padding(3);
             this.TB_search_page4.PasswordChar = '\0';
             this.TB_search_page4.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4082,26 +4009,26 @@ namespace StudentManagementSystem
             this.bunifuTextBox1.Modified = false;
             this.bunifuTextBox1.Multiline = false;
             this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties17.FillColor = System.Drawing.Color.Empty;
-            stateProperties17.ForeColor = System.Drawing.Color.Empty;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties18;
-            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties19.FillColor = System.Drawing.Color.Empty;
-            stateProperties19.ForeColor = System.Drawing.Color.Empty;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.Silver;
-            stateProperties20.FillColor = System.Drawing.Color.White;
-            stateProperties20.ForeColor = System.Drawing.Color.Empty;
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties20;
+            stateProperties37.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties37.FillColor = System.Drawing.Color.Empty;
+            stateProperties37.ForeColor = System.Drawing.Color.Empty;
+            stateProperties37.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties37;
+            stateProperties38.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties38.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties38;
+            stateProperties39.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties39.FillColor = System.Drawing.Color.Empty;
+            stateProperties39.ForeColor = System.Drawing.Color.Empty;
+            stateProperties39.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties39;
+            stateProperties40.BorderColor = System.Drawing.Color.Silver;
+            stateProperties40.FillColor = System.Drawing.Color.White;
+            stateProperties40.ForeColor = System.Drawing.Color.Empty;
+            stateProperties40.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties40;
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -4202,6 +4129,79 @@ namespace StudentManagementSystem
             this.Column12.Name = "Column12";
             this.Column12.Width = 125;
             // 
+            // stt
+            // 
+            this.stt.HeaderText = "Số TT";
+            this.stt.MinimumWidth = 6;
+            this.stt.Name = "stt";
+            this.stt.ReadOnly = true;
+            this.stt.Width = 80;
+            // 
+            // mahs
+            // 
+            this.mahs.HeaderText = "Mã HS";
+            this.mahs.MinimumWidth = 6;
+            this.mahs.Name = "mahs";
+            this.mahs.ReadOnly = true;
+            this.mahs.Width = 90;
+            // 
+            // tenhs
+            // 
+            this.tenhs.HeaderText = "Tên học sinh";
+            this.tenhs.MinimumWidth = 6;
+            this.tenhs.Name = "tenhs";
+            this.tenhs.ReadOnly = true;
+            this.tenhs.Width = 200;
+            // 
+            // dgtx1
+            // 
+            this.dgtx1.HeaderText = "ĐĐGTX1";
+            this.dgtx1.MinimumWidth = 6;
+            this.dgtx1.Name = "dgtx1";
+            this.dgtx1.Width = 90;
+            // 
+            // dgtx2
+            // 
+            this.dgtx2.HeaderText = "ĐĐGTX2";
+            this.dgtx2.MinimumWidth = 6;
+            this.dgtx2.Name = "dgtx2";
+            this.dgtx2.Width = 90;
+            // 
+            // dgtx3
+            // 
+            this.dgtx3.HeaderText = "ĐĐGTX3";
+            this.dgtx3.MinimumWidth = 6;
+            this.dgtx3.Name = "dgtx3";
+            this.dgtx3.Width = 90;
+            // 
+            // dgtx4
+            // 
+            this.dgtx4.HeaderText = "ĐĐGTX4";
+            this.dgtx4.MinimumWidth = 6;
+            this.dgtx4.Name = "dgtx4";
+            this.dgtx4.Width = 90;
+            // 
+            // dggk
+            // 
+            this.dggk.HeaderText = "ĐĐGTgk";
+            this.dggk.MinimumWidth = 6;
+            this.dggk.Name = "dggk";
+            this.dggk.Width = 90;
+            // 
+            // dgck
+            // 
+            this.dgck.HeaderText = "ĐĐGck";
+            this.dgck.MinimumWidth = 6;
+            this.dgck.Name = "dgck";
+            this.dgck.Width = 90;
+            // 
+            // trbm
+            // 
+            this.trbm.HeaderText = "ĐTBmhk";
+            this.trbm.MinimumWidth = 6;
+            this.trbm.Name = "trbm";
+            this.trbm.ReadOnly = true;
+            // 
             // frmMain
             // 
             this.Appearance.BackColor = System.Drawing.Color.Honeydew;
@@ -4216,6 +4216,7 @@ namespace StudentManagementSystem
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "frmMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Managament System";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.panel_Menu.ResumeLayout(false);
@@ -4317,16 +4318,6 @@ namespace StudentManagementSystem
         private System.Windows.Forms.Label lb_GVCN_page1;
         private System.Windows.Forms.Label lb_HK_page1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mahs;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenhs;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dggk;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgck;
-        private System.Windows.Forms.DataGridViewTextBoxColumn trbm;
         private System.Windows.Forms.DataGridView dataGridView_ThongTinHocSinh;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label6;
@@ -4548,5 +4539,15 @@ namespace StudentManagementSystem
         private Bunifu.Framework.UI.BunifuTextbox mtCu_p8;
         private Bunifu.Framework.UI.BunifuTextbox mkmoi_p8;
         private Bunifu.Framework.UI.BunifuTextbox mtk_p8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mahs;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenhs;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgtx4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dggk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgck;
+        private System.Windows.Forms.DataGridViewTextBoxColumn trbm;
     }
 }

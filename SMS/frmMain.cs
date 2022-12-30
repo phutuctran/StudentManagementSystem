@@ -31,6 +31,10 @@ namespace StudentManagementSystem
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            // set header font cua dataGridView Page 1
+            dataGridView_BangDiem.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif",13, style: FontStyle.Regular); 
+
+
             mtCu_p8._TextBox.PasswordChar = '\u25CF';
             mkmoi_p8._TextBox.PasswordChar = '\u25CF';
             mtk_p8._TextBox.PasswordChar = '\u25CF';

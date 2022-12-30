@@ -33,7 +33,7 @@ namespace StudentManagementSystem
         public StudentInfoEdit(string _MaHS, bool EditDiem = true) //_MaHS phải luôn tồn tại
         {
             InitializeComponent();
-            PB_Avatar.Image = Resources.UIT_Logo_NonBackground;
+            //PB_Avatar.Image = Resources.rm422_047;
             maHS = _MaHS;
             MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
@@ -47,6 +47,25 @@ namespace StudentManagementSystem
                 btn_hoantacpag2.Visible = false;
                 btn_Savepage2.Visible = false;
             }
+
+        }
+
+        private void StudentInfoEdit_Load(object sender, EventArgs e)
+        {
+            bt_ResetPag1.AutoSize = false;
+            bt_ResetPag1.Size = new Size(86, 36);
+            bt_SavePage1.AutoSize = false;
+            bt_SavePage1.Size = new Size(86, 36);
+            btn_Savepage2.AutoSize= false;
+            btn_Savepage2.Size = new Size(86, 36);
+            btn_in.AutoSize = false;
+            btn_in.Size = new Size(86, 36);
+            btn_Savepage2.AutoSize= false;
+            btn_Savepage2.Size = new Size(86, 36);
+            tabPage2.BackColor = Color.Honeydew;
+            dataGridView_Diem.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
+            dataGridView_Diem.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
+            
 
         }
 
@@ -409,5 +428,7 @@ namespace StudentManagementSystem
         {
             TinhDTB();
         }
+
+
     }
 }
