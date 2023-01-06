@@ -34,6 +34,10 @@
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.ThongTinHS = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label61 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label29 = new System.Windows.Forms.Label();
             this.Datepicker_me = new DevExpress.XtraEditors.DateEdit();
             this.Datepicker_cha = new DevExpress.XtraEditors.DateEdit();
             this.datepicker_hs = new DevExpress.XtraEditors.DateEdit();
@@ -41,8 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.TB_Sodt = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.bt_ResetPag1 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.bt_SavePage1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.TB_TonGiao = new System.Windows.Forms.TextBox();
             this.TB_GhiChu = new System.Windows.Forms.TextBox();
             this.TB_TenMe = new System.Windows.Forms.TextBox();
@@ -79,6 +81,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.lb_In_page1 = new System.Windows.Forms.Label();
+            this.PB_In_page1 = new System.Windows.Forms.PictureBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.LB_Save_page2 = new System.Windows.Forms.Label();
+            this.btn_Savepage2 = new System.Windows.Forms.PictureBox();
+            this.btn_hoantacpag2 = new System.Windows.Forms.PictureBox();
+            this.lB_HoanTac_page2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbHKCN = new System.Windows.Forms.Label();
             this.lbTBCN = new System.Windows.Forms.Label();
@@ -96,12 +107,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbTB2 = new System.Windows.Forms.Label();
-            this.btn_in = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
-            this.btn_Savepage2 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btn_hoantacpag2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.label26 = new System.Windows.Forms.Label();
-            this.btn_xem = new MaterialSkin.Controls.MaterialRaisedButton();
             this.dataGridView_Diem = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.monhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -112,9 +118,12 @@
             this.dggk = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgck = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trbmhk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
             this.panel1.SuspendLayout();
             this.ThongTinHS.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_me.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_me.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_cha.Properties.CalendarTimeProperties)).BeginInit();
@@ -124,6 +133,10 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_Savepage2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_hoantacpag2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).BeginInit();
             this.SuspendLayout();
@@ -150,6 +163,7 @@
             this.materialTabSelector1.Size = new System.Drawing.Size(1025, 35);
             this.materialTabSelector1.TabIndex = 1;
             this.materialTabSelector1.Text = "materialTabSelector1";
+            this.materialTabSelector1.Click += new System.EventHandler(this.materialTabSelector1_Click);
             // 
             // ThongTinHS
             // 
@@ -167,6 +181,10 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.label61);
+            this.tabPage1.Controls.Add(this.pictureBox7);
+            this.tabPage1.Controls.Add(this.pictureBox6);
+            this.tabPage1.Controls.Add(this.label29);
             this.tabPage1.Controls.Add(this.Datepicker_me);
             this.tabPage1.Controls.Add(this.Datepicker_cha);
             this.tabPage1.Controls.Add(this.datepicker_hs);
@@ -174,8 +192,6 @@
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.TB_Sodt);
             this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.bt_ResetPag1);
-            this.tabPage1.Controls.Add(this.bt_SavePage1);
             this.tabPage1.Controls.Add(this.TB_TonGiao);
             this.tabPage1.Controls.Add(this.TB_GhiChu);
             this.tabPage1.Controls.Add(this.TB_TenMe);
@@ -209,6 +225,55 @@
             this.tabPage1.Size = new System.Drawing.Size(1017, 526);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Thông tin";
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.BackColor = System.Drawing.Color.Transparent;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label61.Location = new System.Drawing.Point(955, 482);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(32, 13);
+            this.label61.TabIndex = 67;
+            this.label61.Text = "LƯU";
+            this.label61.Click += new System.EventHandler(this.bt_SavePage1_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::StudentManagementSystem.Properties.Resources.save__3_;
+            this.pictureBox7.Location = new System.Drawing.Point(958, 448);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 65;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.bt_SavePage1_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::StudentManagementSystem.Properties.Resources.undo__1_;
+            this.pictureBox6.Location = new System.Drawing.Point(826, 448);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 64;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.bt_ResetPag1_Click);
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label29.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label29.Location = new System.Drawing.Point(812, 482);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(70, 13);
+            this.label29.TabIndex = 66;
+            this.label29.Text = "HOÀN TÁC";
+            this.label29.Click += new System.EventHandler(this.bt_ResetPag1_Click);
             // 
             // Datepicker_me
             // 
@@ -289,38 +354,6 @@
             this.label2.Size = new System.Drawing.Size(56, 24);
             this.label2.TabIndex = 57;
             this.label2.Text = "SĐT:";
-            // 
-            // bt_ResetPag1
-            // 
-            this.bt_ResetPag1.AutoSize = true;
-            this.bt_ResetPag1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.bt_ResetPag1.Depth = 0;
-            this.bt_ResetPag1.Icon = null;
-            this.bt_ResetPag1.Location = new System.Drawing.Point(768, 445);
-            this.bt_ResetPag1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.bt_ResetPag1.Name = "bt_ResetPag1";
-            this.bt_ResetPag1.Primary = true;
-            this.bt_ResetPag1.Size = new System.Drawing.Size(89, 36);
-            this.bt_ResetPag1.TabIndex = 56;
-            this.bt_ResetPag1.Text = "Hoàn tác";
-            this.bt_ResetPag1.UseVisualStyleBackColor = true;
-            this.bt_ResetPag1.Click += new System.EventHandler(this.bt_ResetPag1_Click);
-            // 
-            // bt_SavePage1
-            // 
-            this.bt_SavePage1.AutoSize = true;
-            this.bt_SavePage1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.bt_SavePage1.Depth = 0;
-            this.bt_SavePage1.Icon = null;
-            this.bt_SavePage1.Location = new System.Drawing.Point(910, 445);
-            this.bt_SavePage1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.bt_SavePage1.Name = "bt_SavePage1";
-            this.bt_SavePage1.Primary = true;
-            this.bt_SavePage1.Size = new System.Drawing.Size(47, 36);
-            this.bt_SavePage1.TabIndex = 55;
-            this.bt_SavePage1.Text = "Lưu";
-            this.bt_SavePage1.UseVisualStyleBackColor = true;
-            this.bt_SavePage1.Click += new System.EventHandler(this.bt_SavePage1_Click);
             // 
             // TB_TonGiao
             // 
@@ -719,20 +752,132 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
-            this.tabPage2.Controls.Add(this.panel3);
-            this.tabPage2.Controls.Add(this.btn_in);
-            this.tabPage2.Controls.Add(this.CB_ttHK_NH);
+            this.tabPage2.Controls.Add(this.lb_In_page1);
+            this.tabPage2.Controls.Add(this.PB_In_page1);
+            this.tabPage2.Controls.Add(this.label37);
+            this.tabPage2.Controls.Add(this.label35);
+            this.tabPage2.Controls.Add(this.pictureBox3);
+            this.tabPage2.Controls.Add(this.LB_Save_page2);
             this.tabPage2.Controls.Add(this.btn_Savepage2);
             this.tabPage2.Controls.Add(this.btn_hoantacpag2);
+            this.tabPage2.Controls.Add(this.lB_HoanTac_page2);
+            this.tabPage2.Controls.Add(this.panel3);
             this.tabPage2.Controls.Add(this.label26);
-            this.tabPage2.Controls.Add(this.btn_xem);
             this.tabPage2.Controls.Add(this.dataGridView_Diem);
+            this.tabPage2.Controls.Add(this.CB_ttHK_NH);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1017, 526);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Học Tập";
+            // 
+            // lb_In_page1
+            // 
+            this.lb_In_page1.AutoSize = true;
+            this.lb_In_page1.BackColor = System.Drawing.Color.Transparent;
+            this.lb_In_page1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_In_page1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.lb_In_page1.Location = new System.Drawing.Point(943, 42);
+            this.lb_In_page1.Name = "lb_In_page1";
+            this.lb_In_page1.Size = new System.Drawing.Size(40, 13);
+            this.lb_In_page1.TabIndex = 78;
+            this.lb_In_page1.Text = "XUẤT";
+            // 
+            // PB_In_page1
+            // 
+            this.PB_In_page1.Image = global::StudentManagementSystem.Properties.Resources.export;
+            this.PB_In_page1.Location = new System.Drawing.Point(946, 12);
+            this.PB_In_page1.Name = "PB_In_page1";
+            this.PB_In_page1.Size = new System.Drawing.Size(37, 31);
+            this.PB_In_page1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PB_In_page1.TabIndex = 77;
+            this.PB_In_page1.TabStop = false;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label37.Location = new System.Drawing.Point(566, 43);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(33, 13);
+            this.label37.TabIndex = 76;
+            this.label37.Text = "XEM";
+            this.label37.Click += new System.EventHandler(this.btn_xem_Click);
+            // 
+            // label35
+            // 
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.MintCream;
+            this.label35.Location = new System.Drawing.Point(564, 57);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(62, 10);
+            this.label35.TabIndex = 73;
+            this.label35.Text = "XEM";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::StudentManagementSystem.Properties.Resources.checklist;
+            this.pictureBox3.Location = new System.Drawing.Point(568, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 72;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.btn_xem_Click);
+            // 
+            // LB_Save_page2
+            // 
+            this.LB_Save_page2.AutoSize = true;
+            this.LB_Save_page2.BackColor = System.Drawing.Color.Transparent;
+            this.LB_Save_page2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_Save_page2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.LB_Save_page2.Location = new System.Drawing.Point(822, 42);
+            this.LB_Save_page2.Name = "LB_Save_page2";
+            this.LB_Save_page2.Size = new System.Drawing.Size(32, 13);
+            this.LB_Save_page2.TabIndex = 71;
+            this.LB_Save_page2.Text = "LƯU";
+            this.LB_Save_page2.Click += new System.EventHandler(this.btn_Savepage2_Click);
+            // 
+            // btn_Savepage2
+            // 
+            this.btn_Savepage2.Image = global::StudentManagementSystem.Properties.Resources.save__3_;
+            this.btn_Savepage2.Location = new System.Drawing.Point(823, 12);
+            this.btn_Savepage2.Name = "btn_Savepage2";
+            this.btn_Savepage2.Size = new System.Drawing.Size(31, 31);
+            this.btn_Savepage2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_Savepage2.TabIndex = 69;
+            this.btn_Savepage2.TabStop = false;
+            this.btn_Savepage2.Click += new System.EventHandler(this.btn_Savepage2_Click);
+            // 
+            // btn_hoantacpag2
+            // 
+            this.btn_hoantacpag2.Image = global::StudentManagementSystem.Properties.Resources.undo__1_;
+            this.btn_hoantacpag2.Location = new System.Drawing.Point(689, 12);
+            this.btn_hoantacpag2.Name = "btn_hoantacpag2";
+            this.btn_hoantacpag2.Size = new System.Drawing.Size(31, 31);
+            this.btn_hoantacpag2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_hoantacpag2.TabIndex = 68;
+            this.btn_hoantacpag2.TabStop = false;
+            this.btn_hoantacpag2.Click += new System.EventHandler(this.btn_hoantacpag2_Click);
+            // 
+            // lB_HoanTac_page2
+            // 
+            this.lB_HoanTac_page2.AutoSize = true;
+            this.lB_HoanTac_page2.BackColor = System.Drawing.Color.Transparent;
+            this.lB_HoanTac_page2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lB_HoanTac_page2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.lB_HoanTac_page2.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lB_HoanTac_page2.Location = new System.Drawing.Point(666, 43);
+            this.lB_HoanTac_page2.Name = "lB_HoanTac_page2";
+            this.lB_HoanTac_page2.Size = new System.Drawing.Size(70, 13);
+            this.lB_HoanTac_page2.TabIndex = 70;
+            this.lB_HoanTac_page2.Text = "HOÀN TÁC";
+            this.lB_HoanTac_page2.Click += new System.EventHandler(this.btn_hoantacpag2_Click);
             // 
             // panel3
             // 
@@ -934,98 +1079,16 @@
             this.lbTB2.Text = "diemHK2";
             this.lbTB2.UseMnemonic = false;
             // 
-            // btn_in
-            // 
-            this.btn_in.AutoSize = true;
-            this.btn_in.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_in.Depth = 0;
-            this.btn_in.Icon = null;
-            this.btn_in.Location = new System.Drawing.Point(920, 15);
-            this.btn_in.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_in.Name = "btn_in";
-            this.btn_in.Primary = true;
-            this.btn_in.Size = new System.Drawing.Size(71, 36);
-            this.btn_in.TabIndex = 21;
-            this.btn_in.Text = "In điểm";
-            this.btn_in.UseVisualStyleBackColor = true;
-            // 
-            // CB_ttHK_NH
-            // 
-            this.CB_ttHK_NH.BackColor = System.Drawing.Color.White;
-            this.CB_ttHK_NH.BorderColor = System.Drawing.Color.CadetBlue;
-            this.CB_ttHK_NH.BorderSize = 1;
-            this.CB_ttHK_NH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.CB_ttHK_NH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.CB_ttHK_NH.ForeColor = System.Drawing.Color.DimGray;
-            this.CB_ttHK_NH.IconColor = System.Drawing.Color.PowderBlue;
-            this.CB_ttHK_NH.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.CB_ttHK_NH.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_ttHK_NH.Location = new System.Drawing.Point(121, 15);
-            this.CB_ttHK_NH.MinimumSize = new System.Drawing.Size(200, 30);
-            this.CB_ttHK_NH.Name = "CB_ttHK_NH";
-            this.CB_ttHK_NH.Padding = new System.Windows.Forms.Padding(1);
-            this.CB_ttHK_NH.Size = new System.Drawing.Size(259, 36);
-            this.CB_ttHK_NH.TabIndex = 20;
-            this.CB_ttHK_NH.Texts = "";
-            // 
-            // btn_Savepage2
-            // 
-            this.btn_Savepage2.AutoSize = true;
-            this.btn_Savepage2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_Savepage2.Depth = 0;
-            this.btn_Savepage2.Icon = null;
-            this.btn_Savepage2.Location = new System.Drawing.Point(756, 15);
-            this.btn_Savepage2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_Savepage2.Name = "btn_Savepage2";
-            this.btn_Savepage2.Primary = true;
-            this.btn_Savepage2.Size = new System.Drawing.Size(47, 36);
-            this.btn_Savepage2.TabIndex = 18;
-            this.btn_Savepage2.Text = "Lưu";
-            this.btn_Savepage2.UseVisualStyleBackColor = true;
-            this.btn_Savepage2.Click += new System.EventHandler(this.btn_Savepage2_Click);
-            // 
-            // btn_hoantacpag2
-            // 
-            this.btn_hoantacpag2.AutoSize = true;
-            this.btn_hoantacpag2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_hoantacpag2.Depth = 0;
-            this.btn_hoantacpag2.Icon = null;
-            this.btn_hoantacpag2.Location = new System.Drawing.Point(608, 15);
-            this.btn_hoantacpag2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_hoantacpag2.Name = "btn_hoantacpag2";
-            this.btn_hoantacpag2.Primary = true;
-            this.btn_hoantacpag2.Size = new System.Drawing.Size(89, 36);
-            this.btn_hoantacpag2.TabIndex = 17;
-            this.btn_hoantacpag2.Text = "Hoàn Tác";
-            this.btn_hoantacpag2.UseVisualStyleBackColor = true;
-            this.btn_hoantacpag2.Click += new System.EventHandler(this.btn_hoantacpag2_Click);
-            // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label26.Location = new System.Drawing.Point(8, 19);
+            this.label26.Location = new System.Drawing.Point(8, 21);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(107, 24);
+            this.label26.Size = new System.Drawing.Size(130, 25);
             this.label26.TabIndex = 10;
             this.label26.Text = "Bảng điểm:";
-            // 
-            // btn_xem
-            // 
-            this.btn_xem.AutoSize = true;
-            this.btn_xem.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_xem.Depth = 0;
-            this.btn_xem.Icon = null;
-            this.btn_xem.Location = new System.Drawing.Point(445, 15);
-            this.btn_xem.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_xem.Name = "btn_xem";
-            this.btn_xem.Primary = true;
-            this.btn_xem.Size = new System.Drawing.Size(86, 36);
-            this.btn_xem.TabIndex = 14;
-            this.btn_xem.Text = "Xem điểm";
-            this.btn_xem.UseVisualStyleBackColor = true;
-            this.btn_xem.Click += new System.EventHandler(this.btn_xem_Click);
             // 
             // dataGridView_Diem
             // 
@@ -1126,6 +1189,25 @@
             this.trbmhk.ReadOnly = true;
             this.trbmhk.Width = 80;
             // 
+            // CB_ttHK_NH
+            // 
+            this.CB_ttHK_NH.BackColor = System.Drawing.Color.White;
+            this.CB_ttHK_NH.BorderColor = System.Drawing.Color.CadetBlue;
+            this.CB_ttHK_NH.BorderSize = 1;
+            this.CB_ttHK_NH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.CB_ttHK_NH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CB_ttHK_NH.ForeColor = System.Drawing.Color.DimGray;
+            this.CB_ttHK_NH.IconColor = System.Drawing.Color.PowderBlue;
+            this.CB_ttHK_NH.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.CB_ttHK_NH.ListTextColor = System.Drawing.Color.DimGray;
+            this.CB_ttHK_NH.Location = new System.Drawing.Point(138, 19);
+            this.CB_ttHK_NH.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CB_ttHK_NH.Name = "CB_ttHK_NH";
+            this.CB_ttHK_NH.Padding = new System.Windows.Forms.Padding(1);
+            this.CB_ttHK_NH.Size = new System.Drawing.Size(375, 36);
+            this.CB_ttHK_NH.TabIndex = 20;
+            this.CB_ttHK_NH.Texts = "";
+            // 
             // StudentInfoEdit
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -1140,6 +1222,8 @@
             this.ThongTinHS.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_me.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_me.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Datepicker_cha.Properties.CalendarTimeProperties)).EndInit();
@@ -1151,6 +1235,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_Savepage2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_hoantacpag2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).EndInit();
@@ -1163,8 +1251,6 @@
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private MaterialSkin.Controls.MaterialTabControl ThongTinHS;
         private System.Windows.Forms.TabPage tabPage1;
-        private MaterialSkin.Controls.MaterialRaisedButton bt_ResetPag1;
-        private MaterialSkin.Controls.MaterialRaisedButton bt_SavePage1;
         private System.Windows.Forms.TextBox TB_TonGiao;
         private System.Windows.Forms.TextBox TB_GhiChu;
         private System.Windows.Forms.TextBox TB_TenMe;
@@ -1200,7 +1286,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label26;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_xem;
         private System.Windows.Forms.TextBox TB_Sodt;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TB_Email;
@@ -1209,12 +1294,9 @@
         private DevExpress.XtraEditors.DateEdit Datepicker_cha;
         private DevExpress.XtraEditors.DateEdit datepicker_hs;
         private System.Windows.Forms.DataGridView dataGridView_Diem;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_Savepage2;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_hoantacpag2;
         private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton1;
         private CustomControls.CircularPictureBox PB_Avatar;
         private CustomControls.CustomComboBox CB_ttHK_NH;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_in;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lbHKCN;
         private System.Windows.Forms.Label lbTBCN;
@@ -1241,5 +1323,18 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dggk;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgck;
         private System.Windows.Forms.DataGridViewTextBoxColumn trbmhk;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label LB_Save_page2;
+        private System.Windows.Forms.PictureBox btn_Savepage2;
+        private System.Windows.Forms.PictureBox btn_hoantacpag2;
+        private System.Windows.Forms.Label lB_HoanTac_page2;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label lb_In_page1;
+        private System.Windows.Forms.PictureBox PB_In_page1;
     }
 }

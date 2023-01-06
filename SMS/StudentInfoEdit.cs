@@ -40,6 +40,7 @@ namespace StudentManagementSystem
             MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+
             editDiem = EditDiem;
             student = new Student(maHS);
             haveDatainGird = false;
@@ -49,22 +50,16 @@ namespace StudentManagementSystem
             {
                 btn_hoantacpag2.Visible = false;
                 btn_Savepage2.Visible = false;
+                lB_HoanTac_page2.Visible = false;
+                LB_Save_page2.Visible = false;
+                dataGridView_Diem.ReadOnly = true; 
             }
 
         }
 
         private void StudentInfoEdit_Load(object sender, EventArgs e)
         {
-            bt_ResetPag1.AutoSize = false;
-            bt_ResetPag1.Size = new Size(86, 36);
-            bt_SavePage1.AutoSize = false;
-            bt_SavePage1.Size = new Size(86, 36);
-            btn_Savepage2.AutoSize= false;
-            btn_Savepage2.Size = new Size(86, 36);
-            btn_in.AutoSize = false;
-            btn_in.Size = new Size(86, 36);
-            btn_Savepage2.AutoSize= false;
-            btn_Savepage2.Size = new Size(86, 36);
+           
             tabPage2.BackColor = Color.Honeydew;
             dataGridView_Diem.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
             dataGridView_Diem.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
@@ -439,6 +434,9 @@ namespace StudentManagementSystem
             TinhDTB();
         }
 
+        private void materialTabSelector1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

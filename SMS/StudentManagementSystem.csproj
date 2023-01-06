@@ -505,7 +505,33 @@
     <None Include="Resources\rm422-047.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\add-group %281%29.png" />
+    <Content Include="Assets\add.png" />
+    <Content Include="Assets\appointment.png" />
+    <Content Include="Assets\checklist.png" />
+    <Content Include="Assets\customer.png" />
     <Content Include="Assets\education %283%29.png" />
+    <None Include="Resources\export.png" />
+    <None Include="Resources\checklist.png" />
+    <None Include="Resources\add-group %281%29.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\appointment.png" />
+    <None Include="Resources\customer.png" />
+    <None Include="Resources\print.png" />
+    <None Include="Resources\save %283%29.png" />
+    <None Include="Assets\undo-_1_.ico" />
+    <None Include="Assets\save.png" />
+    <None Include="Assets\save.ico" />
+    <Content Include="Assets\export.png" />
+    <Content Include="Assets\print.png" />
+    <Content Include="Assets\search %281%29.png" />
+    <Content Include="Assets\undo %281%29.png" />
+    <None Include="Resources\save %282%292.png" />
+    <None Include="Resources\save %282%291.png" />
+    <None Include="Resources\save %282%29.png" />
+    <None Include="Resources\undo %281%29.png" />
+    <None Include="Resources\search %281%29.png" />
+    <None Include="Resources\search.png" />
     <None Include="Resources\education %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

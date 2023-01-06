@@ -66,6 +66,10 @@ namespace StudentManagementSystem
             this.LB_NgaySinh = new System.Windows.Forms.Label();
             this.LB_NienKhoa = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lb_In_page1 = new System.Windows.Forms.Label();
+            this.PB_In_page1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lbHKCN = new System.Windows.Forms.Label();
             this.lbTBCN = new System.Windows.Forms.Label();
@@ -83,8 +87,6 @@ namespace StudentManagementSystem
             this.label4 = new System.Windows.Forms.Label();
             this.lbTB1 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.btn_in = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.btn_xem = new MaterialSkin.Controls.MaterialRaisedButton();
             this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
             this.label26 = new System.Windows.Forms.Label();
             this.LV_BangDiem = new MaterialSkin.Controls.MaterialListView();
@@ -104,6 +106,8 @@ namespace StudentManagementSystem
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -562,9 +566,11 @@ namespace StudentManagementSystem
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage2.Controls.Add(this.label25);
+            this.tabPage2.Controls.Add(this.pictureBox1);
+            this.tabPage2.Controls.Add(this.lb_In_page1);
+            this.tabPage2.Controls.Add(this.PB_In_page1);
             this.tabPage2.Controls.Add(this.panel3);
-            this.tabPage2.Controls.Add(this.btn_in);
-            this.tabPage2.Controls.Add(this.btn_xem);
             this.tabPage2.Controls.Add(this.CB_ttHK_NH);
             this.tabPage2.Controls.Add(this.label26);
             this.tabPage2.Controls.Add(this.LV_BangDiem);
@@ -574,6 +580,52 @@ namespace StudentManagementSystem
             this.tabPage2.Size = new System.Drawing.Size(1017, 526);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Học Tập";
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label25.Location = new System.Drawing.Point(559, 40);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(62, 16);
+            this.label25.TabIndex = 39;
+            this.label25.Text = "XEM";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label25.Click += new System.EventHandler(this.btn_xem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudentManagementSystem.Properties.Resources.checklist;
+            this.pictureBox1.Location = new System.Drawing.Point(578, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 38;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.btn_xem_Click);
+            // 
+            // lb_In_page1
+            // 
+            this.lb_In_page1.BackColor = System.Drawing.Color.Transparent;
+            this.lb_In_page1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_In_page1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.lb_In_page1.Location = new System.Drawing.Point(671, 40);
+            this.lb_In_page1.Name = "lb_In_page1";
+            this.lb_In_page1.Size = new System.Drawing.Size(57, 16);
+            this.lb_In_page1.TabIndex = 37;
+            this.lb_In_page1.Text = "XUẤT";
+            this.lb_In_page1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PB_In_page1
+            // 
+            this.PB_In_page1.Image = global::StudentManagementSystem.Properties.Resources.export;
+            this.PB_In_page1.Location = new System.Drawing.Point(684, 6);
+            this.PB_In_page1.Name = "PB_In_page1";
+            this.PB_In_page1.Size = new System.Drawing.Size(31, 31);
+            this.PB_In_page1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PB_In_page1.TabIndex = 36;
+            this.PB_In_page1.TabStop = false;
             // 
             // panel3
             // 
@@ -774,40 +826,6 @@ namespace StudentManagementSystem
             this.label19.TabIndex = 4;
             this.label19.Text = "Điểm TB:";
             // 
-            // btn_in
-            // 
-            this.btn_in.AccessibleName = "btn_In";
-            this.btn_in.AutoSize = true;
-            this.btn_in.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_in.BackColor = System.Drawing.Color.Green;
-            this.btn_in.Depth = 0;
-            this.btn_in.Icon = null;
-            this.btn_in.Location = new System.Drawing.Point(660, 17);
-            this.btn_in.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_in.Name = "btn_in";
-            this.btn_in.Primary = true;
-            this.btn_in.Size = new System.Drawing.Size(71, 36);
-            this.btn_in.TabIndex = 18;
-            this.btn_in.Text = "In điểm";
-            this.btn_in.UseVisualStyleBackColor = false;
-            // 
-            // btn_xem
-            // 
-            this.btn_xem.AutoSize = true;
-            this.btn_xem.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_xem.BackColor = System.Drawing.Color.SpringGreen;
-            this.btn_xem.Depth = 0;
-            this.btn_xem.Icon = null;
-            this.btn_xem.Location = new System.Drawing.Point(473, 17);
-            this.btn_xem.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btn_xem.Name = "btn_xem";
-            this.btn_xem.Primary = true;
-            this.btn_xem.Size = new System.Drawing.Size(86, 36);
-            this.btn_xem.TabIndex = 14;
-            this.btn_xem.Text = "Xem điểm";
-            this.btn_xem.UseVisualStyleBackColor = false;
-            this.btn_xem.Click += new System.EventHandler(this.btn_xem_Click);
-            // 
             // CB_ttHK_NH
             // 
             this.CB_ttHK_NH.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
@@ -821,11 +839,11 @@ namespace StudentManagementSystem
             this.CB_ttHK_NH.IconColor = System.Drawing.Color.Thistle;
             this.CB_ttHK_NH.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_ttHK_NH.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_ttHK_NH.Location = new System.Drawing.Point(148, 17);
+            this.CB_ttHK_NH.Location = new System.Drawing.Point(171, 8);
             this.CB_ttHK_NH.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_ttHK_NH.Name = "CB_ttHK_NH";
             this.CB_ttHK_NH.Padding = new System.Windows.Forms.Padding(1);
-            this.CB_ttHK_NH.Size = new System.Drawing.Size(249, 36);
+            this.CB_ttHK_NH.Size = new System.Drawing.Size(340, 36);
             this.CB_ttHK_NH.TabIndex = 0;
             this.CB_ttHK_NH.Texts = "";
             // 
@@ -833,11 +851,11 @@ namespace StudentManagementSystem
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label26.Location = new System.Drawing.Point(25, 21);
+            this.label26.Location = new System.Drawing.Point(25, 20);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(107, 24);
+            this.label26.Size = new System.Drawing.Size(117, 24);
             this.label26.TabIndex = 10;
             this.label26.Text = "Bảng điểm:";
             // 
@@ -856,7 +874,7 @@ namespace StudentManagementSystem
             this.columnHeader8,
             this.columnHeader9});
             this.LV_BangDiem.Depth = 0;
-            this.LV_BangDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LV_BangDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
             this.LV_BangDiem.FullRowSelect = true;
             this.LV_BangDiem.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.LV_BangDiem.HideSelection = false;
@@ -955,6 +973,8 @@ namespace StudentManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -1013,10 +1033,8 @@ namespace StudentManagementSystem
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label LB_NoiSinh;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_xem;
         private CustomControls.CustomComboBox CB_ttHK_NH;
         private System.Windows.Forms.Label label26;
-        private MaterialSkin.Controls.MaterialRaisedButton btn_in;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label19;
@@ -1034,6 +1052,10 @@ namespace StudentManagementSystem
         private System.Windows.Forms.Label lbTBCN;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lb_In_page1;
+        private System.Windows.Forms.PictureBox PB_In_page1;
+        private System.Windows.Forms.Label label25;
     }
 }
 

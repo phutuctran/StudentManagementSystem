@@ -768,7 +768,7 @@ namespace StudentManagementSystem
             }
             Admin.Func_Page3.CurrentMaLop = Admin.Func_Page3.ListLop[CB_Lop_page3.SelectedIndex].MaLop;
             GetAndShowDataHS_p3();
-            btn_tinhtongket_p3.PerformClick();
+            //btn_tinhtongket_p3.PerformClick();
 
         }
 
@@ -1745,6 +1745,14 @@ namespace StudentManagementSystem
             }
         }
 
+        private void tabDiem_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

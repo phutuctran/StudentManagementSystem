@@ -45,9 +45,9 @@ namespace StudentManagementSystem
             this.LB_trangThaiKetNoi = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.LB_trangThaiDB = new System.Windows.Forms.Label();
+            this.TB_pass = new Bunifu.Framework.UI.BunifuTextbox();
             this.TB_DBName = new Bunifu.Framework.UI.BunifuTextbox();
             this.TB_severName = new Bunifu.Framework.UI.BunifuTextbox();
-            this.TB_pass = new Bunifu.Framework.UI.BunifuTextbox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -71,7 +71,7 @@ namespace StudentManagementSystem
             this.BT_Close.Depth = 0;
             this.BT_Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BT_Close.Icon = null;
-            this.BT_Close.Location = new System.Drawing.Point(127, 258);
+            this.BT_Close.Location = new System.Drawing.Point(239, 258);
             this.BT_Close.MouseState = MaterialSkin.MouseState.HOVER;
             this.BT_Close.Name = "BT_Close";
             this.BT_Close.Primary = true;
@@ -148,7 +148,7 @@ namespace StudentManagementSystem
             this.BT_Close1.Depth = 0;
             this.BT_Close1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BT_Close1.Icon = null;
-            this.BT_Close1.Location = new System.Drawing.Point(147, 242);
+            this.BT_Close1.Location = new System.Drawing.Point(253, 242);
             this.BT_Close1.MouseState = MaterialSkin.MouseState.HOVER;
             this.BT_Close1.Name = "BT_Close1";
             this.BT_Close1.Primary = true;
@@ -257,6 +257,19 @@ namespace StudentManagementSystem
             this.LB_trangThaiDB.Text = "Thông tin";
             this.LB_trangThaiDB.Visible = false;
             // 
+            // TB_pass
+            // 
+            this.TB_pass.BackColor = System.Drawing.SystemColors.Control;
+            this.TB_pass.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_pass.BackgroundImage")));
+            this.TB_pass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TB_pass.ForeColor = System.Drawing.Color.Gray;
+            this.TB_pass.Icon = ((System.Drawing.Image)(resources.GetObject("TB_pass.Icon")));
+            this.TB_pass.Location = new System.Drawing.Point(48, 145);
+            this.TB_pass.Name = "TB_pass";
+            this.TB_pass.Size = new System.Drawing.Size(250, 45);
+            this.TB_pass.TabIndex = 7;
+            this.TB_pass.text = "";
+            // 
             // TB_DBName
             // 
             this.TB_DBName.BackColor = System.Drawing.SystemColors.Control;
@@ -282,19 +295,6 @@ namespace StudentManagementSystem
             this.TB_severName.Size = new System.Drawing.Size(250, 45);
             this.TB_severName.TabIndex = 5;
             this.TB_severName.text = "";
-            // 
-            // TB_pass
-            // 
-            this.TB_pass.BackColor = System.Drawing.SystemColors.Control;
-            this.TB_pass.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TB_pass.BackgroundImage")));
-            this.TB_pass.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TB_pass.ForeColor = System.Drawing.Color.Gray;
-            this.TB_pass.Icon = ((System.Drawing.Image)(resources.GetObject("TB_pass.Icon")));
-            this.TB_pass.Location = new System.Drawing.Point(48, 145);
-            this.TB_pass.Name = "TB_pass";
-            this.TB_pass.Size = new System.Drawing.Size(250, 45);
-            this.TB_pass.TabIndex = 7;
-            this.TB_pass.text = "";
             // 
             // frmConnectDB
             // 

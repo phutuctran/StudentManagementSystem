@@ -33,8 +33,7 @@ namespace StudentManagementSystem
         }
         private void StudentInfo_Load(object sender, EventArgs e)
         {
-            btn_in.AutoSize = false;
-            btn_in.Size = new Size(86, 36);
+           
             tabPage2.BackColor = Color.Honeydew;
 
         }
