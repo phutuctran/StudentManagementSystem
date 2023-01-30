@@ -61,6 +61,19 @@ namespace StudentManagementSystem.Classes
             hanhKiem = new HanhKiem();
         }
     }
+
+    public class XetViPham
+    {
+        public Student student;
+        public ViPham viPham;
+        public string namHoc;
+        public XetViPham(Student std, string namHoc)
+        {
+            student = std;
+            viPham = new ViPham(std.MaHS, namHoc);
+            this.namHoc = namHoc;
+        }
+    }
     public class Admin_Funcs
     {
         public Admin_Func_Page1 Func_Page1;
@@ -69,6 +82,7 @@ namespace StudentManagementSystem.Classes
         public Admin_Func_page4 Func_Page4;
         public Admin_Func_Page5 Func_Page5;
         public Admin_Func_Page6 Func_Page6;
+        public Admin_Func_Page7 Func_Page7;
 
         public Admin_Funcs(bool init = false)
         {
@@ -80,6 +94,7 @@ namespace StudentManagementSystem.Classes
                 Func_Page4 = new Admin_Func_page4();
                 Func_Page5 = new Admin_Func_Page5();
                 Func_Page6 = new Admin_Func_Page6();
+                Func_Page7 = new Admin_Func_Page7();
             }
         }
 
@@ -210,7 +225,7 @@ namespace StudentManagementSystem.Classes
             return ("N/A", 0, "N/A");
         }
 
-        public string GetKeyTable(string query)
+        public static string GetKeyTable(string query)
         {
             string key = "";
             bool f = false;
@@ -910,13 +925,14 @@ namespace StudentManagementSystem.Classes
         public bool SaveHanhKiemListHocSinh(string[, ] bangHK)
         {
             string xlhk1, xlhk2, xlhkcn, query;
-            SqlCommand cmd;
+           // SqlCommand cmd;
             for (int i = 0; i < listHS.Count; i++)
             {
                 string _mahs = listHS[i].student.MaHS;
                 xlhk1 = bangHK[i, 0];
                 xlhk2 = bangHK[i, 1];
                 xlhkcn = bangHK[i, 2];
+                //MessageBox.Show(listHS[i].hanhKiem.MaHK);
                 if (!string.IsNullOrEmpty(listHS[i].hanhKiem.MaHK))
                 {
                     listHS[i].hanhKiem.Save(xlhk1, xlhk2, xlhkcn);
@@ -925,7 +941,7 @@ namespace StudentManagementSystem.Classes
                 {
                     //Chưa có bảng hạnh kiểm
                     query = "SELECT COUNT(*) FROM HANHKIEM WHERE MAHK = ";
-                    string maHKiem = this.GetKeyTable(query);
+                    string maHKiem = Admin_Funcs.GetKeyTable(query);
 
                     listHS[i].hanhKiem.Insert(maHKiem, _mahs, xlhk1, xlhk2, xlhkcn, curNamHoc);
 
@@ -1414,5 +1430,115 @@ namespace StudentManagementSystem.Classes
             listLop = this.GetMaLop(curKhoi, curNamHoc);
             
         }
+    }
+
+    public class Admin_Func_Page7 : Admin_Funcs
+    {
+        private List<string> listNamHoc;
+        private List<Lop> listLop;
+        private string curNamHoc;
+        private Lop curLop;
+        private string curKhoi;
+        private List<XetViPham> listHocSinh;
+
+        public List<XetViPham> ListHocSinh
+        {
+            get { return listHocSinh; }
+            set { listHocSinh = value; }
+        }
+
+
+
+        public string CurKhoi
+        {
+            get { return curKhoi; }
+            set { curKhoi = value; }
+        }
+
+
+        public Lop CurLop
+        {
+            get { return curLop; }
+            set { curLop = value; }
+        }
+
+        public  string CurNamHoc
+        {
+            get { return curNamHoc; }
+            set { curNamHoc = value; }
+        }
+
+        public List<Lop> ListLop
+        {
+            get { return listLop; }
+            set { listLop = value; }
+        }
+
+        public List<string> ListNamHoc
+        {
+            get { return listNamHoc; }
+            set { listNamHoc = value; }
+        }
+
+        public Admin_Func_Page7()
+        {
+            listNamHoc = new List<string>();
+            listLop = new List<Lop>();
+            listHocSinh = new List<XetViPham>();
+        }
+        public void GetListNamHoc()
+        {
+            listNamHoc.Clear();
+            listNamHoc = this.GetNamHoc();
+        }
+        public void GetListLopHoc()
+        {
+            listLop.Clear();
+            listLop = this.GetMaLop(curKhoi, curNamHoc);
+        }
+        public void GetListLopHoc( string _curKhoi, string _curNamHoc)
+        {
+            curKhoi = _curKhoi;
+            curNamHoc = _curNamHoc;
+            GetListLopHoc();
+        }
+
+        public void GetListHocSinh()
+        {
+            listHocSinh.Clear();
+            var list = this.GetInfoHocSinh(_maLop: curLop.MaLop);
+            foreach(var p in list)
+            {
+                listHocSinh.Add(new XetViPham(p, curNamHoc));
+            }
+
+        }
+
+        public void GetListHocSinh(Lop lop)
+        {
+            curLop = lop;
+            
+            GetListHocSinh();
+        }
+
+        public bool SaveNewViPham(int[,] tableViPham)
+        {
+            for(int i = 0; i < listHocSinh.Count; i++)
+            {
+                if (listHocSinh[i].viPham.Save("HK1", tableViPham[i, 0], tableViPham[i, 1], tableViPham[i, 2]) && listHocSinh[i].viPham.Save("HK2", tableViPham[i, 3], tableViPham[i, 4], tableViPham[i, 5]))
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Có lỗi trong quá trình lưu!!", "Thông báo");
+                    return false;
+                }
+                
+            }
+            return true;
+        }
+
+
     }
 }

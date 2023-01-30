@@ -27,6 +27,7 @@ namespace StudentManagementSystem
         public static Point LOCATIONWRITEBANGDIEMHS = new Point(11, 3);
         public static string BANGDIEMHSTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() +  @"\TemplatesExcels\BangDiemHocSinh.xlsx";
         public static string BANGDIEMHSTONGKETTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\BangDiemHocSinh_TongKet.xlsx";
+        public static string BANGCHITIETVIPHAMHOCKI = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\SoViPhamChiTiet.xlsx";
     }
 
     public static class GlobalFunction
@@ -122,7 +123,7 @@ namespace StudentManagementSystem
             int number;
             if (int.TryParse(negativeString, out number))
             {
-                return number;
+                return number < 0? -1 : number;
             }
             return -1;
         }

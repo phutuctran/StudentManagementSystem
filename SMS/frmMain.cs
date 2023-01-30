@@ -32,7 +32,16 @@ namespace StudentManagementSystem
         private void frmMain_Load(object sender, EventArgs e)
         {
             // set header font cua dataGridView Page 1
-            dataGridView_BangDiem.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif",13, style: FontStyle.Regular); 
+            dataGridView_BangDiem.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_ThongTinHocSinh.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_Tongket.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_page4_lopcu.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_page4_lopmoi.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_nienkhoa_p5.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_Lop_p5.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_HSThem_p6.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dg_ViPham.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
+            dataGridView_taikhoan_p8.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 11, style: FontStyle.Regular);
 
 
             mtCu_p8._TextBox.PasswordChar = '\u25CF';
@@ -46,14 +55,14 @@ namespace StudentManagementSystem
             GetandShowMaNamHocpage3();
             GetandShowMaNamHocpage4();
             LoadPage5();
-           
+
             string check = File.ReadAllText("./StudentEdit");
             if (check == "1")
                 bunifuCheckBox1.Checked = true;
             else
                 bunifuCheckBox1.Checked = false;
         }
-        
+
         //Event menu
         private void bunifuIconButton5_Click(object sender, EventArgs e)
         {
@@ -305,7 +314,7 @@ namespace StudentManagementSystem
                     return;
                 }
             }
-            
+
             if (CB_HocKi.SelectedIndex == -1)
             {
                 return;
@@ -396,7 +405,7 @@ namespace StudentManagementSystem
             int count = Admin.Func_Page1.ListHocSinh.Count;
             if (idxMon != 11)
             {
-                
+
                 for (int i = 0; i < count; i++)
                 {
                     tongHeSo = 0;
@@ -506,7 +515,7 @@ namespace StudentManagementSystem
                     {
                         MessageBox.Show($"Điểm nhập không hợp lệ ở học sinh {i + 1}", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
-                    }    
+                    }
                 }
             }
             //btn_tinhDTB_pag1.PerformClick();
@@ -537,7 +546,7 @@ namespace StudentManagementSystem
                         string _diem = dataGridView_BangDiem.Rows[i].Cells[j].Value == null ? string.Empty : dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
                         bangDiemNew[idxMon, j - 3] = GlobalFunction.CheckDiem(_diem.Trim());
                     }
-                }    
+                }
 
                 Admin.Func_Page1.ListHocSinh[i].SaveDiemStudent(bangDiemNew, Admin.Func_Page1.CurrentHocKi, Admin.Func_Page1.CurrentNamHoc, idxMon);
             }
@@ -578,6 +587,10 @@ namespace StudentManagementSystem
                 }
             }
             return true;
+        }
+        private void PB_In_page1_Click(object sender, EventArgs e)
+        {
+
         }
 
         //----------------------tabPage2---------------------------
@@ -1193,7 +1206,7 @@ namespace StudentManagementSystem
                 listMaHS.Add((dataGridView_page4_lopmoi.Rows[i].Cells[1].Value.ToString(), dataGridView_page4_lopmoi.Rows[i].Cells[2].Value.ToString()));
             }
             Admin.Func_Page4.SaveChuyenLop(listMaHS, maLopMoi, maLopCu, maNamHoc, CB_LoaiChuyen.SelectedIndex);
-            
+
             MessageBox.Show("Đã lưu", "Thông báo!");
             CB_LopCu_p4_SelectedIndexChanged(sender, e);
             dataGridView_page4_lopmoi.Rows.Clear();
@@ -1467,14 +1480,14 @@ namespace StudentManagementSystem
                 TB_matkhau_p6.Text = "";
                 tb_Username_p6.Text = "";
             }
-            
-            
+
+
 
         }
 
         private void CB_NamHoc_p6_Click(object sender, EventArgs e)
         {
-            
+
             if (CB_NienKhoa_p6.SelectedIndex < 0)
             {
                 MessageBox.Show("Chọn niên khóa trước", "Thông báo");
@@ -1498,7 +1511,7 @@ namespace StudentManagementSystem
                 MessageBox.Show("Vui lòng chọn năm học và khối!", "Thông báo");
             }
             Admin.Func_Page6.GetListLop(CB_Khoi_p6.Text, CB_NamHoc_p6.Text);
-            
+
             foreach (var p in Admin.Func_Page6.ListLop)
             {
                 CB_Lop_p6.Items.Add(p.TenLop);
@@ -1745,7 +1758,212 @@ namespace StudentManagementSystem
         {
 
         }
+        //Page 7 
+        bool haveDatainGirdView = false;
+        private void cb_NamHoc_tpNew_Click(object sender, EventArgs e)
+        {
+            cb_NamHoc_tpNew.Text = "";
+            cb_NamHoc_tpNew.Items.Clear();
+            Admin.Func_Page7.GetListNamHoc();
+            foreach (var p in Admin.Func_Page7.ListNamHoc)
+            {
+                cb_NamHoc_tpNew.Items.Add(p);
+            }
+        }
 
+        private void cb_Lop_tpNew_Click(object sender, EventArgs e)
+        {
+            int indexNamHoc;
+            indexNamHoc = cb_NamHoc_tpNew.SelectedIndex;
+            int indexKhoi;
+            indexKhoi = cb_Khoi_tpNew.SelectedIndex;
+            if (indexNamHoc == -1 || indexKhoi == -1)
+            {
+                MessageBox.Show("Vui lòng chọn khối và năm học", "Thông báo");
+                return;
+            }
+            Admin.Func_Page7.GetListLopHoc(cb_Khoi_tpNew.SelectedItem.ToString(), cb_NamHoc_tpNew.SelectedItem.ToString());
+            cb_Lop_tpNew.Text = "";
+            cb_Lop_tpNew.Items.Clear();
+            foreach (var p in Admin.Func_Page7.ListLop)
+            {
+                cb_Lop_tpNew.Items.Add(p.TenLop);
+            }
 
+        }
+
+        private void cb_Lop_tpNew_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cb_Lop_tpNew.SelectedIndex < 0)
+            {
+                MessageBox.Show("Vui lòng chọn lớp học!", "Thông báo");
+                return;
+            }
+            var lopTmp = Admin.Func_Page7.ListLop[cb_Lop_tpNew.SelectedIndex];
+            Admin.Func_Page7.GetListHocSinh(lopTmp);
+            int stt = 0;
+            dg_ViPham.Rows.Clear();
+            foreach (var p in Admin.Func_Page7.ListHocSinh)
+            {
+                var idx = dg_ViPham.Rows.Add();
+                dg_ViPham.Rows[idx].Cells[0].Value = ++stt;
+                dg_ViPham.Rows[idx].Cells[1].Value = p.student.MaHS;
+                dg_ViPham.Rows[idx].Cells[2].Value = p.student.HoTen;
+                dg_ViPham.Rows[idx].Cells[3].Value = p.student.GioiTinh == "Nữ" ? true : false;
+                dg_ViPham.Rows[idx].Cells[4].Value = p.viPham.NghiCoPhepHKI.ToString();
+                dg_ViPham.Rows[idx].Cells[5].Value = p.viPham.NghiKhongPhepHKI.ToString();
+                dg_ViPham.Rows[idx].Cells[6].Value = p.viPham.ViPhamHKI.ToString();
+                dg_ViPham.Rows[idx].Cells[7].Value = p.viPham.NghiCoPhepHKII.ToString();
+                dg_ViPham.Rows[idx].Cells[8].Value = p.viPham.NghiKhongPhepHKII.ToString();
+                dg_ViPham.Rows[idx].Cells[9].Value = p.viPham.ViPhamHKII.ToString();
+            }
+            haveDatainGirdView = true;
+        }
+
+        private void cb_NamHoc_tpNew_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DeleteDataPage7())
+            {
+                cb_Lop_tpNew.Items.Clear();
+                cb_Lop_tpNew.Text = "";
+            }
+
+            
+
+        }
+
+        private void cb_Khoi_tpNew_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (DeleteDataPage7())
+            {
+                cb_Lop_tpNew.Items.Clear();
+                cb_Lop_tpNew.Text = "";
+            }
+
+        }
+
+        private void tb_Search_tpNew_TextChange(object sender, EventArgs e)
+        {
+            string keySearch = tb_Search_tpNew.Text.Trim();
+            if (string.IsNullOrEmpty(keySearch))
+            {
+                foreach (DataGridViewRow row in dg_ViPham.Rows)
+                {
+                    row.Visible = true;
+                }
+            }
+            foreach (DataGridViewRow row in dg_ViPham.Rows)
+            {
+                if (row.Cells[1].Value.ToString().Contains(keySearch) || row.Cells[2].Value.ToString().Contains(keySearch))
+                {
+                    row.Visible = true;
+                }
+                else
+                {
+                    row.Visible = false;
+                }
+            }
+        }
+
+        bool DeleteDataPage7()
+        {
+            if (haveDatainGirdView)
+            {
+                DialogResult dr = MessageBox.Show("Bạn có muốn xóa dữ liệu hiện tại!", "Thông báo", MessageBoxButtons.YesNo);
+                if (dr == DialogResult.Yes)
+                {
+                    dg_ViPham.Rows.Clear();
+                    haveDatainGirdView= false;
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            haveDatainGirdView = false;
+            return true;
+            
+        }
+
+        private void pb_Reset_tpNew_Click(object sender, EventArgs e)
+        {
+            if (DeleteDataPage7())
+            {
+                cb_NamHoc_tpNew.SelectedIndex = -1;
+                cb_Khoi_tpNew.SelectedIndex = -1;
+                cb_Lop_tpNew.SelectedIndex = -1;
+            }
+        }
+
+        private void pb_Save_tpNew_Click(object sender, EventArgs e)
+        {
+            foreach(DataGridViewRow p in dg_ViPham.Rows)
+            {
+                for (int i = 4; i <= 9; i++)
+                {
+                    if (GlobalFunction.ConvertStringToNeInt(p.Cells[i].Value.ToString()) < 0)
+                    {
+                        MessageBox.Show($"Số nhập không hợp lệ tại học sinh thứ {p.Cells[0]}", "Thông báo");
+                        return;
+                    }
+                }
+            }
+            int[,] tabelViPham = new int[Admin.Func_Page7.ListHocSinh.Count, 6];
+            for(int i = 0; i < dg_ViPham.RowCount; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    tabelViPham[i, j] = GlobalFunction.ConvertStringToNeInt(dg_ViPham.Rows[i].Cells[j + 4].Value.ToString());
+                }
+            }
+            if (Admin.Func_Page7.SaveNewViPham(tabelViPham))
+            {
+                MessageBox.Show("Đã lưu!", "Thông báo!");
+            }
+        }
+
+        private void pb_Export_tpNew_Click(object sender, EventArgs e)
+        {
+          
+            if (!haveDatainGirdView)
+            {
+                return;
+            }
+            string[,] saveValue = new string[dg_ViPham.RowCount, 10];
+            for (int i = 0; i < dg_ViPham.RowCount; i++)
+                for (int j = 0; j < 10; j++)
+                {
+                    saveValue[i, j] = dg_ViPham.Rows[i].Cells[j].Value.ToString();
+                    if (j == 3)
+                    {
+                        saveValue[i, j] = Convert.ToBoolean(dg_ViPham.Rows[i].Cells[j].Value) == true ? "Nữ" : "Nam";
+                    }    
+                }
+            MakeReport rp = new MakeReport(GlobalProperties.BANGCHITIETVIPHAMHOCKI, new Point(8, 1), saveValue);
+            //int idx = CB_ttHK_NH.SelectedIndex;
+            //List<(string value, Point location)> otherValue = new List<(string value, Point location)>();
+            //otherValue.Add((@"Họ tên: " + student.HoTen, new Point(6, 2)));
+            //otherValue.Add((@"Mã học sinh: " + student.MaHS, new Point(6, 4)));
+            //otherValue.Add((@"Lớp: " + student.Lop, new Point(7, 2)));
+            //otherValue.Add((@"Năm học: " + CB_ChonNamHoctab3.SelectedItem.ToString(), new Point(7, 4)));
+            ////HKI
+            //otherValue.Add((hocTapHKI_Page3.Text, new Point(9, 3)));
+            //otherValue.Add((hanhKiemHKI_page3.Text, new Point(9, 5)));
+            //otherValue.Add((student.BangViPham.NghiCoPhepHKI.ToString() + "/" + student.BangViPham.NghiKhongPhepHKI.ToString(), new Point(10, 3)));
+            //otherValue.Add((student.BangViPham.ViPhamHKI.ToString(), new Point(10, 5)));
+            ////HKII
+            //otherValue.Add((hocTapHkII_page3.Text, new Point(12, 3)));
+            //otherValue.Add((hanhKiemHKII_page3.Text, new Point(12, 5)));
+            //otherValue.Add((student.BangViPham.NghiCoPhepHKII.ToString() + "/" + student.BangViPham.NghiKhongPhepHKII.ToString(), new Point(13, 3)));
+            //otherValue.Add((student.BangViPham.ViPhamHKII.ToString(), new Point(13, 5)));
+            ////Cả năm
+            //otherValue.Add((hocTapCn_page3.Text, new Point(15, 3)));
+            //otherValue.Add((hanhKiemCN_page3.Text, new Point(15, 5)));
+            //rp.OrtherValue = otherValue;
+            rp.GetSavePathWithSaveFileDialog();
+            rp.OverwritetoExcelFile();
+            rp.OpenExcelFile();
+        }
     }
 }

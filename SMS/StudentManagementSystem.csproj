@@ -536,6 +536,8 @@
     <Content Include="Assets\checklist.png" />
     <Content Include="Assets\customer.png" />
     <Content Include="Assets\education %283%29.png" />
+    <Content Include="Assets\yellow-card.png" />
+    <None Include="Resources\yellow-card.png" />
     <None Include="Resources\export.png" />
     <None Include="Resources\checklist.png" />
     <None Include="Resources\add-group %281%29.png" />

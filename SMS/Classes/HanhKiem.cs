@@ -139,7 +139,7 @@ namespace StudentManagementSystem.Classes
         {
             string query = @"UPDATE HANHKIEM" +
                                     $" SET XEPLOAIHKII = N'{xepLoaiHK2}'" +
-                                    $"WHERE MAHK = '{this.maHK}'";
+                                    $" WHERE MAHK = '{this.maHK}'";
 
             try
             {
@@ -165,7 +165,7 @@ namespace StudentManagementSystem.Classes
         {
             string query = @"UPDATE HANHKIEM" +
                                     $" SET XEPLOAIHKI = N'{xepLoaiHK1}'" +
-                                    $"WHERE MAHK = '{this.maHK}'";
+                                    $" WHERE MAHK = '{this.maHK}'";
 
             try
             {
@@ -191,8 +191,8 @@ namespace StudentManagementSystem.Classes
         public bool Save(string xepLoaiHK1, string xepLoaiHK2, string xepLoaiCN)
         {
             string query = @"UPDATE HANHKIEM" +
-                                    $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{XepLoaiHK2}', XEPLOAICN = N'{XepLoaiCN}'" +
-                                    $"WHERE MAHK = '{this.maHK}'";
+                                    $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{xepLoaiHK2}', XEPLOAICN = N'{xepLoaiCN}'" +
+                                    $" WHERE MAHK = '{this.maHK}'";
       
             try
             {
@@ -218,8 +218,8 @@ namespace StudentManagementSystem.Classes
         public bool SaveHanhKiemStatic(string maHS, string xepLoaiHK1, string xepLoaiHK2, string xepLoaiCN)
         {
             string query = @"UPDATE HANHKIEM" +
-                                    $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{XepLoaiHK2}', XEPLOAICN = N'{XepLoaiCN}'" +
-                                    $"WHERE MAHK = '{this.maHK}'";
+                                    $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{xepLoaiHK2}', XEPLOAICN = N'{xepLoaiCN}'" +
+                                    $" WHERE MAHK = '{this.maHK}'";
 
             try
             {

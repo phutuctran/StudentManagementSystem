@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Office.Word;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -109,12 +110,12 @@ namespace StudentManagementSystem.Classes
                     while (rdr.Read())
                     {
 
-                        NghiCoPhepHKI = rdr.IsDBNull(0) ? 0 : rdr.GetInt16(0);
-                        NghiKhongPhepHKI = rdr.IsDBNull(1) ? 0 : rdr.GetInt16(1);
-                        ViPhamHKI = rdr.IsDBNull(2) ? 0 : rdr.GetInt16(2);
-                        NghiCoPhepHKII = rdr.IsDBNull(3) ? 0 : rdr.GetInt16(3);
-                        NghiKhongPhepHKII = rdr.IsDBNull(4) ? 0 : rdr.GetInt16(4);
-                        ViPhamHKII = rdr.IsDBNull(5) ? 0 : rdr.GetInt16(5);
+                        NghiCoPhepHKI = rdr.IsDBNull(0) ? 0 : rdr.GetInt32(0);
+                        NghiKhongPhepHKI = rdr.IsDBNull(1) ? 0 : rdr.GetInt32(1);
+                        ViPhamHKI = rdr.IsDBNull(2) ? 0 : rdr.GetInt32(2);
+                        NghiCoPhepHKII = rdr.IsDBNull(3) ? 0 : rdr.GetInt32(3);
+                        NghiKhongPhepHKII = rdr.IsDBNull(4) ? 0 : rdr.GetInt32(4);
+                        ViPhamHKII = rdr.IsDBNull(5) ? 0 : rdr.GetInt32(5);
                         maViPham = rdr.IsDBNull(5) ? "" : rdr.GetString(6);
                     }
                 }
@@ -168,6 +169,13 @@ namespace StudentManagementSystem.Classes
 
         public bool Save(string _HK, int cp, int kp, int vp)
         {
+            if (string.IsNullOrEmpty(this.maViPham))
+            {
+                if (!this.Insert())
+                {
+                    return false;
+                }
+            }
             string query = "";
             if (_HK == "HK1")
             {
@@ -200,6 +208,37 @@ namespace StudentManagementSystem.Classes
                 return false;
             }
             return true;
+
+
+
+        }
+
+        public bool Insert()
+        {
+
+            string query = "SELECT COUNT(*) FROM VIPHAM WHERE VIPHAM.MAVIPHAM = ";
+            string maVP = Admin_Funcs.GetKeyTable(query);
+            query = @"INSERT INTO VIPHAM(MAVIPHAM, MAHS, NAMHOC, COPHEPHKI, KHONGPHEPHKI, VIPHAMHKI, COPHEPHKII, KHONGPHEPHKII, VIPHAMHKII)" 
+                        + $" VALUES ('{maVP}', '{maHocSinh}', '{namHoc}', '0', '0', '0', '0', '0', '0')";
+            try
+            {
+                //MessageBox.Show(query);
+                var cmd = new SqlCommand(query, GlobalProperties.conn);
+
+                int rowCount = cmd.ExecuteNonQuery();
+                this.MaViPham= maVP;
+                
+                return rowCount > 0;
+            }
+            catch (Exception ee)
+            {
+                DialogResult dialogResult = MessageBox.Show("Lỗi trong quá trình thêm. Hiển thị lỗi?", "Thông báo", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    MessageBox.Show("Error: " + ee);
+                }
+            }
+            return false;
         }
 
     }
