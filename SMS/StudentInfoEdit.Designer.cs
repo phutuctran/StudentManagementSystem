@@ -83,30 +83,23 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.lb_In_page1 = new System.Windows.Forms.Label();
             this.PB_In_page1 = new System.Windows.Forms.PictureBox();
-            this.label37 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.LB_Save_page2 = new System.Windows.Forms.Label();
             this.btn_Savepage2 = new System.Windows.Forms.PictureBox();
             this.btn_hoantacpag2 = new System.Windows.Forms.PictureBox();
             this.lB_HoanTac_page2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lbHKCN = new System.Windows.Forms.Label();
-            this.lbTBCN = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
+            this.TB_ViPham_p2 = new System.Windows.Forms.TextBox();
+            this.TB_KhongPhep_p2 = new System.Windows.Forms.TextBox();
+            this.TB_cophep_p2 = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.lbHK2 = new System.Windows.Forms.Label();
-            this.lbHK1 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.lbTB1 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.CB_RenLuyen_p2 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lbTB2 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.LB_HocTap_p2 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.dataGridView_Diem = new System.Windows.Forms.DataGridView();
             this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -119,6 +112,35 @@
             this.dgck = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trbmhk = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CB_ttHK_NH = new StudentManagementSystem.CustomControls.CustomComboBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label44 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.hanhKiemCN_page3 = new System.Windows.Forms.Label();
+            this.hocTapCn_page3 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.hanhKiemHKII_page3 = new System.Windows.Forms.Label();
+            this.hocTapHkII_page3 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.hanhKiemHKI_page3 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.hocTapHKI_Page3 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CB_ChonNamHoctab3 = new StudentManagementSystem.CustomControls.CustomComboBox();
+            this.LV_TongKetDiem = new MaterialSkin.Controls.MaterialListView();
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label46 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.ThongTinHS.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -134,11 +156,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_Avatar)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Savepage2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_hoantacpag2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -170,6 +194,7 @@
             this.ThongTinHS.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ThongTinHS.Controls.Add(this.tabPage1);
             this.ThongTinHS.Controls.Add(this.tabPage2);
+            this.ThongTinHS.Controls.Add(this.tabPage3);
             this.ThongTinHS.Depth = 0;
             this.ThongTinHS.Location = new System.Drawing.Point(0, 34);
             this.ThongTinHS.MouseState = MaterialSkin.MouseState.HOVER;
@@ -754,9 +779,7 @@
             this.tabPage2.BackColor = System.Drawing.Color.Honeydew;
             this.tabPage2.Controls.Add(this.lb_In_page1);
             this.tabPage2.Controls.Add(this.PB_In_page1);
-            this.tabPage2.Controls.Add(this.label37);
             this.tabPage2.Controls.Add(this.label35);
-            this.tabPage2.Controls.Add(this.pictureBox3);
             this.tabPage2.Controls.Add(this.LB_Save_page2);
             this.tabPage2.Controls.Add(this.btn_Savepage2);
             this.tabPage2.Controls.Add(this.btn_hoantacpag2);
@@ -783,6 +806,7 @@
             this.lb_In_page1.Size = new System.Drawing.Size(40, 13);
             this.lb_In_page1.TabIndex = 78;
             this.lb_In_page1.Text = "XUẤT";
+            this.lb_In_page1.Click += new System.EventHandler(this.PB_In_page1_Click);
             // 
             // PB_In_page1
             // 
@@ -793,20 +817,7 @@
             this.PB_In_page1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_In_page1.TabIndex = 77;
             this.PB_In_page1.TabStop = false;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label37.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label37.Location = new System.Drawing.Point(566, 43);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(33, 13);
-            this.label37.TabIndex = 76;
-            this.label37.Text = "XEM";
-            this.label37.Click += new System.EventHandler(this.btn_xem_Click);
+            this.PB_In_page1.Click += new System.EventHandler(this.PB_In_page1_Click);
             // 
             // label35
             // 
@@ -818,17 +829,6 @@
             this.label35.TabIndex = 73;
             this.label35.Text = "XEM";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::StudentManagementSystem.Properties.Resources.checklist;
-            this.pictureBox3.Location = new System.Drawing.Point(568, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(31, 31);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 72;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.btn_xem_Click);
             // 
             // LB_Save_page2
             // 
@@ -884,60 +884,105 @@
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel3.BackColor = System.Drawing.Color.MintCream;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.lbHKCN);
-            this.panel3.Controls.Add(this.lbTBCN);
-            this.panel3.Controls.Add(this.label23);
-            this.panel3.Controls.Add(this.label25);
-            this.panel3.Controls.Add(this.label27);
+            this.panel3.Controls.Add(this.TB_ViPham_p2);
+            this.panel3.Controls.Add(this.TB_KhongPhep_p2);
+            this.panel3.Controls.Add(this.TB_cophep_p2);
             this.panel3.Controls.Add(this.label22);
-            this.panel3.Controls.Add(this.lbHK2);
-            this.panel3.Controls.Add(this.lbHK1);
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Controls.Add(this.label20);
             this.panel3.Controls.Add(this.label21);
-            this.panel3.Controls.Add(this.lbTB1);
+            this.panel3.Controls.Add(this.label20);
+            this.panel3.Controls.Add(this.CB_RenLuyen_p2);
+            this.panel3.Controls.Add(this.label23);
             this.panel3.Controls.Add(this.label28);
-            this.panel3.Controls.Add(this.label19);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.lbTB2);
+            this.panel3.Controls.Add(this.label25);
+            this.panel3.Controls.Add(this.LB_HocTap_p2);
             this.panel3.Location = new System.Drawing.Point(759, 77);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(249, 440);
             this.panel3.TabIndex = 22;
             // 
-            // lbHKCN
+            // TB_ViPham_p2
             // 
-            this.lbHKCN.AutoSize = true;
-            this.lbHKCN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHKCN.Location = new System.Drawing.Point(127, 371);
-            this.lbHKCN.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbHKCN.Name = "lbHKCN";
-            this.lbHKCN.Size = new System.Drawing.Size(96, 18);
-            this.lbHKCN.TabIndex = 31;
-            this.lbHKCN.Text = "hanhKiemCN";
-            this.lbHKCN.UseMnemonic = false;
+            this.TB_ViPham_p2.Location = new System.Drawing.Point(133, 245);
+            this.TB_ViPham_p2.Name = "TB_ViPham_p2";
+            this.TB_ViPham_p2.Size = new System.Drawing.Size(111, 20);
+            this.TB_ViPham_p2.TabIndex = 44;
             // 
-            // lbTBCN
+            // TB_KhongPhep_p2
             // 
-            this.lbTBCN.AutoSize = true;
-            this.lbTBCN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTBCN.Location = new System.Drawing.Point(127, 329);
-            this.lbTBCN.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbTBCN.Name = "lbTBCN";
-            this.lbTBCN.Size = new System.Drawing.Size(81, 18);
-            this.lbTBCN.TabIndex = 30;
-            this.lbTBCN.Text = "diemTBCN";
-            this.lbTBCN.UseMnemonic = false;
+            this.TB_KhongPhep_p2.Location = new System.Drawing.Point(133, 210);
+            this.TB_KhongPhep_p2.Name = "TB_KhongPhep_p2";
+            this.TB_KhongPhep_p2.Size = new System.Drawing.Size(111, 20);
+            this.TB_KhongPhep_p2.TabIndex = 43;
+            // 
+            // TB_cophep_p2
+            // 
+            this.TB_cophep_p2.Location = new System.Drawing.Point(133, 172);
+            this.TB_cophep_p2.Name = "TB_cophep_p2";
+            this.TB_cophep_p2.Size = new System.Drawing.Size(111, 20);
+            this.TB_cophep_p2.TabIndex = 42;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(9, 245);
+            this.label22.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(116, 23);
+            this.label22.TabIndex = 41;
+            this.label22.Text = "Số lần vi phạm:";
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(3, 207);
+            this.label21.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(130, 23);
+            this.label21.TabIndex = 40;
+            this.label21.Text = "Nghỉ không phép:";
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(8, 172);
+            this.label20.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(100, 23);
+            this.label20.TabIndex = 39;
+            this.label20.Text = "Nghỉ có phép:";
+            // 
+            // CB_RenLuyen_p2
+            // 
+            this.CB_RenLuyen_p2.FormattingEnabled = true;
+            this.CB_RenLuyen_p2.Items.AddRange(new object[] {
+            "Tốt",
+            "Khá",
+            "Đạt",
+            "Chưa đạt"});
+            this.CB_RenLuyen_p2.Location = new System.Drawing.Point(133, 105);
+            this.CB_RenLuyen_p2.Name = "CB_RenLuyen_p2";
+            this.CB_RenLuyen_p2.Size = new System.Drawing.Size(111, 21);
+            this.CB_RenLuyen_p2.TabIndex = 38;
             // 
             // label23
             // 
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(13, 371);
+            this.label23.Location = new System.Drawing.Point(3, 104);
             this.label23.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(100, 23);
-            this.label23.TabIndex = 29;
-            this.label23.Text = "Hạnh kiểm:";
+            this.label23.Size = new System.Drawing.Size(126, 23);
+            this.label23.TabIndex = 33;
+            this.label23.Text = "Kết quả rèn luyện:";
+            // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(10, 69);
+            this.label28.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(115, 23);
+            this.label28.TabIndex = 32;
+            this.label28.Text = "Kết quả học tập:";
             // 
             // label25
             // 
@@ -951,133 +996,17 @@
             this.label25.Text = "Bảng điểm tổng hợp";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label27
+            // LB_HocTap_p2
             // 
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(13, 36);
-            this.label27.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(100, 23);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Học kì I: ";
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(14, 338);
-            this.label22.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(100, 23);
-            this.label22.TabIndex = 28;
-            this.label22.Text = "Điểm TB:";
-            // 
-            // lbHK2
-            // 
-            this.lbHK2.AutoSize = true;
-            this.lbHK2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHK2.Location = new System.Drawing.Point(122, 239);
-            this.lbHK2.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbHK2.Name = "lbHK2";
-            this.lbHK2.Size = new System.Drawing.Size(103, 18);
-            this.lbHK2.TabIndex = 26;
-            this.lbHK2.Text = "hanhKiemHK2";
-            this.lbHK2.UseMnemonic = false;
-            // 
-            // lbHK1
-            // 
-            this.lbHK1.AutoSize = true;
-            this.lbHK1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbHK1.Location = new System.Drawing.Point(122, 108);
-            this.lbHK1.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbHK1.Name = "lbHK1";
-            this.lbHK1.Size = new System.Drawing.Size(103, 18);
-            this.lbHK1.TabIndex = 21;
-            this.lbHK1.Text = "hanhKiemHK1";
-            this.lbHK1.UseMnemonic = false;
-            // 
-            // label24
-            // 
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(10, 296);
-            this.label24.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(100, 23);
-            this.label24.TabIndex = 27;
-            this.label24.Text = "Cả năm: ";
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(13, 69);
-            this.label20.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(100, 23);
-            this.label20.TabIndex = 23;
-            this.label20.Text = "Điểm TB:";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(10, 239);
-            this.label21.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(100, 23);
-            this.label21.TabIndex = 24;
-            this.label21.Text = "Hạnh kiểm:";
-            // 
-            // lbTB1
-            // 
-            this.lbTB1.AutoSize = true;
-            this.lbTB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTB1.Location = new System.Drawing.Point(127, 69);
-            this.lbTB1.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbTB1.Name = "lbTB1";
-            this.lbTB1.Size = new System.Drawing.Size(69, 18);
-            this.lbTB1.TabIndex = 19;
-            this.lbTB1.Text = "diemHK1";
-            this.lbTB1.UseMnemonic = false;
-            // 
-            // label28
-            // 
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(10, 198);
-            this.label28.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(100, 23);
-            this.label28.TabIndex = 4;
-            this.label28.Text = "Điểm TB:";
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(13, 108);
-            this.label19.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(100, 23);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "Hạnh kiểm:";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 165);
-            this.label5.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 23);
-            this.label5.TabIndex = 22;
-            this.label5.Text = "Học kì II: ";
-            // 
-            // lbTB2
-            // 
-            this.lbTB2.AutoSize = true;
-            this.lbTB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTB2.Location = new System.Drawing.Point(127, 198);
-            this.lbTB2.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
-            this.lbTB2.Name = "lbTB2";
-            this.lbTB2.Size = new System.Drawing.Size(69, 18);
-            this.lbTB2.TabIndex = 25;
-            this.lbTB2.Text = "diemHK2";
-            this.lbTB2.UseMnemonic = false;
+            this.LB_HocTap_p2.AutoSize = true;
+            this.LB_HocTap_p2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LB_HocTap_p2.Location = new System.Drawing.Point(154, 69);
+            this.LB_HocTap_p2.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.LB_HocTap_p2.Name = "LB_HocTap_p2";
+            this.LB_HocTap_p2.Size = new System.Drawing.Size(69, 18);
+            this.LB_HocTap_p2.TabIndex = 19;
+            this.LB_HocTap_p2.Text = "diemHK1";
+            this.LB_HocTap_p2.UseMnemonic = false;
             // 
             // label26
             // 
@@ -1207,6 +1136,336 @@
             this.CB_ttHK_NH.Size = new System.Drawing.Size(375, 36);
             this.CB_ttHK_NH.TabIndex = 20;
             this.CB_ttHK_NH.Texts = "";
+            this.CB_ttHK_NH.OnSelectedIndexChanged += new System.EventHandler(this.btn_xem_Click);
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Honeydew;
+            this.tabPage3.Controls.Add(this.label44);
+            this.tabPage3.Controls.Add(this.panel4);
+            this.tabPage3.Controls.Add(this.pictureBox1);
+            this.tabPage3.Controls.Add(this.CB_ChonNamHoctab3);
+            this.tabPage3.Controls.Add(this.LV_TongKetDiem);
+            this.tabPage3.Controls.Add(this.label46);
+            this.tabPage3.ForeColor = System.Drawing.Color.DarkGray;
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1017, 526);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "TỔNG KẾT";
+            // 
+            // label44
+            // 
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label44.Location = new System.Drawing.Point(535, 49);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(57, 16);
+            this.label44.TabIndex = 50;
+            this.label44.Text = "XUẤT";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label44.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.MintCream;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.hanhKiemCN_page3);
+            this.panel4.Controls.Add(this.hocTapCn_page3);
+            this.panel4.Controls.Add(this.label36);
+            this.panel4.Controls.Add(this.label33);
+            this.panel4.Controls.Add(this.label32);
+            this.panel4.Controls.Add(this.hanhKiemHKII_page3);
+            this.panel4.Controls.Add(this.hocTapHkII_page3);
+            this.panel4.Controls.Add(this.label38);
+            this.panel4.Controls.Add(this.label39);
+            this.panel4.Controls.Add(this.label40);
+            this.panel4.Controls.Add(this.hanhKiemHKI_page3);
+            this.panel4.Controls.Add(this.label41);
+            this.panel4.Controls.Add(this.label42);
+            this.panel4.Controls.Add(this.label43);
+            this.panel4.Controls.Add(this.hocTapHKI_Page3);
+            this.panel4.Controls.Add(this.label45);
+            this.panel4.Location = new System.Drawing.Point(756, 73);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(243, 439);
+            this.panel4.TabIndex = 48;
+            // 
+            // hanhKiemCN_page3
+            // 
+            this.hanhKiemCN_page3.AutoSize = true;
+            this.hanhKiemCN_page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hanhKiemCN_page3.Location = new System.Drawing.Point(132, 376);
+            this.hanhKiemCN_page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hanhKiemCN_page3.Name = "hanhKiemCN_page3";
+            this.hanhKiemCN_page3.Size = new System.Drawing.Size(96, 18);
+            this.hanhKiemCN_page3.TabIndex = 31;
+            this.hanhKiemCN_page3.Text = "hanhKiemCN";
+            this.hanhKiemCN_page3.UseMnemonic = false;
+            // 
+            // hocTapCn_page3
+            // 
+            this.hocTapCn_page3.AutoSize = true;
+            this.hocTapCn_page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hocTapCn_page3.Location = new System.Drawing.Point(132, 335);
+            this.hocTapCn_page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hocTapCn_page3.Name = "hocTapCn_page3";
+            this.hocTapCn_page3.Size = new System.Drawing.Size(81, 18);
+            this.hocTapCn_page3.TabIndex = 30;
+            this.hocTapCn_page3.Text = "diemTBCN";
+            this.hocTapCn_page3.UseMnemonic = false;
+            // 
+            // label36
+            // 
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(7, 376);
+            this.label36.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(125, 23);
+            this.label36.TabIndex = 29;
+            this.label36.Text = "Kết quả rèn luyện:";
+            // 
+            // label33
+            // 
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(9, 335);
+            this.label33.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(123, 23);
+            this.label33.TabIndex = 28;
+            this.label33.Text = "Kết quả học tập:";
+            // 
+            // label32
+            // 
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(7, 299);
+            this.label32.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(100, 23);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Cả năm: ";
+            // 
+            // hanhKiemHKII_page3
+            // 
+            this.hanhKiemHKII_page3.AutoSize = true;
+            this.hanhKiemHKII_page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hanhKiemHKII_page3.Location = new System.Drawing.Point(132, 247);
+            this.hanhKiemHKII_page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hanhKiemHKII_page3.Name = "hanhKiemHKII_page3";
+            this.hanhKiemHKII_page3.Size = new System.Drawing.Size(103, 18);
+            this.hanhKiemHKII_page3.TabIndex = 26;
+            this.hanhKiemHKII_page3.Text = "hanhKiemHK2";
+            this.hanhKiemHKII_page3.UseMnemonic = false;
+            // 
+            // hocTapHkII_page3
+            // 
+            this.hocTapHkII_page3.AutoSize = true;
+            this.hocTapHkII_page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hocTapHkII_page3.Location = new System.Drawing.Point(132, 210);
+            this.hocTapHkII_page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hocTapHkII_page3.Name = "hocTapHkII_page3";
+            this.hocTapHkII_page3.Size = new System.Drawing.Size(69, 18);
+            this.hocTapHkII_page3.TabIndex = 25;
+            this.hocTapHkII_page3.Text = "diemHK2";
+            this.hocTapHkII_page3.UseMnemonic = false;
+            // 
+            // label38
+            // 
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(9, 247);
+            this.label38.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(132, 23);
+            this.label38.TabIndex = 24;
+            this.label38.Text = "Kết quả rèn luyện:";
+            // 
+            // label39
+            // 
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(9, 210);
+            this.label39.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(123, 23);
+            this.label39.TabIndex = 23;
+            this.label39.Text = "Kết quả học tập:";
+            // 
+            // label40
+            // 
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(6, 177);
+            this.label40.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(100, 23);
+            this.label40.TabIndex = 22;
+            this.label40.Text = "Học kì II: ";
+            // 
+            // hanhKiemHKI_page3
+            // 
+            this.hanhKiemHKI_page3.AutoSize = true;
+            this.hanhKiemHKI_page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hanhKiemHKI_page3.Location = new System.Drawing.Point(132, 133);
+            this.hanhKiemHKI_page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hanhKiemHKI_page3.Name = "hanhKiemHKI_page3";
+            this.hanhKiemHKI_page3.Size = new System.Drawing.Size(103, 18);
+            this.hanhKiemHKI_page3.TabIndex = 21;
+            this.hanhKiemHKI_page3.Text = "hanhKiemHK1";
+            this.hanhKiemHKI_page3.UseMnemonic = false;
+            // 
+            // label41
+            // 
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Location = new System.Drawing.Point(6, 133);
+            this.label41.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(126, 23);
+            this.label41.TabIndex = 20;
+            this.label41.Text = "Kết quả rèn luyện:";
+            // 
+            // label42
+            // 
+            this.label42.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(0, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(242, 26);
+            this.label42.TabIndex = 0;
+            this.label42.Text = "Bảng điểm tổng hợp";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label43
+            // 
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(7, 53);
+            this.label43.Margin = new System.Windows.Forms.Padding(3, 18, 3, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(100, 23);
+            this.label43.TabIndex = 1;
+            this.label43.Text = "Học kì I: ";
+            // 
+            // hocTapHKI_Page3
+            // 
+            this.hocTapHKI_Page3.AutoSize = true;
+            this.hocTapHKI_Page3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hocTapHKI_Page3.Location = new System.Drawing.Point(132, 95);
+            this.hocTapHKI_Page3.Margin = new System.Windows.Forms.Padding(93, 10, 3, 50);
+            this.hocTapHKI_Page3.Name = "hocTapHKI_Page3";
+            this.hocTapHKI_Page3.Size = new System.Drawing.Size(66, 18);
+            this.hocTapHKI_Page3.TabIndex = 19;
+            this.hocTapHKI_Page3.Text = "Chưa xét";
+            this.hocTapHKI_Page3.UseMnemonic = false;
+            // 
+            // label45
+            // 
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(8, 95);
+            this.label45.Margin = new System.Windows.Forms.Padding(3, 10, 70, 20);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(115, 23);
+            this.label45.TabIndex = 4;
+            this.label45.Text = "Kết quả học tập:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudentManagementSystem.Properties.Resources.export;
+            this.pictureBox1.Location = new System.Drawing.Point(547, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 31);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // CB_ChonNamHoctab3
+            // 
+            this.CB_ChonNamHoctab3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CB_ChonNamHoctab3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.CB_ChonNamHoctab3.BackColor = System.Drawing.Color.White;
+            this.CB_ChonNamHoctab3.BorderColor = System.Drawing.Color.DimGray;
+            this.CB_ChonNamHoctab3.BorderSize = 1;
+            this.CB_ChonNamHoctab3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
+            this.CB_ChonNamHoctab3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.CB_ChonNamHoctab3.ForeColor = System.Drawing.Color.DimGray;
+            this.CB_ChonNamHoctab3.IconColor = System.Drawing.Color.Thistle;
+            this.CB_ChonNamHoctab3.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
+            this.CB_ChonNamHoctab3.ListTextColor = System.Drawing.Color.DimGray;
+            this.CB_ChonNamHoctab3.Location = new System.Drawing.Point(170, 15);
+            this.CB_ChonNamHoctab3.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CB_ChonNamHoctab3.Name = "CB_ChonNamHoctab3";
+            this.CB_ChonNamHoctab3.Padding = new System.Windows.Forms.Padding(1);
+            this.CB_ChonNamHoctab3.Size = new System.Drawing.Size(340, 36);
+            this.CB_ChonNamHoctab3.TabIndex = 45;
+            this.CB_ChonNamHoctab3.Texts = "";
+            this.CB_ChonNamHoctab3.OnSelectedIndexChanged += new System.EventHandler(this.CB_ChonNamHoctab3_OnSelectedIndexChanged);
+            // 
+            // LV_TongKetDiem
+            // 
+            this.LV_TongKetDiem.BackColor = System.Drawing.Color.White;
+            this.LV_TongKetDiem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LV_TongKetDiem.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader10,
+            this.columnHeader11,
+            this.columnHeader12,
+            this.columnHeader13,
+            this.columnHeader14,
+            this.columnHeader15});
+            this.LV_TongKetDiem.Depth = 0;
+            this.LV_TongKetDiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.LV_TongKetDiem.FullRowSelect = true;
+            this.LV_TongKetDiem.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
+            this.LV_TongKetDiem.HideSelection = false;
+            this.LV_TongKetDiem.Location = new System.Drawing.Point(17, 73);
+            this.LV_TongKetDiem.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.LV_TongKetDiem.MouseState = MaterialSkin.MouseState.OUT;
+            this.LV_TongKetDiem.Name = "LV_TongKetDiem";
+            this.LV_TongKetDiem.OwnerDraw = true;
+            this.LV_TongKetDiem.Size = new System.Drawing.Size(724, 439);
+            this.LV_TongKetDiem.TabIndex = 47;
+            this.LV_TongKetDiem.UseCompatibleStateImageBehavior = false;
+            this.LV_TongKetDiem.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "STT";
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Tên môn";
+            this.columnHeader11.Width = 182;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "ĐTBmhkI";
+            this.columnHeader12.Width = 157;
+            // 
+            // columnHeader13
+            // 
+            this.columnHeader13.Text = "ĐTBmhkII";
+            this.columnHeader13.Width = 137;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "ĐTBmhkII";
+            this.columnHeader14.Width = 192;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "ĐTBmCN";
+            this.columnHeader15.Width = 167;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label46.Location = new System.Drawing.Point(24, 27);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(100, 24);
+            this.label46.TabIndex = 46;
+            this.label46.Text = "Năm học:";
             // 
             // StudentInfoEdit
             // 
@@ -1236,12 +1495,16 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_In_page1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Savepage2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_hoantacpag2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Diem)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1298,22 +1561,8 @@
         private CustomControls.CircularPictureBox PB_Avatar;
         private CustomControls.CustomComboBox CB_ttHK_NH;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label lbHKCN;
-        private System.Windows.Forms.Label lbTBCN;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label lbHK2;
-        private System.Windows.Forms.Label lbTB2;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lbHK1;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label lbTB1;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label LB_HocTap_p2;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
         private System.Windows.Forms.DataGridViewTextBoxColumn monhoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgtx1;
@@ -1331,10 +1580,46 @@
         private System.Windows.Forms.PictureBox btn_Savepage2;
         private System.Windows.Forms.PictureBox btn_hoantacpag2;
         private System.Windows.Forms.Label lB_HoanTac_page2;
-        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label lb_In_page1;
         private System.Windows.Forms.PictureBox PB_In_page1;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label hanhKiemCN_page3;
+        private System.Windows.Forms.Label hocTapCn_page3;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label hanhKiemHKII_page3;
+        private System.Windows.Forms.Label hocTapHkII_page3;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label hanhKiemHKI_page3;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label hocTapHKI_Page3;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private CustomControls.CustomComboBox CB_ChonNamHoctab3;
+        private MaterialSkin.Controls.MaterialListView LV_TongKetDiem;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
+        private System.Windows.Forms.ColumnHeader columnHeader12;
+        private System.Windows.Forms.ColumnHeader columnHeader13;
+        private System.Windows.Forms.ColumnHeader columnHeader14;
+        private System.Windows.Forms.ColumnHeader columnHeader15;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.ComboBox CB_RenLuyen_p2;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox TB_ViPham_p2;
+        private System.Windows.Forms.TextBox TB_KhongPhep_p2;
+        private System.Windows.Forms.TextBox TB_cophep_p2;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
     }
 }

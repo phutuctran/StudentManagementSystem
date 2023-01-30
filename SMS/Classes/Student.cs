@@ -3,6 +3,7 @@ using DevExpress.Utils.Design;
 using DevExpress.Utils.DirectXPaint.Svg;
 using DevExpress.Utils.Win.Hook;
 using DevExpress.Xpo.DB.Helpers;
+using StudentManagementSystem.Classes;
 using StudentManagementSystem.DatabaseCore;
 using System;
 using System.Collections.Generic;
@@ -41,6 +42,61 @@ namespace StudentManagementSystem
         private string sdt = "";
         private string email = "";
         private string maTK = "";
+        private List<Diemtrb> listDiemTrBHKI;
+        private List<Diemtrb> listDiemTrBHKII;
+        private List<Diemtrb> listDiemTrBCN;
+        private DiemTongKet diemTKHKI;
+        private DiemTongKet diemTKHKII;
+        private DiemTongKet diemTKCN;
+        private ViPham viPham;
+        private Admin_Func_Page3 Func_Page3 = new Admin_Func_Page3();
+
+        public ViPham BangViPham
+        {
+            get { return viPham; }
+            set { viPham = value; }
+        }
+
+
+
+        public DiemTongKet DiemTKCN
+        {
+            get { return diemTKCN; }
+            set { diemTKCN = value; }
+        }
+
+        public DiemTongKet DiemTKHKII
+        {
+            get { return diemTKHKII; }
+            set { diemTKHKII = value; }
+        }
+
+
+        public DiemTongKet DiemTKHKI
+        {
+            get { return diemTKHKI; }
+            set { diemTKHKI = value; }
+        }
+
+
+        public List<Diemtrb> ListDiemTrBCN
+        {
+            get { return listDiemTrBCN; }
+            set { listDiemTrBCN = value; }
+        }
+
+        public List<Diemtrb> ListDiemTrBHKII
+        {
+            get { return listDiemTrBHKII; }
+            set { listDiemTrBHKII = value; }
+        }
+
+        public List<Diemtrb> ListDiemTrBHKI
+        {
+            get { return listDiemTrBHKI; }
+            set { listDiemTrBHKI = value; }
+        }
+
 
         public string MaTK
         {
@@ -61,7 +117,6 @@ namespace StudentManagementSystem
             get { return sdt; }
             set { sdt = value; }
         }
-
 
         public List<DiemThanhPhan> DSDiem
         {
@@ -203,6 +258,74 @@ namespace StudentManagementSystem
             anhHS = _anhHS;
         }
 
+        public bool GetTongKetNamHoc(string namHoc)
+        {
+            var Func_Page3 = new Admin_Func_Page3();
+            Func_Page3.ListHocSinh = new List<DiemtrbHS> { new DiemtrbHS(this) };
+            Func_Page3.CurrentNamHoc = namHoc;
+
+            if (!Func_Page3.GetDiemTRBListHocSinh())
+            {
+                return false;
+            }
+            Func_Page3.TinhDiemTongKet(useOtherHK: false);
+            listDiemTrBHKI = Func_Page3.ListHocSinh[0].listdiemTrb1;
+            listDiemTrBHKII = Func_Page3.ListHocSinh[0].listdiemTrb2;
+            listDiemTrBCN = Func_Page3.ListHocSinh[0].listdiemTrbCN;
+            diemTKHKI = Func_Page3.ListHocSinh[0].DiemTongKetHK1;
+            diemTKHKII = Func_Page3.ListHocSinh[0].DiemTongKetHK2;
+            diemTKCN = Func_Page3.ListHocSinh[0].DiemTongKetCN;
+            return true;
+        }
+
+        public bool GetTongKetHocKi(string hocKi, string namHoc)
+        {
+            
+            Func_Page3.ListHocSinh = new List<DiemtrbHS> { new DiemtrbHS(this) };
+            Func_Page3.CurrentNamHoc = namHoc;
+
+            if (!Func_Page3.GetDiemTRBListHocSinh())
+            {
+                return false;
+            }
+            Func_Page3.TinhDiemTongKet(useOtherHK: false);
+            if (hocKi == "HK1")
+            {
+                diemTKHKI = Func_Page3.ListHocSinh[0].DiemTongKetHK1;
+            }
+            else
+            {
+                diemTKHKII = Func_Page3.ListHocSinh[0].DiemTongKetHK2;
+            }
+
+            GetViPhamNamHoc(namHoc);
+            return true;
+        }
+
+        public void GetViPhamNamHoc(string _namHoc)
+        {
+            viPham = new ViPham(this.maHS, _namHoc);
+        }
+
+        public bool SaveViPham(string _HK, int cp, int kp, int vp)
+        {
+            return viPham.Save(_HK, cp, kp, vp);
+        }
+
+        public bool SaveHanhKiem(string _hk, string xl)
+        {
+            if (_hk == "HK1")
+            {
+                return Func_Page3.ListHocSinh[0].hanhKiem.SaveHKI(xl);
+            }
+            else
+            {
+                return Func_Page3.ListHocSinh[0].hanhKiem.SaveHKII(xl);
+            }
+
+        }
+
+
         public bool GetDataStudent()
         {
             //Thông tin học sinh
@@ -261,12 +384,12 @@ namespace StudentManagementSystem
                             byte[] byteBLOBData = (byte[])reader["ANHHS"];
                             anhHS = GlobalFunction.ToImage(byteBLOBData);
                         }
-                        
+
 
                     }
                 }
             }
-            catch {}
+            catch { }
 
 
             ////Thông tin điểm tuyển sinh
@@ -603,7 +726,7 @@ namespace StudentManagementSystem
                 }
                 catch (Exception w)
                 {
-                    MessageBox.Show("Here------" + w.ToString());
+                    //MessageBox.Show("Here------" + w.ToString());
                     return false;
                 }
             }
@@ -618,7 +741,7 @@ namespace StudentManagementSystem
             {
                 if (idxMon >= 0 && idxMon != i)
                 {
-                    continue;   
+                    continue;
                 }
                 for (int j = 0; j < 6; j++)
                 {
@@ -660,7 +783,7 @@ namespace StudentManagementSystem
                             }
                         }
                     }
-                    
+
                 }
             }
 
@@ -724,7 +847,7 @@ namespace StudentManagementSystem
                 return GlobalProperties.listMaMH[i];
             }
             return GlobalProperties.NULLFIELD;
-            
+
         }
 
         bool checkDiemTonTai(int x, int y) //Check có tồn tại điểm môn x, cột y không?
@@ -847,7 +970,7 @@ namespace StudentManagementSystem
             if (diemThuc == -1)
             {
                 tmp = "null";
-            }    
+            }
             string query = $"UPDATE DIEMMON SET TRUNGBINH = {tmp} WHERE MADIEMMON = '{maDiem}'";
             //MessageBox.Show(query);
             try

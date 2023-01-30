@@ -843,16 +843,16 @@ namespace StudentManagementSystem
 
             for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
             {
-                var _hanhKiem1 = Admin.Func_Page3.ListHocSinh[i].hanhKiem1;
-                var _hanhKiem2 = Admin.Func_Page3.ListHocSinh[i].hanhKiem2;
-                var _hanhKiemCN = Admin.Func_Page3.ListHocSinh[i].hanhKiemCN;
-                if (GetLoaiHanhKiem(_hanhKiem1) != -1)
+                var _hanhKiem1 = Admin.Func_Page3.ListHocSinh[i].hanhKiem.XepLoaiHK1;
+                var _hanhKiem2 = Admin.Func_Page3.ListHocSinh[i].hanhKiem.XepLoaiHK2;
+                var _hanhKiemCN = Admin.Func_Page3.ListHocSinh[i].hanhKiem.XepLoaiCN;
+                if (GlobalFunction.GetLoaiHanhKiem(_hanhKiem1) != -1)
                 {
-                    (dataGridView_Tongket.Rows[i].Cells[4] as DataGridViewComboBoxCell).Value = (dataGridView_Tongket.Rows[i].Cells[4] as DataGridViewComboBoxCell).Items[GetLoaiHanhKiem(_hanhKiem1)];
+                    (dataGridView_Tongket.Rows[i].Cells[4] as DataGridViewComboBoxCell).Value = (dataGridView_Tongket.Rows[i].Cells[4] as DataGridViewComboBoxCell).Items[GlobalFunction.GetLoaiHanhKiem(_hanhKiem1)];
                 }
-                if (GetLoaiHanhKiem(_hanhKiem2) != -1)
+                if (GlobalFunction.GetLoaiHanhKiem(_hanhKiem2) != -1)
                 {
-                    (dataGridView_Tongket.Rows[i].Cells[7] as DataGridViewComboBoxCell).Value = (dataGridView_Tongket.Rows[i].Cells[7] as DataGridViewComboBoxCell).Items[GetLoaiHanhKiem(_hanhKiem2)];
+                    (dataGridView_Tongket.Rows[i].Cells[7] as DataGridViewComboBoxCell).Value = (dataGridView_Tongket.Rows[i].Cells[7] as DataGridViewComboBoxCell).Items[GlobalFunction.GetLoaiHanhKiem(_hanhKiem2)];
                 }
                 dataGridView_Tongket.Rows[i].Cells[10].Value = _hanhKiemCN;
             }
@@ -861,12 +861,42 @@ namespace StudentManagementSystem
             lb_siso_p3.Text = "Sĩ số: " + tmp.siSo.ToString();
             lb_tenlop_p3.Text = "Lớp: " + tmp.tenLop;
             lb_tengvcn_p3.Text = "GVCN: " + tmp.tenGV;
+
+            List<(int hk1, int hk2)> listHK = new List<(int hk1, int hk2)>();
+            for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
+            {
+                int hanhkiem1 = GlobalFunction.GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[4].Value == null ? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[4].Value.ToString());
+                int hanhkiem2 = GlobalFunction.GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[7].Value == null ? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[7].Value.ToString());
+                listHK.Add((hanhkiem1, hanhkiem2));
+            }
+
+            Admin.Func_Page3.TinhDiemTongKet(listHK);
+            for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
+            {
+                var tongketHS = Admin.Func_Page3.ListHocSinh[i].DiemTongKetHK1;
+                if (tongketHS.diemTrungBinh != -1)
+                {
+                    dataGridView_Tongket.Rows[i].Cells[3].Value = tongketHS.diemTrungBinh.ToString();
+                    dataGridView_Tongket.Rows[i].Cells[5].Value = tongketHS.xepLoai;
+                }
+                tongketHS = Admin.Func_Page3.ListHocSinh[i].DiemTongKetHK2;
+                if (tongketHS.diemTrungBinh != -1)
+                {
+                    dataGridView_Tongket.Rows[i].Cells[6].Value = tongketHS.diemTrungBinh.ToString();
+                    dataGridView_Tongket.Rows[i].Cells[8].Value = tongketHS.xepLoai;
+                }
+                tongketHS = Admin.Func_Page3.ListHocSinh[i].DiemTongKetCN;
+                if (tongketHS.diemTrungBinh != -1)
+                {
+                    dataGridView_Tongket.Rows[i].Cells[9].Value = tongketHS.diemTrungBinh.ToString();
+                    dataGridView_Tongket.Rows[i].Cells[10].Value = tongketHS.hanhKiem;
+                    dataGridView_Tongket.Rows[i].Cells[11].Value = tongketHS.xepLoai;
+                }
+            }
         }
 
         private void materialRaisedButton3_Click(object sender, EventArgs e) ///Lưu thông tin học sinh
         {
-            string query;
-            SqlCommand cmd;
             string[,] bangHanhKiem = new string[Admin.Func_Page3.ListHocSinh.Count, 3];
             for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
             {
@@ -880,22 +910,6 @@ namespace StudentManagementSystem
             }
         }
 
-        int GetLoaiHanhKiem(string hk)// 0: Tôt, 1: Khá, 2: Trung bình, 3: yếu
-        {
-            switch (hk)
-            {
-                case "Tốt":
-                    return 0;
-                case "Khá":
-                    return 1;
-                case "Trung bình":
-                    return 2;
-                case "Yếu":
-                    return 3;
-                default:
-                    return -1;
-            }
-        }
 
         bool CheckDataGridView_page3(bool del = true)
         {
@@ -975,38 +989,20 @@ namespace StudentManagementSystem
             }
         }
 
-        private void btn_tinhtongket_p3_Click(object sender, EventArgs e)
+        private void dataGridView_Tongket_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            List<(int hk1, int hk2)> listHK = new List<(int hk1, int hk2)>(); 
+            List<(int hk1, int hk2)> listHK = new List<(int hk1, int hk2)>();
             for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
             {
-                int hanhkiem1 = GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[4].Value == null? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[4].Value.ToString());
-                int hanhkiem2 = GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[7].Value == null ? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[7].Value.ToString());
+                int hanhkiem1 = GlobalFunction.GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[4].Value == null ? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[4].Value.ToString());
+                int hanhkiem2 = GlobalFunction.GetLoaiHanhKiem(dataGridView_Tongket.Rows[i].Cells[7].Value == null ? GlobalProperties.NULLFIELD : dataGridView_Tongket.Rows[i].Cells[7].Value.ToString());
                 listHK.Add((hanhkiem1, hanhkiem2));
-            }    
-                
-            Admin.Func_Page3.TinhDiemTongKet(listHK);
+            }
+
+            Admin.Func_Page3.TinhHanhKiem(listHK);
             for (int i = 0; i < Admin.Func_Page3.ListHocSinh.Count; i++)
             {
-                var tmp = Admin.Func_Page3.ListHocSinh[i].DiemTongKetHK1;
-                if (tmp.diemTrungBinh != -1)
-                {
-                    dataGridView_Tongket.Rows[i].Cells[3].Value = tmp.diemTrungBinh.ToString();
-                    dataGridView_Tongket.Rows[i].Cells[5].Value = tmp.xepLoai;
-                }
-                tmp = Admin.Func_Page3.ListHocSinh[i].DiemTongKetHK2;
-                if (tmp.diemTrungBinh != -1)
-                {
-                    dataGridView_Tongket.Rows[i].Cells[6].Value = tmp.diemTrungBinh.ToString();
-                    dataGridView_Tongket.Rows[i].Cells[8].Value = tmp.xepLoai;
-                }
-                tmp = Admin.Func_Page3.ListHocSinh[i].DiemTongKetCN;
-                if (tmp.diemTrungBinh != -1)
-                {
-                    dataGridView_Tongket.Rows[i].Cells[9].Value = tmp.diemTrungBinh.ToString();
-                    dataGridView_Tongket.Rows[i].Cells[10].Value = tmp.hanhKiem;
-                    dataGridView_Tongket.Rows[i].Cells[11].Value = tmp.xepLoai;
-                }
+                dataGridView_Tongket.Rows[i].Cells[10].Value = Admin.Func_Page3.ListHocSinh[i].DiemTongKetCN.hanhKiem;
             }
         }
 
@@ -1750,9 +1746,6 @@ namespace StudentManagementSystem
 
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
 
-        }
     }
 }

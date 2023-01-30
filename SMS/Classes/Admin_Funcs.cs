@@ -1,5 +1,6 @@
 ﻿using DevExpress.Utils.DPI;
 using DevExpress.Xpo.DB.Helpers;
+using DocumentFormat.OpenXml.Office2010.ExcelAc;
 using Microsoft.Identity.Client;
 using Microsoft.VisualBasic.Logging;
 using StudentManagementSystem.DatabaseCore;
@@ -40,13 +41,10 @@ namespace StudentManagementSystem.Classes
     public class DiemtrbHS
     {
         public Student student;
-        public string hanhKiem1;
-        public string hanhKiem2;
-        public string hanhKiemCN;
-        public string maHKiem;
-
+        public HanhKiem hanhKiem;
         public List<Diemtrb> listdiemTrb1 = new List<Diemtrb>();
         public List<Diemtrb> listdiemTrb2 = new List<Diemtrb>();
+        public List<Diemtrb> listdiemTrbCN = new List<Diemtrb>();
         public DiemTongKet DiemTongKetHK1 = new DiemTongKet();
         public DiemTongKet DiemTongKetHK2 = new DiemTongKet();
         public DiemTongKet DiemTongKetCN = new DiemTongKet();
@@ -55,18 +53,12 @@ namespace StudentManagementSystem.Classes
             
             student = new Student(maHs);
             student.HoTen = tenHs;
-            hanhKiem1 = "";
-            hanhKiem2 = "";
-            hanhKiemCN = "";
-            maHKiem = "";
+            hanhKiem = new HanhKiem();
         }
         public DiemtrbHS(Student std)
         {
             student = std;
-            hanhKiem1 = "";
-            hanhKiem2 = "";
-            hanhKiemCN = "";
-            maHKiem = "";
+            hanhKiem = new HanhKiem();
         }
     }
     public class Admin_Funcs
@@ -177,7 +169,6 @@ namespace StudentManagementSystem.Classes
             string query = "SELECT MAHS, HotenHS, gioitinh, ngaysinh, LOP.TENLOP, noisinh, diachi, sodt, email, Ghichu FROM HOCSINH, LOP WHERE (LOP.MALOP = HOCSINH.MALOP" + addtoQuery + ") OR EXISTS(SELECT* FROM LOPDAHOC WHERE LOPDAHOC.MAHS = HOCSINH.MAHS AND LOPDAHOC.MALOP = LOP.MALOP " + addtoQuery + ")";
             //  MessageBox.Show(query);
             SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
-            int stt = 0;
             using (SqlDataReader rdr = cmd.ExecuteReader())
             {
                 if (rdr.HasRows)
@@ -246,399 +237,129 @@ namespace StudentManagementSystem.Classes
             return key;
         }
 
+        public List<Diemtrb> TinhDiemTBMonCN(List<Diemtrb>  listdiemTrb1, List<Diemtrb> listdiemTrb2)
+        {
+            List<Diemtrb> listDiem = new List<Diemtrb>();
+            for (int i = 0; i < GlobalProperties.soMonHoc; i++)
+            {
+                listDiem.Add(new Diemtrb(-1, ""));
+                if (listdiemTrb1[i].diem != -1 && listdiemTrb2[i].diem != -1)
+                {
+                    listDiem[i].diem = Math.Round((listdiemTrb1[i].diem + listdiemTrb2[i].diem * 2) / 3, 1);
+                }
+            }
+            return listDiem;
+
+        }
+
         public DiemTongKet TinhDiemTongKetHocKy(List<double> diem, int _hanhKiem)
         {
-            Dictionary<string, int> hocLuc = new Dictionary<string, int>();
-            hocLuc["Giỏi"] = 0;
-            hocLuc["Khá"] = 1;
-            hocLuc["Trung Bình"] = 2;
-            hocLuc["Yếu"] = 3;
-
-            Dictionary<string, int> hanhKiem = new Dictionary<string, int>();
-            hanhKiem["Tốt"] = 0;
-            hanhKiem["Khá"] = 1;
-            hanhKiem["Trung bình"] = 2;
-            hanhKiem["yếu"] = 3;
             DiemTongKet hs = new DiemTongKet();
 
-            double toan = diem[0];
-            double van = diem[1];
-            double anhVan = diem[8];
-            double theDuc = diem[11];
+            int khongDuoi9 = 0, khongDuoi8 = 0, khongDuoi65 = 0, khongDuoi5 = 0,khongDuoi35 = 0;
+            double tongDiem = 0;
 
-            diem.RemoveAt(11);
-
-            //code here;
-            int soMonHoc = diem.Count();
-            double sum = 0;
-            for (int i = 0; i < soMonHoc; i++)
+            for (int i = 0; i < diem.Count; i++)
             {
-                sum += diem[i];
-            }
-            hs.diemTrungBinh = sum / soMonHoc;
-
-            if (hs.diemTrungBinh >= 8)
-            {
-                if (diem[0] >= 8 || diem[1] >= 8 || diem[8] >= 8)
+                if (i != 11)
                 {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 6.5)
-                        {
-                            hs.xepLoai = "Giỏi";
-                        }
-                        else if (diem[i] < 6.5)
-                        {
-                            hs.xepLoai = "Khá";
-                            break;
-                        }
-                    }
+                    khongDuoi9 += diem[i] >= 9 ? 1 : 0;
+                    khongDuoi8 += diem[i] >= 8 ? 1 : 0;
+                    khongDuoi65 += diem[i] >= 6.5 ? 1 : 0;
+                    khongDuoi5 += diem[i] >= 5 ? 1 : 0;
+                    khongDuoi35 += diem[i] >= 3.5 ? 1 : 0;
+                    tongDiem += diem[i];
+                }
+            }
+            
+            if (_hanhKiem >= 0 && _hanhKiem <= 3)
+            {
+                hs.hanhKiem = GlobalFunction.GetTenHanhKiem(_hanhKiem);
+            }
+            hs.diemTrungBinh = Math.Round(tongDiem / 12, 1);
+            hs.xepLoai = GlobalProperties.NULLFIELD;
+            
+            if (khongDuoi9 >= 6 && khongDuoi65 == 12 && diem[11] >= 5)
+            {
+                hs.xepLoai = "Xuất sắc";
+                return hs;
+            }    
+            if (khongDuoi8 >= 6 && khongDuoi65 == 12)
+            {
+                if (diem[11] >= 5)
+                {
+                    hs.xepLoai = "Tốt";
                 }
                 else
                 {
-                    hs.xepLoai = "Khá";
+                    hs.xepLoai = "Khá"; //Trường hợp rớt 1 môn thể dục
                 }
+                return hs;
             }
-            else if (hs.diemTrungBinh >= 6.5)
+            if (khongDuoi65 >= 6 && khongDuoi5 == 12)
             {
-                if (diem[0] >= 6.5 || diem[1] >= 6.5 || diem[8] >= 6.5)
+                if (diem[11] >= 5)
                 {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 5)
-                        {
-                            hs.xepLoai = "Khá";
-                        }
-                        else if (diem[i] < 5)
-                        {
-                            hs.xepLoai = "Trung bình";
-                            break;
-                        }
-                    }
+                    hs.xepLoai = "Khá";
                 }
                 else
                 {
-                    hs.xepLoai = "Khá";
+                    hs.xepLoai = "Đạt"; // trường hợp rớt 1 môn thể dục
                 }
+                return hs;
             }
-            else if (hs.diemTrungBinh >= 5)
+                
+            if (khongDuoi5 >= 6 && khongDuoi35 == 12)
             {
-                if (diem[0] >= 5 || diem[1] >= 5 || diem[8] >= 5)
+                if (((khongDuoi8 >= 6 && khongDuoi65 >= 11) || (khongDuoi8 >= 5 && khongDuoi65 == 12)) && diem[11] >= 5) // rớt 1 môn dưới 8 hoặc 1 môn dưới 6,5 so với loại tốt
                 {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 3.5)
-                        {
-                            hs.xepLoai = "Trung bình";
-                        }
-                        else if (diem[i] < 3.5)
-                        {
-                            hs.xepLoai = "Yếu";
-                            break;
-                        }
-                    }
+                    hs.xepLoai = "Khá";
                 }
                 else
                 {
-                    hs.xepLoai = "Trung bình";
-                }
-            }
-            else
-            {
-                hs.xepLoai = "Yếu";
+                    hs.xepLoai = "Đạt";
+                }    
+                return hs;
             }
 
-            if (hs.xepLoai == "Giỏi")
+            //Trường hợp chưa đạt nâng lên đạt
+            if (((khongDuoi65 >= 6 && khongDuoi5 >= 11) || (khongDuoi65 >= 5 && khongDuoi5 == 12)) && diem[11] >= 5) // rớt 1 môn dưới 6.5 hoặc 1 môn dưới 5 so với loại tốt
             {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Khá";
-                }
+                hs.xepLoai = "Đạt";
             }
-            else if (hs.xepLoai == "Khá")
-            {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Trung bình";
-                }
-            }
-            else if (hs.xepLoai == "Trung bình")
-            {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Yếu";
-                }
-            }
-            else
-            {
-                hs.xepLoai = "Yếu";
-            }
-
-            for (int i = 0; i < soMonHoc; i++)
-            {
-                if (hs.diemTrungBinh >= 8)
-                {
-                    if (diem[i] >= 3.5 && diem[i] < 5)
-                    {
-                        hs.xepLoai = "Khá";
-                    }
-                    else if (diem[i] < 3.5)
-                    {
-                        hs.xepLoai = "Trung bình";
-                    }
-                }
-                else if (hs.diemTrungBinh < 8 && hs.diemTrungBinh >= 6.5)
-                {
-                    if (diem[i] >= 3.5 && diem[i] < 5)
-                    {
-                        hs.xepLoai = "Trung Bình";
-                    }
-                    else if (diem[i] < 3.5)
-                    {
-                        hs.xepLoai = "Yếu";
-                    }
-                }
-            }
-
-            for (int i = 0; i < 4; i++)
-            {
-                if (hs.xepLoai == hocLuc.ElementAt(i).Key)
-                {
-                    int tmp = hocLuc.ElementAt(i).Value;
-
-                    tmp += _hanhKiem;
-                    if (tmp == 0)
-                    {
-                        hs.xepLoai = "Giỏi";
-                    }
-                    else if (tmp == 1)
-                    {
-                        hs.xepLoai = "Khá";
-                    }
-                    else if (tmp == 2)
-                    {
-                        hs.xepLoai = "Trung bình";
-                    }
-                    else
-                    {
-                        hs.xepLoai = "Yếu";
-                    }
-                    break;
-                }
-            }
-
-            for (int i = 0; i < 4; i++)
-            {
-                if (_hanhKiem == hanhKiem.ElementAt(i).Value)
-                {
-                    hs.hanhKiem = hanhKiem.ElementAt(i).Key;
-                }
-            }
-
-            //hanh kiem: 0: kem, 1: trung binh, 2: kha, 3: tot;
-            //Listdiem.count = 13
-            //diem[11]: diem the duc
-            //listTenMH = { "0-Toán học", "1-Ngữ văn", "Vật lí", "Hóa học", "Sinh học", "Tin học", "Lịch sử", "Địa lí", "8-Ngoại ngữ", "GDCD", "Công nghệ", "Thể dục", "GDQP" };
-            hs.diemTrungBinh = Math.Round(hs.diemTrungBinh, 2);
+            
+            hs.xepLoai = "Chưa Đạt";
             return hs;
         }
 
-        public DiemTongKet TinhDiemTongKetCaNam(List<double> diem1, int _hanhKiem1, List<double> diem2, int _hanhKiem2)
+        public string XetHanhKiemCaNam((int hk1, int hk2) hk)
         {
-            Dictionary<string, int> hocLuc = new Dictionary<string, int>();
-            hocLuc["Giỏi"] = 0;
-            hocLuc["Khá"] = 1;
-            hocLuc["Trung Bình"] = 2;
-            hocLuc["Yếu"] = 3;
-
-            Dictionary<string, int> hanhKiem = new Dictionary<string, int>();
-            hanhKiem["Tốt"] = 0;
-            hanhKiem["Khá"] = 1;
-            hanhKiem["Trung bình"] = 2;
-            hanhKiem["yếu"] = 3;
-            DiemTongKet hs = new DiemTongKet();
-            List<double> diem = new List<double>();
-
-            int soMonHoc = diem1.Count();
-
-            for (int i = 0; i < soMonHoc; i++)
+            string hanhKiem = "";
+            if (hk.hk2 == 0 && hk.hk1 <= 1)
             {
-                diem.Add((diem1[i] + diem2[i] * 2) / 3);
+                hanhKiem = GlobalFunction.GetTenHanhKiem(0);
             }
-
-            double theDuc = diem[11];
-            diem.RemoveAt(11);
-            soMonHoc = diem.Count();
-
-            DiemTongKet hk1 = TinhDiemTongKetHocKy(diem1, _hanhKiem1);
-            DiemTongKet hk2 = TinhDiemTongKetHocKy(diem2, _hanhKiem2);
-
-            hs.diemTrungBinh = (hk1.diemTrungBinh + hk2.diemTrungBinh * 2) / 3;
-
-            int _hanhKiemTB = (_hanhKiem1 + _hanhKiem2 * 2) / 3;
-            for (int i = 0; i < 4; i++)
+            else if ((hk.hk2 == 1 && hk.hk1 <= 2) || (hk.hk2 == 2 && hk.hk1 == 0) || (hk.hk2 == 0 && hk.hk1 >= 2))
             {
-                if (_hanhKiemTB == hanhKiem.ElementAt(i).Value)
-                {
-                    hs.hanhKiem = hanhKiem.ElementAt(i).Key;
-                }
+                hanhKiem = GlobalFunction.GetTenHanhKiem(1);
             }
-
-            if (hs.diemTrungBinh >= 8)
+            else if ((hk.hk2 == 2 && hk.hk1 >= 1) || (hk.hk2 == 1 && hk.hk1 == 3))
             {
-                if (diem[0] >= 8 || diem[1] >= 8 || diem[8] >= 8)
-                {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 6.5)
-                        {
-                            hs.xepLoai = "Giỏi";
-                        }
-                        else if (diem[i] < 6.5)
-                        {
-                            hs.xepLoai = "Khá";
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    hs.xepLoai = "Khá";
-                }
-            }
-            else if (hs.diemTrungBinh >= 6.5)
-            {
-                if (diem[0] >= 6.5 || diem[1] >= 6.5 || diem[8] >= 6.5)
-                {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 5)
-                        {
-                            hs.xepLoai = "Khá";
-                        }
-                        else if (diem[i] < 5)
-                        {
-                            hs.xepLoai = "Trung bình";
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    hs.xepLoai = "Khá";
-                }
-            }
-            else if (hs.diemTrungBinh >= 5)
-            {
-                if (diem[0] >= 5 || diem[1] >= 5 || diem[8] >= 5)
-                {
-                    for (int i = 0; i < soMonHoc; i++)
-                    {
-                        if (diem[i] >= 3.5)
-                        {
-                            hs.xepLoai = "Trung bình";
-                        }
-                        else if (diem[i] < 3.5)
-                        {
-                            hs.xepLoai = "Yếu";
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    hs.xepLoai = "Trung bình";
-                }
+                hanhKiem = GlobalFunction.GetTenHanhKiem(2);
             }
             else
             {
-                hs.xepLoai = "Yếu";
+                hanhKiem = GlobalFunction.GetTenHanhKiem(3);
             }
+            return hanhKiem;
+        }
 
-            if (hs.xepLoai == "Giỏi")
-            {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Khá";
-                }
-            }
-            else if (hs.xepLoai == "Khá")
-            {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Trung bình";
-                }
-            }
-            else if (hs.xepLoai == "Trung bình")
-            {
-                if (theDuc < 5)
-                {
-                    hs.xepLoai = "Yếu";
-                }
-            }
-            else
-            {
-                hs.xepLoai = "Yếu";
-            }
 
-            for (int i = 0; i < soMonHoc; i++)
-            {
-                if (hs.diemTrungBinh >= 8)
-                {
-                    if (diem[i] >= 3.5 && diem[i] < 5)
-                    {
-                        hs.xepLoai = "Khá";
-                    }
-                    else if (diem[i] < 3.5)
-                    {
-                        hs.xepLoai = "Trung bình";
-                    }
-                }
-                else if (hs.diemTrungBinh < 8 && hs.diemTrungBinh >= 6.5)
-                {
-                    if (diem[i] >= 3.5 && diem[i] < 5)
-                    {
-                        hs.xepLoai = "Trung Bình";
-                    }
-                    else if (diem[i] < 3.5)
-                    {
-                        hs.xepLoai = "Yếu";
-                    }
-                }
-            }
-
-            for (int i = 0; i < 4; i++)
-            {
-                if (hs.xepLoai == hocLuc.ElementAt(i).Key)
-                {
-                    int tmp = hocLuc.ElementAt(i).Value;
-
-                    tmp += _hanhKiemTB;
-                    if (tmp == 0)
-                    {
-                        hs.xepLoai = "Giỏi";
-                    }
-                    else if (tmp == 1)
-                    {
-                        hs.xepLoai = "Khá";
-                    }
-                    else if (tmp == 2)
-                    {
-                        hs.xepLoai = "Trung bình";
-                    }
-                    else
-                    {
-                        hs.xepLoai = "Yếu";
-                    }
-                    break;
-                }
-            }
-
-            //hanh kiem: 0: kem, 1: trung binh, 2: kha, 3: tot;
-            //Listdiem.count = 13
-            //diem[11]: diem the duc
-            //listTenMH = { "Toán học", "Ngữ văn", "Vật lí", "Hóa học", "Sinh học", "Tin học", "Lịch sử", "Địa lí", "Ngoại ngữ", "GDCD", "Công nghệ", "Thể dục", "GDQP" };
-            hs.diemTrungBinh = Math.Round(hs.diemTrungBinh, 2);
+        public DiemTongKet TinhDiemTongKetCaNam(List<double> diem, (int hk1, int hk2) hk)
+        {
+            
+            DiemTongKet hs = this.TinhDiemTongKetHocKy(diem, hk.hk1);
+            hs.hanhKiem = XetHanhKiemCaNam(hk);
             return hs;
         }
 
@@ -1111,11 +832,11 @@ namespace StudentManagementSystem.Classes
             }
         }
 
-        public void GetDiemTRBListHocSinh()
+        public bool GetDiemTRBListHocSinh()
         {
             if (listHS.Count <= 0)
             {
-                return;
+                return false;
             }
             string query;
             SqlCommand cmd;
@@ -1163,26 +884,10 @@ namespace StudentManagementSystem.Classes
                     }
                 }
 
-                query = $"SELECT XEPLOAIHKI, XEPLOAIHKII, XEPLOAICN, MaHK FROM HANHKIEM WHERE MAHS = '{_mahs}' AND NAMHOC = '{curNamHoc}'";
-                cmd = new SqlCommand(query, GlobalProperties.conn);
-                using (SqlDataReader rdr = cmd.ExecuteReader())
-                {
-                    if (rdr.HasRows)
-                    {
-                        while (rdr.Read())
-                        {
-                            string hk1 = rdr.IsDBNull(0) ? GlobalProperties.NULLFIELD : rdr.GetString(0).Trim();
-                            string hk2 = rdr.IsDBNull(1) ? GlobalProperties.NULLFIELD : rdr.GetString(1).Trim();
-                            string hkcn = rdr.IsDBNull(2) ? GlobalProperties.NULLFIELD : rdr.GetString(2).Trim();
-                            string maHk = rdr.IsDBNull(3) ? GlobalProperties.NULLFIELD : rdr.GetString(3).Trim();
-                            listHS[i].hanhKiem1 = hk1;
-                            listHS[i].hanhKiem2 = hk2;
-                            listHS[i].hanhKiemCN = hkcn;
-                            listHS[i].maHKiem = maHk;
-                        }
-                    }
-                }
+                listHS[i].hanhKiem = new HanhKiem(_mahs, curNamHoc);
             }
+            return true;
+
         }
 
         public (string tenLop, int siSo, string tenGV) GetThongTinLop()
@@ -1212,24 +917,9 @@ namespace StudentManagementSystem.Classes
                 xlhk1 = bangHK[i, 0];
                 xlhk2 = bangHK[i, 1];
                 xlhkcn = bangHK[i, 2];
-                if (!string.IsNullOrEmpty(listHS[i].maHKiem))
+                if (!string.IsNullOrEmpty(listHS[i].hanhKiem.MaHK))
                 {
-                    //Đã có hạnh kiểm:
-                    query = $"UPDATE HANHKIEM SET XEPLOAIHKI = N'{xlhk1}', XEPLOAIHKII = N'{xlhk2}', XEPLOAICN = N'{xlhkcn}' WHERE MAHS = '{_mahs}'";
-                    try
-                    {
-                        cmd = new SqlCommand(query, GlobalProperties.conn);
-                        int rowCount = cmd.ExecuteNonQuery();
-                    }
-                    catch (Exception ee)
-                    {
-                        DialogResult dialogResult = MessageBox.Show("Lỗi trong quá trình thêm. Hiển thị lỗi?", "Thông báo", MessageBoxButtons.YesNo);
-                        if (dialogResult == DialogResult.Yes)
-                        {
-                            MessageBox.Show("Error: " + ee);
-                        }
-                        return false;
-                    }
+                    listHS[i].hanhKiem.Save(xlhk1, xlhk2, xlhkcn);
                 }
                 else
                 {
@@ -1237,104 +927,80 @@ namespace StudentManagementSystem.Classes
                     query = "SELECT COUNT(*) FROM HANHKIEM WHERE MAHK = ";
                     string maHKiem = this.GetKeyTable(query);
 
-                    try
-                    {
-                        // Câu lệnh Insert.
-                        query = $"INSERT INTO HANHKIEM(MAHK, MAHS, XEPLOAIHKI, XEPLOAIHKII, XEPLOAICN, NAMHOC) VALUES('{maHKiem}', '{_mahs}', N'{xlhk1}', N'{xlhk2}', N'{xlhkcn}', '{curNamHoc}')";
+                    listHS[i].hanhKiem.Insert(maHKiem, _mahs, xlhk1, xlhk2, xlhkcn, curNamHoc);
 
-                        cmd = new SqlCommand(query, GlobalProperties.conn);
-
-                        int rowCount = cmd.ExecuteNonQuery();
-                        if (rowCount > 0)
-                        {
-                            listHS[i].maHKiem = maHKiem;
-                        }
-                    }
-                    catch (Exception ee)
-                    {
-                        DialogResult dialogResult = MessageBox.Show("Lỗi trong quá trình thêm. Hiển thị lỗi?", "Thông báo", MessageBoxButtons.YesNo);
-                        if (dialogResult == DialogResult.Yes)
-                        {
-                            MessageBox.Show("Error: " + ee);
-                        }
-                        return false;
-                    }
 
                 }
-                listHS[i].hanhKiem1 = xlhk1;
-                listHS[i].hanhKiem2 = xlhk2;
-                listHS[i].hanhKiemCN = xlhkcn;
+                listHS[i].hanhKiem = new HanhKiem(_mahs, curNamHoc);
             }
             return true;
         }
 
-        public void TinhDiemTongKet(List<(int hk1, int hk2)> listHK)
+        public void TinhHanhKiem(List<(int hk1, int hk2)> listHK = null)
         {
+            for (int i = 0; i < listHS.Count; i++)
+            {
+                listHS[i].DiemTongKetCN.hanhKiem = XetHanhKiemCaNam(listHK[i]);
+            }
+        }
+
+
+        public bool TinhDiemTongKet(List<(int hk1, int hk2)> listHK = null, bool useOtherHK = true)
+        {
+            if (!useOtherHK)
+            {
+                listHK = new List<(int hk1, int hk2)>();
+                for (int i = 0; i < listHS.Count; i++)
+                {
+                    listHK.Add((GlobalFunction.GetLoaiHanhKiem(listHS[i].hanhKiem.XepLoaiHK1), GlobalFunction.GetLoaiHanhKiem(listHS[i].hanhKiem.XepLoaiHK2)));
+                }
+            }
             for (int i = 0; i < listHS.Count; i++)
             {
                 bool tkhk1 = false;
                 bool tkhk2 = false;
-                bool tinh = true;
                 List<double> diem1 = new List<double>();
                 List<double> diem2 = new List<double>();
+                List<double> diemCN = new List<double>();
+                listHS[i].DiemTongKetHK1 = new DiemTongKet();
+                listHS[i].DiemTongKetHK2 = new DiemTongKet();
+                listHS[i].DiemTongKetCN = new DiemTongKet();
+
+                listHS[i].listdiemTrbCN = this.TinhDiemTBMonCN(listHS[i].listdiemTrb1, listHS[i].listdiemTrb2);
                 for (int j = 0; j < 13; j++)
                 {
-                    //MessageBox.Show(listHS[i].listdiemTrb1[j].diem.ToString());
-                    if (listHS[i].listdiemTrb1[j].diem == -1)
-                    {
-                        tinh = false;
-                        break;
-                    }
-                    else
-                    {
-                        diem1.Add(listHS[i].listdiemTrb1[j].diem);
-                    }
-                }
-                //MessageBox.Show(str);
-                if (tinh && listHK[i].hk1 != -1)
-                {
-                    listHS[i].DiemTongKetHK1 = this.TinhDiemTongKetHocKy(diem1, listHK[i].hk1);
-                    tkhk1 = true;
-                }
-                else
-                {
-                    listHS[i].DiemTongKetHK1 = new DiemTongKet();
+                    diem1.Add(listHS[i].listdiemTrb1[j].diem);
+                    diem2.Add(listHS[i].listdiemTrb2[j].diem);
+                    diemCN.Add(listHS[i].listdiemTrbCN[j].diem);
                 }
 
-                //Học ki2
-                tinh = true;
-                for (int j = 0; j < 13; j++)
+                
+
+                if (diem1.IndexOf(-1) == -1 && listHK[i].hk1 != -1)
                 {
-                    if (listHS[i].listdiemTrb2[j].diem == -1)
-                    {
-                        tinh = false;
-                        break;
-                    }
-                    else
-                    {
-                        diem2.Add(listHS[i].listdiemTrb2[j].diem);
-                    }
+                    listHS[i].DiemTongKetHK1 = this.TinhDiemTongKetHocKy(diem1, listHK[i].hk1);
+                    //MessageBox.Show(listHS[0].DiemTongKetHK1.xepLoai);
+                    tkhk1 = true;
                 }
-                //MessageBox.Show(str);
-                if (tinh == true && listHK[i].hk2 != -1)
+
+                //Học ki 2
+                if (diem2.IndexOf(-1) == -1 && listHK[i].hk2 != -1)
                 {
                     listHS[i].DiemTongKetHK2 = this.TinhDiemTongKetHocKy(diem2, listHK[i].hk2);
                     tkhk2 = true;
                 }
-                else
-                {
-                    listHS[i].DiemTongKetHK2 = new DiemTongKet();
-                }
 
                 if (tkhk1 && tkhk2)
                 {
-                    listHS[i].DiemTongKetCN = this.TinhDiemTongKetCaNam(diem1, listHK[i].hk1, diem2, listHK[i].hk2);
+                    listHS[i].DiemTongKetCN = this.TinhDiemTongKetCaNam(diemCN,listHK[i]);
                 }
                 else
                 {
-                    listHS[i].DiemTongKetCN = new DiemTongKet();
+                    return false;
                 }
             }
+            
+            return true;
         }
 
 

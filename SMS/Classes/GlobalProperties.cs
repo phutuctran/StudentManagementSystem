@@ -24,10 +24,46 @@ namespace StudentManagementSystem
         public static int soMonHoc = 13;
         public static string[] listDat = { "D", "DAT" };
         public static string[] listChuaDat = { "C", "CD", "C D", "CHUA", "CHUADAT", "CHUADAT" };
+        public static Point LOCATIONWRITEBANGDIEMHS = new Point(11, 3);
+        public static string BANGDIEMHSTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() +  @"\TemplatesExcels\BangDiemHocSinh.xlsx";
+        public static string BANGDIEMHSTONGKETTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\BangDiemHocSinh_TongKet.xlsx";
     }
 
     public static class GlobalFunction
     {
+        public static int GetLoaiHanhKiem(string hk)// 0: Tôt, 1: Khá, 2: Trung bình, 3: yếu
+        {
+            switch (hk)
+            {
+                case "Tốt":
+                    return 0;
+                case "Khá":
+                    return 1;
+                case "Đạt":
+                    return 2;
+                case "Chưa đạt":
+                    return 3;
+                default:
+                    return -1;
+            }
+        }
+
+        public static string GetTenHanhKiem(int hk)// 0: Tôt, 1: Khá, 2: Trung bình, 3: yếu
+        {
+            switch (hk)
+            {
+                case 0:
+                    return "Tốt";
+                case 1:
+                    return "Khá";
+                case 2:
+                    return "Đạt";
+                case 3:
+                    return "Chưa đạt";
+                default:
+                    return "";
+            }
+        }
         public static byte[] ImageToByteArray(Image img)
         {
             ImageConverter converter = new ImageConverter();
@@ -78,6 +114,15 @@ namespace StudentManagementSystem
                 {
                     return number;
                 }
+            }
+            return -1;
+        }
+        public static int ConvertStringToNeInt(this string negativeString)
+        {
+            int number;
+            if (int.TryParse(negativeString, out number))
+            {
+                return number;
             }
             return -1;
         }

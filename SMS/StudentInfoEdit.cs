@@ -32,6 +32,8 @@ namespace StudentManagementSystem
         bool editDiem;
         private bool haveDatainGird;
 
+        public bool haveBangDiem_p3 { get; private set; }
+
         public StudentInfoEdit(string _MaHS, bool EditDiem = true) //_MaHS phải luôn tồn tại
         {
             InitializeComponent();
@@ -109,7 +111,7 @@ namespace StudentManagementSystem
         //Hiển thị chi tiết thông tin bảng điểm
         private void btn_hoantacpag2_Click(object sender, EventArgs e)//done
         {
-            ShowBangDiemPage2();
+            ShowBangDiemPage2(student.TTBangDiem[CB_ttHK_NH.SelectedIndex].HK);
         }
 
         private void btn_Savepage2_Click(object sender, EventArgs e)
@@ -153,9 +155,25 @@ namespace StudentManagementSystem
                         
                 }
             }
+            int CP = TB_cophep_p2.Text.ConvertStringToNeInt();
+            int KP = TB_KhongPhep_p2.Text.ConvertStringToNeInt();
+            int VP = TB_ViPham_p2.Text.ConvertStringToNeInt();
+            if (CP == -1)
+            {
+                MessageBox.Show($"Ngày nghỉ có phép không hợp lệ", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (KP == -1)
+            {
+                MessageBox.Show($"Ngày nghỉ không phép không hợp lệ", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (VP == -1)
+            {
+                MessageBox.Show($"Số vi phạm không hợp lệ", "Thông Báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
-            TinhDTB();
-            //string sqlDiemTB = "";
             double[,] bangDiemNew = new double[13, 7];
             for (int i = 0; i < GlobalProperties.soMonHoc; i++)
             {
@@ -176,14 +194,29 @@ namespace StudentManagementSystem
                     bangDiemNew[i, j - 2] = GlobalFunction.CheckDiem(_diem.Trim());
                 }
             }
-            if (student.SaveDiemStudent(bangDiemNew, hocKi, namHoc))
+            bool saveDone = true;
+            if (!student.SaveDiemStudent(bangDiemNew, hocKi, namHoc))
             {
-                ShowBangDiemPage2();
-                MessageBox.Show("Đã lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Không thể hoàn tất toàn bộ quá trình lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                saveDone = false;
             }
-            else
+            if (CB_RenLuyen_p2.SelectedIndex != -1)
             {
-                MessageBox.Show("Có lỗi, không thể hoàn tất lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (!student.SaveHanhKiem(hocKi, CB_RenLuyen_p2.SelectedItem.ToString()))
+                {
+                    MessageBox.Show("Không thể hoàn tất toàn bộ quá trình lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    saveDone = false;
+                }
+            }
+            if (!student.SaveViPham(hocKi, CP, KP, VP))
+            {
+                MessageBox.Show("Không thể hoàn tất toàn bộ quá trình lưu!-", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                saveDone = false;
+            }
+            if (saveDone)
+            {
+                MessageBox.Show("Đã lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ShowBangDiemPage2(hocKi);
             }
 
         }
@@ -263,7 +296,7 @@ namespace StudentManagementSystem
                 }
             }
             diemTrBHK = Math.Round(TrbHK / soMonHienTai, 1);
-            dataGridView_Diem.Rows[GlobalProperties.soMonHoc].Cells[8].Value = diemTrBHK != -1 ? diemTrBHK.ToString() : "";
+            //dataGridView_Diem.Rows[GlobalProperties.soMonHoc].Cells[8].Value = diemTrBHK != -1 ? diemTrBHK.ToString() : "";
             /////////////////////
             tongCotDiem = 0;
             for (int j = 2; j <= 7; j++)
@@ -303,12 +336,18 @@ namespace StudentManagementSystem
                 MessageBox.Show("Không thể lấy thông tin bảng điểm hoặc chưa có điểm!!!", "Thông báo!");
                 return;
             }
-            ShowBangDiemPage2();
+            if (!student.GetTongKetHocKi(HK, NamHoc))
+            {
+                return;
+            }
+           
+            ShowBangDiemPage2(HK);
+           
             haveDatainGird = true;
 
         }//done
 
-        void ShowBangDiemPage2()
+        void ShowBangDiemPage2(string HK)
         {
             dataGridView_Diem.Rows.Clear();
             int stt = 0;
@@ -345,15 +384,32 @@ namespace StudentManagementSystem
                 dataGridView_Diem.Rows.Add(row);
             }
             // Show diem TrB
-            DataGridViewRow _row = (DataGridViewRow)dataGridView_Diem.Rows[0].Clone();
+           // DataGridViewRow _row = (DataGridViewRow)dataGridView_Diem.Rows[0].Clone();
 
-            _row.Cells[7].Value = "TrBHK:";
-            _row.Cells[8].Value = diemTrBHK != -1 ? diemTrBHK.ToString() : GlobalProperties.NULLFIELD;
-            dataGridView_Diem.Rows.Add(_row);
-            dataGridView_Diem.Rows[GlobalProperties.soMonHoc].ReadOnly = true;
+            //_row.Cells[7].Value = "TrBHK:";
+            //_row.Cells[8].Value = diemTrBHK != -1 ? diemTrBHK.ToString() : GlobalProperties.NULLFIELD;
+            //dataGridView_Diem.Rows.Add(_row);
+            //dataGridView_Diem.Rows[GlobalProperties.soMonHoc].ReadOnly = true;
 
             dataGridView_Diem.AllowUserToAddRows = false;
             dataGridView_Diem.AllowUserToDeleteRows = false;
+
+            if (HK == "HK1")
+            {
+                LB_HocTap_p2.Text = student.DiemTKHKI.xepLoai.ToString();
+                CB_RenLuyen_p2.SelectedIndex = GlobalFunction.GetLoaiHanhKiem(student.DiemTKHKI.hanhKiem.ToString());
+                TB_cophep_p2.Text = student.BangViPham.NghiCoPhepHKI.ToString();
+                TB_KhongPhep_p2.Text = student.BangViPham.NghiKhongPhepHKI.ToString();
+                TB_ViPham_p2.Text = student.BangViPham.ViPhamHKI.ToString();
+            }
+            else
+            {
+                LB_HocTap_p2.Text = student.DiemTKHKII.xepLoai.ToString();
+                CB_RenLuyen_p2.SelectedIndex = GlobalFunction.GetLoaiHanhKiem(student.DiemTKHKII.hanhKiem.ToString());
+                TB_cophep_p2.Text = student.BangViPham.NghiCoPhepHKII.ToString();
+                TB_KhongPhep_p2.Text = student.BangViPham.NghiKhongPhepHKII.ToString();
+                TB_ViPham_p2.Text = student.BangViPham.ViPhamHKII.ToString();
+            }
         }//done
 
         void ShowDataPage1()
@@ -404,6 +460,10 @@ namespace StudentManagementSystem
                 foreach ((string hk, string namHoc) p in student.TTBangDiem)
                 {
                     CB_ttHK_NH.Items.Add(p.hk + ", " + p.namHoc);
+                    if (CB_ChonNamHoctab3.Items.IndexOf(p.namHoc) == -1)
+                    {
+                        CB_ChonNamHoctab3.Items.Add(p.namHoc);
+                    }
                 }
             }
         }//done
@@ -437,6 +497,128 @@ namespace StudentManagementSystem
         private void materialTabSelector1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CB_ChonNamHoctab3_OnSelectedIndexChanged(object sender, EventArgs e)
+        {
+            int idx = CB_ChonNamHoctab3.SelectedIndex;
+            if (idx < 0)
+            {
+                MessageBox.Show("Hãy chọn thông tin cần xem", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                haveBangDiem_p3 = false;
+                return;
+            }
+
+            if (!student.GetTongKetNamHoc(CB_ChonNamHoctab3.SelectedItem.ToString()))
+            {
+                MessageBox.Show("Không thể lấy thông tin bảng điểm hoặc chưa có điểm!!!", "Thông báo!");
+                haveBangDiem_p3 = false;
+                return;
+            }
+            LV_TongKetDiem.Items.Clear();
+            int stt = 0;
+            for (int i = 0; i < GlobalProperties.soMonHoc; i++)
+            {
+                string[] row = new string[9];
+                row[0] = (++stt).ToString();//Số thứ tự
+                row[1] = student.DSDiem[i].TenMH;
+                double hk1 = student.ListDiemTrBHKI[i].diem;
+                double hk2 = student.ListDiemTrBHKII[i].diem;
+                double cn = student.ListDiemTrBCN[i].diem;
+                if (i == 11)
+                {
+                    row[2] = hk1 == -1 ? GlobalProperties.NULLFIELD : hk1 < 5 ? "CĐ" : "Đ";
+                    row[3] = hk2 == -1 ? GlobalProperties.NULLFIELD : hk2 < 5 ? "CĐ" : "Đ";
+                    row[4] = cn == -1 ? GlobalProperties.NULLFIELD : cn < 5 ? "CĐ" : "Đ";
+                }
+                else
+                {
+                    row[2] = hk1 == -1 ? GlobalProperties.NULLFIELD : hk1.ToString();
+                    row[3] = hk2 == -1 ? GlobalProperties.NULLFIELD : hk2.ToString();
+                    row[4] = cn == -1 ? GlobalProperties.NULLFIELD : cn.ToString();
+                }
+                ListViewItem listViewItem = new ListViewItem(row);
+                LV_TongKetDiem.Items.Add(listViewItem);
+            }
+            hocTapHKI_Page3.Text = student.DiemTKHKI.xepLoai.ToString();
+            hanhKiemHKI_page3.Text = student.DiemTKHKI.hanhKiem.ToString();
+
+            hocTapHkII_page3.Text = student.DiemTKHKII.xepLoai.ToString();
+            hanhKiemHKII_page3.Text = student.DiemTKHKII.hanhKiem.ToString();
+
+            hocTapCn_page3.Text = student.DiemTKCN.xepLoai.ToString();
+            hanhKiemCN_page3.Text = student.DiemTKCN.hanhKiem.ToString();
+            haveBangDiem_p3 = true;
+        }
+
+        private void PB_In_page1_Click(object sender, EventArgs e)
+        {
+            if (!haveDatainGird)
+            {
+                return;
+            }
+            string[,] saveValue = new string[13, 7];
+            for (int i = 0; i < 13; i++)
+                for (int j = 0; j < 7; j++)
+                {
+                    saveValue[i, j] = dataGridView_Diem.Rows[i].Cells[j + 2].Value.ToString();
+                }
+            MakeReport rp = new MakeReport(GlobalProperties.BANGDIEMHSTEMPLATEPATH, new Point(13, 3), saveValue);
+            int idx = CB_ttHK_NH.SelectedIndex;
+            List<(string value, Point location)> otherValue = new List<(string value, Point location)>();
+            otherValue.Add((student.HoTen, new Point(6, 3)));
+            otherValue.Add((student.MaHS, new Point(6, 8)));
+            otherValue.Add((student.Lop, new Point(7, 3)));
+            otherValue.Add((student.TTBangDiem[idx].HK, new Point(7, 5)));
+            otherValue.Add((student.TTBangDiem[idx].namHoc, new Point(7, 8)));
+            otherValue.Add((LB_HocTap_p2.Text, new Point(9, 3)));
+            otherValue.Add((CB_RenLuyen_p2.Text, new Point(9, 8)));
+            otherValue.Add((TB_cophep_p2.Text, new Point(10, 3)));
+            otherValue.Add((TB_KhongPhep_p2.Text, new Point(10, 6)));
+            otherValue.Add((TB_ViPham_p2.Text, new Point(10, 8)));
+            rp.OrtherValue = otherValue;
+            rp.GetSavePathWithSaveFileDialog();
+            rp.OverwritetoExcelFile();
+            rp.OpenExcelFile();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e) //Xuaatr bảng điểm cả năm
+        {
+            student.GetViPhamNamHoc(CB_ChonNamHoctab3.SelectedItem.ToString());
+            if (!haveBangDiem_p3)
+            {
+                return;
+            }
+            string[,] saveValue = new string[13, 3];
+            for (int i = 0; i < 13; i++)
+                for (int j = 0; j < 3; j++)
+                {
+                    saveValue[i, j] = LV_TongKetDiem.Items[i].SubItems[j + 2].Text;
+                }
+            MakeReport rp = new MakeReport(GlobalProperties.BANGDIEMHSTONGKETTEMPLATEPATH, new Point(17, 3), saveValue);
+            int idx = CB_ttHK_NH.SelectedIndex;
+            List<(string value, Point location)> otherValue = new List<(string value, Point location)>();
+            otherValue.Add((@"Họ tên: " + student.HoTen, new Point(6, 2)));
+            otherValue.Add((@"Mã học sinh: " + student.MaHS, new Point(6, 4)));
+            otherValue.Add((@"Lớp: " + student.Lop, new Point(7, 2)));
+            otherValue.Add((@"Năm học: " + CB_ChonNamHoctab3.SelectedItem.ToString(), new Point(7, 4)));
+            //HKI
+            otherValue.Add((hocTapHKI_Page3.Text, new Point(9, 3)));
+            otherValue.Add((hanhKiemHKI_page3.Text, new Point(9, 5)));
+            otherValue.Add((student.BangViPham.NghiCoPhepHKI.ToString() + "/" + student.BangViPham.NghiKhongPhepHKI.ToString(), new Point(10, 3)));
+            otherValue.Add((student.BangViPham.ViPhamHKI.ToString(), new Point(10, 5)));
+            //HKII
+            otherValue.Add((hocTapHkII_page3.Text, new Point(12, 3)));
+            otherValue.Add((hanhKiemHKII_page3.Text, new Point(12, 5)));
+            otherValue.Add((student.BangViPham.NghiCoPhepHKII.ToString() + "/" + student.BangViPham.NghiKhongPhepHKII.ToString(), new Point(13, 3)));
+            otherValue.Add((student.BangViPham.ViPhamHKII.ToString(), new Point(13, 5)));
+            //Cả năm
+            otherValue.Add((hocTapCn_page3.Text, new Point(15, 3)));
+            otherValue.Add((hanhKiemCN_page3.Text, new Point(15, 5)));
+            rp.OrtherValue = otherValue;
+            rp.GetSavePathWithSaveFileDialog();
+            rp.OverwritetoExcelFile();
+            rp.OpenExcelFile();
         }
     }
 }
