@@ -46,9 +46,41 @@ namespace StudentManagementSystem.Classes
 
         public HanhKiem(string _maHK)
         {
+            this.maHK = _maHK;
             string query = @"SELECT MAHS, NAMHOC, XEPLOAIHKI, XEPLOAIHKII, XEPLOAICN
                                 FROM HANHKIEM" +
                             $" WHERE HANHKIEM.MAHK = '{_maHK}'";
+            SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
+            using (SqlDataReader rdr = cmd.ExecuteReader())
+            {
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+                        this.maHS = rdr.IsDBNull(0) ? "" : rdr.GetString(0);
+                        this.namHoc = rdr.IsDBNull(1) ? "" : rdr.GetString(1);
+                        this.xepLoaiHK1 = rdr.IsDBNull(2) ? "" : rdr.GetString(2);
+                        this.xepLoaiHK2 = rdr.IsDBNull(3) ? "" : rdr.GetString(3);
+                        this.XepLoaiCN = rdr.IsDBNull(4) ? "" : rdr.GetString(4);
+                    }
+                }
+                else
+                {
+                    this.maHS = "";
+                    this.namHoc = "";
+                    this.xepLoaiHK1 = "";
+                    this.xepLoaiHK2 = "";
+                    this.XepLoaiCN = "";
+                }
+            }
+        }
+
+        public void GetHanhKiem(string _maHK)
+        {
+            this.maHK= _maHK;
+            string query = @"SELECT MAHS, NAMHOC, XEPLOAIHKI, XEPLOAIHKII, XEPLOAICN
+                                FROM HANHKIEM" +
+                           $" WHERE HANHKIEM.MAHK = '{_maHK}'";
             SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
             using (SqlDataReader rdr = cmd.ExecuteReader())
             {
@@ -106,10 +138,18 @@ namespace StudentManagementSystem.Classes
             }
         }
 
+        public void InsertNew(string _maHS, string _namHoc)
+        {
+            string query = "SELECT COUNT(*) FROM HANHKIEM WHERE MAHK = ";
+            string key = Admin_Funcs.GetKeyTable(query);
+            if (Insert(key, _maHS, "Tốt", "Tốt", "Tốt", _namHoc))
+            {
+                GetHanhKiem(key);
+            }    
+        }
+
         public bool Insert(string maHKiem, string _mahs, string xlhk1, string xlhk2, string xlhkcn, string curNamHoc)
         {
-
-
             try
             {
                 // Câu lệnh Insert.
@@ -190,37 +230,11 @@ namespace StudentManagementSystem.Classes
 
         public bool Save(string xepLoaiHK1, string xepLoaiHK2, string xepLoaiCN)
         {
+            //MessageBox.Show(maHK);
             string query = @"UPDATE HANHKIEM" +
                                     $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{xepLoaiHK2}', XEPLOAICN = N'{xepLoaiCN}'" +
                                     $" WHERE MAHK = '{this.maHK}'";
       
-            try
-            {
-                SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);
-                int rowCount = cmd.ExecuteNonQuery();
-                if (rowCount == 0)
-                {
-                    return false;
-                }
-            }
-            catch (Exception ee)
-            {
-                DialogResult dialogResult = MessageBox.Show("Lỗi trong quá trình thêm. Hiển thị lỗi?", "Thông báo", MessageBoxButtons.YesNo);
-                if (dialogResult == DialogResult.Yes)
-                {
-                    MessageBox.Show("Error: " + ee);
-                }
-                return false;
-            }
-            return true;
-        }
-
-        public bool SaveHanhKiemStatic(string maHS, string xepLoaiHK1, string xepLoaiHK2, string xepLoaiCN)
-        {
-            string query = @"UPDATE HANHKIEM" +
-                                    $" SET XEPLOAIHKI = N'{xepLoaiHK1}', XEPLOAIHKII = N'{xepLoaiHK2}', XEPLOAICN = N'{xepLoaiCN}'" +
-                                    $" WHERE MAHK = '{this.maHK}'";
-
             try
             {
                 SqlCommand cmd = new SqlCommand(query, GlobalProperties.conn);

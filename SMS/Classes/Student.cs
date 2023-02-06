@@ -314,15 +314,19 @@ namespace StudentManagementSystem
 
         public bool SaveHanhKiem(string _hk, string xl)
         {
+            string[,] table = new string[1, 3];
+            table[0, 0] = Func_Page3.ListHocSinh[0].hanhKiem.XepLoaiHK1;
+            table[0, 1] = Func_Page3.ListHocSinh[0].hanhKiem.XepLoaiHK2;
+            table[0, 2] = Func_Page3.ListHocSinh[0].hanhKiem.XepLoaiCN;
             if (_hk == "HK1")
             {
-                return Func_Page3.ListHocSinh[0].hanhKiem.SaveHKI(xl);
+                table[0, 0] = xl;
             }
             else
             {
-                return Func_Page3.ListHocSinh[0].hanhKiem.SaveHKII(xl);
+                table[0, 1] = xl;
             }
-
+            return Func_Page3.SaveHanhKiemListHocSinh(table);
         }
 
 

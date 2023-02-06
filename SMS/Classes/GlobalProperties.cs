@@ -28,6 +28,7 @@ namespace StudentManagementSystem
         public static string BANGDIEMHSTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() +  @"\TemplatesExcels\BangDiemHocSinh.xlsx";
         public static string BANGDIEMHSTONGKETTEMPLATEPATH = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\BangDiemHocSinh_TongKet.xlsx";
         public static string BANGCHITIETVIPHAMHOCKI = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\SoViPhamChiTiet.xlsx";
+        public static string BANGCHITIETDIEM = System.IO.Directory.GetCurrentDirectory() + @"\TemplatesExcels\SoDiemChiTiet.xlsx";
     }
 
     public static class GlobalFunction

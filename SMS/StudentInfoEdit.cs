@@ -50,6 +50,12 @@ namespace StudentManagementSystem
             ShowDataPage1();
             if (EditDiem == false)
             {
+                TB_HoTen.ReadOnly= true;
+                TB_MaHS.ReadOnly= true;
+                CB_RenLuyen_p2.Enabled = false;
+                TB_cophep_p2.ReadOnly= true;
+                TB_KhongPhep_p2.ReadOnly= true;
+                TB_ViPham_p2.ReadOnly= true;
                 btn_hoantacpag2.Visible = false;
                 btn_Savepage2.Visible = false;
                 lB_HoanTac_page2.Visible = false;
@@ -216,7 +222,11 @@ namespace StudentManagementSystem
             if (saveDone)
             {
                 MessageBox.Show("Đã lưu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                ShowBangDiemPage2(hocKi);
+                int idx = CB_ttHK_NH.SelectedIndex;
+                namHoc = student.TTBangDiem[idx].namHoc;
+                hocKi = student.TTBangDiem[idx].HK;
+                //MessageBox.Show(hocKi + "---" + namHoc);
+                GetandShowBangDiem(hocKi, namHoc);
             }
 
         }

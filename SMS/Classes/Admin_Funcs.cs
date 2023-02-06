@@ -929,24 +929,16 @@ namespace StudentManagementSystem.Classes
             for (int i = 0; i < listHS.Count; i++)
             {
                 string _mahs = listHS[i].student.MaHS;
-                xlhk1 = bangHK[i, 0];
-                xlhk2 = bangHK[i, 1];
-                xlhkcn = bangHK[i, 2];
-                //MessageBox.Show(listHS[i].hanhKiem.MaHK);
-                if (!string.IsNullOrEmpty(listHS[i].hanhKiem.MaHK))
+                xlhk1 = string.IsNullOrEmpty(bangHK[i, 0])? "Tốt" : bangHK[i, 0];
+                xlhk2 = string.IsNullOrEmpty(bangHK[i, 1])? "Tốt" : bangHK[i, 1];
+                xlhkcn = string.IsNullOrEmpty(bangHK[i, 2])? "Tốt" : bangHK[i, 2];
+                //MessageBox.Show(xlhk1 + "-" + xlhk2 + "-" + xlhkcn);
+                if (string.IsNullOrEmpty(listHS[i].hanhKiem.MaHK))
                 {
-                    listHS[i].hanhKiem.Save(xlhk1, xlhk2, xlhkcn);
+                    listHS[i].hanhKiem.InsertNew(_mahs, curNamHoc);
                 }
-                else
-                {
-                    //Chưa có bảng hạnh kiểm
-                    query = "SELECT COUNT(*) FROM HANHKIEM WHERE MAHK = ";
-                    string maHKiem = Admin_Funcs.GetKeyTable(query);
-
-                    listHS[i].hanhKiem.Insert(maHKiem, _mahs, xlhk1, xlhk2, xlhkcn, curNamHoc);
-
-
-                }
+                
+                listHS[i].hanhKiem.Save(xlhk1, xlhk2, xlhkcn);
                 listHS[i].hanhKiem = new HanhKiem(_mahs, curNamHoc);
             }
             return true;
@@ -963,6 +955,7 @@ namespace StudentManagementSystem.Classes
 
         public bool TinhDiemTongKet(List<(int hk1, int hk2)> listHK = null, bool useOtherHK = true)
         {
+
             if (!useOtherHK)
             {
                 listHK = new List<(int hk1, int hk2)>();
@@ -981,11 +974,12 @@ namespace StudentManagementSystem.Classes
                 listHS[i].DiemTongKetHK1 = new DiemTongKet();
                 listHS[i].DiemTongKetHK2 = new DiemTongKet();
                 listHS[i].DiemTongKetCN = new DiemTongKet();
-
                 listHS[i].listdiemTrbCN = this.TinhDiemTBMonCN(listHS[i].listdiemTrb1, listHS[i].listdiemTrb2);
                 for (int j = 0; j < 13; j++)
                 {
                     diem1.Add(listHS[i].listdiemTrb1[j].diem);
+                    //if (i == 1)
+                        //MessageBox.Show(listHS[i].listdiemTrb1[j].diem.ToString());
                     diem2.Add(listHS[i].listdiemTrb2[j].diem);
                     diemCN.Add(listHS[i].listdiemTrbCN[j].diem);
                 }
@@ -1009,10 +1003,6 @@ namespace StudentManagementSystem.Classes
                 if (tkhk1 && tkhk2)
                 {
                     listHS[i].DiemTongKetCN = this.TinhDiemTongKetCaNam(diemCN,listHK[i]);
-                }
-                else
-                {
-                    return false;
                 }
             }
             

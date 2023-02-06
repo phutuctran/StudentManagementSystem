@@ -362,11 +362,12 @@ namespace StudentManagementSystem
             lb_HK_page1.Text = "Học kì: " + CB_HocKi.SelectedItem.ToString();
             lb_MonHoc_page1.Text = "Môn học: " + CB_MonHoc.SelectedItem.ToString();
         }
-
+        bool haveData_p1 = true;
         void ShowBangDiem()
         {
             if (Admin.Func_Page1.ListHocSinh.Count < 1)
             {
+                haveData_p1 = false;
                 return;
             }
             int idxMon = Array.IndexOf(GlobalProperties.listTenMH, Admin.Func_Page1.CurrentMonHoc);
@@ -393,6 +394,7 @@ namespace StudentManagementSystem
                 dataGridView_BangDiem.Rows[i].Cells[9].Value = p.DSDiem[idxMon].DDGTRB.diem == -1 ? GlobalProperties.NULLFIELD : p.DSDiem[idxMon].DDGTRB.diem.ToString();
             }
             TinhDTB_page1();
+            haveData_p1 = true;
         }
 
         private void TinhDTB_page1()
@@ -590,7 +592,27 @@ namespace StudentManagementSystem
         }
         private void PB_In_page1_Click(object sender, EventArgs e)
         {
-
+            if (!haveData_p1)
+            {
+                return;
+            }
+            string[,] saveValue = new string[dataGridView_BangDiem.RowCount, 10];
+            for (int i = 0; i < dataGridView_BangDiem.RowCount; i++)
+                for (int j = 0; j < 10; j++)
+                {
+                    saveValue[i, j] = dataGridView_BangDiem.Rows[i].Cells[j].Value.ToString();
+                }
+            MakeReport rp = new MakeReport(GlobalProperties.BANGCHITIETDIEM, new Point(8, 1), saveValue);
+            var tmp = Admin.Func_Page1.GetThongTinLop();
+            string str = $"BẢNG CHI TIẾT ĐIỂM - MÔN {Admin.Func_Page1.CurrentMonHoc.ToUpper()} - {Admin.Func_Page1.CurrentHocKi} - NĂM HỌC {Admin.Func_Page1.CurrentNamHoc}";
+            string str2 = $"KHỐI {Admin.Func_Page1.CurrentKhoi.Replace("K", "")} - LỚP {tmp.tenLop}";
+            List<(string value, Point startPoint)> otherValue = new List<(string value, Point startPoint)>();
+            otherValue.Add((str, new Point(3, 1)));
+            otherValue.Add((str2, new Point(4, 1)));
+            rp.OrtherValue = otherValue;
+            rp.GetSavePathWithSaveFileDialog();
+            rp.OverwritetoExcelFile();
+            rp.OpenExcelFile();
         }
 
         //----------------------tabPage2---------------------------
@@ -1286,6 +1308,7 @@ namespace StudentManagementSystem
         private void btn_hienthinienkhoap5_Click(object sender, EventArgs e)
         {
             dataGridView_nienkhoa_p5.Rows.Clear();
+            Admin.Func_Page5.GetListNienKhoa();
             foreach (var p in Admin.Func_Page5.ListNienKhoa)
             {
                 var index = dataGridView_nienkhoa_p5.Rows.Add();
@@ -1941,26 +1964,12 @@ namespace StudentManagementSystem
                     }    
                 }
             MakeReport rp = new MakeReport(GlobalProperties.BANGCHITIETVIPHAMHOCKI, new Point(8, 1), saveValue);
-            //int idx = CB_ttHK_NH.SelectedIndex;
-            //List<(string value, Point location)> otherValue = new List<(string value, Point location)>();
-            //otherValue.Add((@"Họ tên: " + student.HoTen, new Point(6, 2)));
-            //otherValue.Add((@"Mã học sinh: " + student.MaHS, new Point(6, 4)));
-            //otherValue.Add((@"Lớp: " + student.Lop, new Point(7, 2)));
-            //otherValue.Add((@"Năm học: " + CB_ChonNamHoctab3.SelectedItem.ToString(), new Point(7, 4)));
-            ////HKI
-            //otherValue.Add((hocTapHKI_Page3.Text, new Point(9, 3)));
-            //otherValue.Add((hanhKiemHKI_page3.Text, new Point(9, 5)));
-            //otherValue.Add((student.BangViPham.NghiCoPhepHKI.ToString() + "/" + student.BangViPham.NghiKhongPhepHKI.ToString(), new Point(10, 3)));
-            //otherValue.Add((student.BangViPham.ViPhamHKI.ToString(), new Point(10, 5)));
-            ////HKII
-            //otherValue.Add((hocTapHkII_page3.Text, new Point(12, 3)));
-            //otherValue.Add((hanhKiemHKII_page3.Text, new Point(12, 5)));
-            //otherValue.Add((student.BangViPham.NghiCoPhepHKII.ToString() + "/" + student.BangViPham.NghiKhongPhepHKII.ToString(), new Point(13, 3)));
-            //otherValue.Add((student.BangViPham.ViPhamHKII.ToString(), new Point(13, 5)));
-            ////Cả năm
-            //otherValue.Add((hocTapCn_page3.Text, new Point(15, 3)));
-            //otherValue.Add((hanhKiemCN_page3.Text, new Point(15, 5)));
-            //rp.OrtherValue = otherValue;
+            string str = $"BẢNG CHI TIẾT VI PHẠM - NĂM HỌC {Admin.Func_Page7.CurNamHoc}";
+            string str2 = $"KHỐI {Admin.Func_Page7.CurKhoi.Replace("K", "")} - LỚP {Admin.Func_Page7.CurLop.TenLop}";
+            List<(string value, Point startPoint)> otherValue = new List<(string value, Point startPoint)>();
+            otherValue.Add((str, new Point(3, 1)));
+            otherValue.Add((str2, new Point(4, 1)));
+            rp.OrtherValue = otherValue;
             rp.GetSavePathWithSaveFileDialog();
             rp.OverwritetoExcelFile();
             rp.OpenExcelFile();
