@@ -926,7 +926,7 @@ namespace StudentManagementSystem
             }
             catch (Exception w)
             {
-                MessageBox.Show(sqlTaoDiem);
+                //MessageBox.Show(sqlTaoDiem);
                 DialogResult dialogResult = MessageBox.Show("Có lỗi trong quá trình lưu. Hiển thị lỗi?", "Lỗi", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
                 if (dialogResult == DialogResult.Yes)
                 {
